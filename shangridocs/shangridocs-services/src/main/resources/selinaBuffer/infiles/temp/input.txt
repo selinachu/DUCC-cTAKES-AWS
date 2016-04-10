@@ -1,0 +1,910 @@
+JW-AJH#130002 1083..1088
+
+
+Continuing medical education activity
+in American Journal of Hematology
+
+CME Author: Julie M. Vose, M.D., M.B.A.
+CME Editor: Ayalew Tefferi, M.D.
+
+CME Information: Mantle Cell Lymphoma: 2013 Update on
+Diagnosis, Risk-Stratification andClinical Management
+If you wish to receive credit for this activity, please refer
+
+to the website: www.wileyhealthlearning.com
+
+Accreditation and Designation Statement:
+
+Blackwell Futura Media Services is accredited by the
+Accreditation Council for Continuing Medical Education to
+provide continuing medical education for physicians.
+Blackwell Futura Media Services designates this journal-
+
+based CME for a maximum of 1 AMA PRA Category 1
+CreditTM. Physicians should only claim credit commensu-
+rate with the extent of their participation in the activity.
+
+Educational Objectives
+
+Upon completion of this educational activity, participants
+will be better able to:
+1. Identify the histologic types and prognostic models
+
+used for mantle cell lymphoma
+2. Explain the different options for initial therapy for man-
+
+tle cell lymphoma
+3. Explain the different options for treatment of recurrent
+
+mantle cell lymphoma
+
+Activity Disclosures
+
+No commercial support has been accepted related to the
+development or publication of this activity.
+Author: Julie M. Vose, M.D., M.B.A., discloses research
+
+grant support from Allos Therapeautics/Spectrum, Bristol-
+Myers Squibb, Celgene, Genentech, GlaxoSmithKline, Incyte
+Corp., Janssen Biotech, Millennium, Onyx Pharmaceuticals,
+Pharmacyclics, Sanofi-Aventis US, Inc., and US Biotest, Inc.
+CME Editor: Ayalew Tefferi, M.D. has no conflicts of
+
+interest to disclose.
+This activity underwent peer review in line with the stand-
+
+ards of editorial integrity and publication ethics maintained
+by American Journal of Hematology. The peer reviewers
+have no conflicts of interest to disclose. The peer review
+process for American Journal of Hematology is single
+
+blinded. As such, the identities of the reviewers are not dis-
+closed in line with the standard accepted practices of medi-
+cal journal peer review.
+Conflicts of interest have been identified and resolved in
+
+accordance with Blackwell Futura Media Services’s Policy
+on Activity Disclosure and Conflict of Interest. The primary
+resolution method used was peer review and review by a
+non-conflicted expert.
+
+Instructions on Receiving Credit
+
+This activity is intended for physicians. For information
+on applicability and acceptance of continuing medical edu-
+cation credit for this activity, please consult your professio-
+nal licensing board.
+This activity is designed to be completed within one
+
+hour; physicians should claim only those credits that reflect
+the time actually spent in the activity. To successfully earn
+credit, participants must complete the activity during the
+valid credit period, which is up to two years from initial pub-
+lication. Additionally, up to 3 attempts and a score of 70%
+or better is needed to pass the post test.
+Follow these steps to earn credit:
+
+� Log on to www.wileyhealthlearning.com
+� Read the target audience, educational objectives, and
+activity disclosures.
+
+� Read the activity contents in print or online format.
+� Reflect on the activity contents.
+� Access the CME Exam, and choose the best answer
+to each question.
+
+� Complete the required evaluation component of the
+activity.
+
+� Claim your Certificate.
+This activity will be available for CME credit for twelve
+
+months following its launch date. At that time, it will be
+reviewed and potentially updated and extended for an addi-
+tional twelve months.
+
+VC 2013 Wiley Periodicals, Inc.
+
+American Journal of Hematology http://wileyonlinelibrary.com/cgi-bin/jhome/351051082
+
+
+
+
+
+ANNUAL CLINICAL UPDATES IN HEMATOLOGICAL MALIGNANCIES:
+A CONTINUING MEDICAL EDUCATION SERIES
+
+Mantle cell lymphoma: 2013 Update on diagnosis,
+risk-stratification, and clinical management
+
+Julie M. Vose*
+
+Disease Overview: Mantle cell lymphoma (MCL) is a non-Hodgkin lymphoma characterized by involvement
+of the lymph nodes, spleen, blood, and bone marrow with a short remission duration to standard therapies
+and a median overall survival of 4–5 years.
+Diagnosis: Diagnosis is based on lymph node, bone marrow, or tissue morphology of centrocytic lympho-
+cytes, small cell type, or blastoid variant cells. A chromosomal translocation t(11:14) is the molecular hall-
+mark of MCL, resulting in the overexpression of cyclin D1. Cyclin D1 is detected by immunohistochemistry
+in 98% of cases. The absence of SOX-11 or a low Ki-67 may correlate with a more indolent form of MCL.
+The differential diagnosis of MCL includes small lymphocytic lymphoma, marginal zone lymphoma, and fol-
+licular lymphoma.
+Risk Stratification: The Mantle Cell Lymphoma International Prognostic Index (MIPI) is the prognostic
+model most often used and incorporates ECOG performance status, age, leukocyte count, and lactic dehy-
+drogenase. A modification of the MIPI also adds the Ki-67 proliferative index if available. The median over-
+all survival (OS) for the low risk group was not reached (5-year OS of 60%). The median OS for the
+intermediate risk group was 51 months and 29 months for the high risk group.
+Risk-Adapted Therapy: For selected indolent, low MIPI MCL patients, initial observation may be appropriate
+therapy. For younger patients with intermediate or high risk MIPI MCL, aggressive therapy with a cytarabine
+containing regimen6 autologous stem cell transplantation should be considered. For older MCL patients
+with intermediate or high risk MIPI, combination chemotherapy with R-CHOP, R-Bendamustine, or a clinical
+trial should be considered. At the time of relapse, agents directed at activated pathways in MCL cells such
+as bortezomib (NFkB inhibitor) or lenalidamide (anti-angiogenesis) are approved agents. Clinical trials with
+Ibruitinib (Bruton’s Tyrosine Kinase inhibitor) or Idelalisib (PI3K inhibitor) have demonstrated excellent clin-
+ical activity in MCL patients. Autologous or allogeneic stem cell transplantation can also be considered in
+young patients. Am. J. Hematol. 88:1083–1088, 2013. VC 2013 Wiley Periodicals, Inc.
+
+Disease Overview
+Mantle cell lymphoma (MCL) was originally identified in
+
+the Kiel classification as a “centrocytic lymphoma” [1]. This
+type of lymphoma was termed a lymphocytic lymphoma of
+intermediate differentiation by Berard and Dorfman [2]. A
+distinct subtype of MCL was characterized by atypical small
+lymphoid cells with wide mantles around benign germinal
+centers and was called a mantle zone lymphoma [3]. With
+the advent of the revised European-American and the later
+World Health Organization classifications, MCL was made
+a distinct lymphoma subtype and was termed an aggres-
+sive lymphoma [4,5]. MCL represents about 4% of all
+lymphomas in the US and 7–9% in Europe [6].
+
+Patients with MCL have a median age in their 60s and
+have a striking male predominance (2:1). Patients generally
+have stage III/IV disease and present with extensive lymph-
+adenopathy, blood and bone marrow involvement, and
+splenomegaly [7]. Eighty percent of the patients with the
+mantle zone variant have splenomegaly which may be
+massive. The MCL patients can present with pancytopenia
+or a leukemic presentation with extensive leukocytosis [8].
+Some degree of peripheral blood involvement can be
+detected in most cases by flow cytometry [9]. Other extra-
+nodal sites include the gastrointestinal tract either in the
+stomach or colon, liver, or in Waldeyer’s ring [10]. Some
+patients have sheets of lymphomatous polyps of the large
+bowel, lymphomatous polyposis, which sometimes leads to
+the diagnosis of MCL [11]. If random blind biopsies are
+done of normal appearing mucosa of the colon in patients
+
+who have been diagnosed with MCL in other locations, a
+large percentage are positive for MCL involvement [11].
+Other extranodal sites for MCL involvement include the
+skin, lacrimal glands, and central nervous system [10].
+
+Diagnosis
+The diagnosis is made on a biopsy of a lymph node, tis-
+
+sue, bone marrow, or blood phenotype, which shows the
+typical morphology of monomorphic small to medium sized
+lymphoid cells with irregular nuclear contours [5]. Four
+cytologic variants of MCL are recognized, including the
+small cell variant, mantle zone variant, diffuse variant, and
+the blastic variant [12]. Immunophenotyping is commonly
+used with the MCL cells being CD201, CD51, and positive
+for Cyclin D1, whereas being negative for CD10 and Bcl6
+[5]. The hallmark chromosomal translocation t(11:14)
+(q13;32) identifies MCL and can be shown in most cases
+
+Division of Hematology/Oncology, University of Nebraska Medical Center,
+Omaha, Nebraska
+
+Conflict of interest: Nothing to report.
+
+*Correspondence to: Julie M. Vose, Division of Hematology/Oncology, Uni-
+versity of Nebraska Medical Center, Omaha, NE 68198-7680. E-mail:
+jmvose@unmc.edu
+
+Received for publication 17 October 2013; Accepted 17 October 2013
+
+Am. J. Hematol. 88:1083–1088, 2013.
+
+Published online in Wiley Online Library (wileyonlinelibrary.com).
+DOI: 10.1002/ajh.23615
+
+VC 2013 Wiley Periodicals, Inc.
+
+American Journal of Hematology http://wileyonlinelibrary.com/cgi-bin/jhome/351051083
+
+AJH Educational Material
+
+
+
+[13]. This translocation leads to the aberrant expression of
+cyclin D1, which is not typically expressed in normal lym-
+phocytes. A few cyclin D1 negative cases have been identi-
+fied and appear to have an overexpression of cyclin D2 or
+D3 instead [14]. Recently, overexpression of the transcrip-
+tion factor, SOX11, has been described as a diagnostic
+marker for MCL with the absence of SOX11 a characteristic
+of indolent MCL [15]. Biologic features such as a high Ki-
+67 proliferation index or p53 mutations and p16 deletions
+are closely related to the more aggressive MCL subtypes
+such as the blastoid variants [16]. A model of molecular
+pathogenesis and progression of MCL has been proposed
+by Jares et al. (Fig. 1) [17].
+
+Staging procedures should include a complete blood
+count, chemistry profile, a lactic dehydrogenase (LDH), a
+bone marrow evaluation, with immunophenotyping by flow
+cytometry of the bone marrow and blood, and computed
+tomography of the chest, abdomen, and pelvis. There are
+limited studies in using FDG-PET scanning for MCL, but it
+is often clinically useful. The standard uptake values of
+sites involved with MCL often have low or intermediate val-
+ues [18]. Evaluation of the gastrointestinal tract with endos-
+copy is warranted if there are clinical symptoms or if a
+dose intense regimen will be used. Evaluation of the cere-
+bral spinal fluid is not usually done unless there are neuro-
+logic symptoms or if the patient has the blastoid variant
+[19]. The majority of patients have stage III or IV disease
+after complete staging is completed.
+
+Risk Stratification
+The International Prognostic Index (IPI) was first devel-
+
+oped for patients with diffuse large B-cell non-Hodgkin lym-
+phoma [20]. This was used for patients with MLC but was
+not very discriminatory, particularly for the lower risk
+patients. More recently, the first prognostic index for MCL,
+the Mantle cell International Prognostic Index (MIPI), was
+formulated by the European MCL Network [21]. The inde-
+pendent prognostic factors for shorter overall survival from
+the MIPI were higher age, worse ECOG performance
+
+status, higher LDH, and a higher white blood cell count at
+diagnosis. These were calculated as a continuous parame-
+ter and three groups emerged: MIPI low-risk with the
+median overall survival not reached (5-yr OS 60%), MIPI
+intermediate risk with a median OS of 51 months, and a
+MIPI high risk group with a median OS of 29 months (Fig.
+2)[21]. This index has now been validated by other groups
+[22] (Table I).
+
+A simplified modification of the MIPI has also been
+developed, which has high concordance to the original
+MIPI, but slightly less discriminatory power [21]. The addi-
+tion of the Ki-67 proliferation index also provides some
+additional discriminatory power [21] (Table II).
+
+For each prognostic factor, 0 to 3 points are given and
+the points are summed up to a maximum of 11. Patients
+with 0–3 points are low risk, patients with 4–5 points are
+intermediate risk, and patients with 6–11 points are high
+risk. These risk categories correspond to the categories of
+the original MIPI [21].
+
+Figure 1. A proposed model of molecular pathogenesis and progression of MCL (Reproduced from Ref. 17, with permission from [Nat Rev Cancer]). [Color figure can
+be viewed in the online issue, which is available at wileyonlinelibrary.com.]
+
+Figure 2. Overall survival for low, intermediate, and high risk MCL according to
+the MIPI classification (Reproduced from Ref. 21], with permission from [Blood])
+
+annual clinical updates in hematological malignancies: a continuing medical education series
+
+1084 American Journal of Hematology
+
+
+
+
+Gene expression profiling has been performed on a large
+series of MCL patients to evaluate a molecular predictor
+consisting of 20 proliferation associated genes [23]. How-
+ever, a microarray-based technique is not feasible on a
+wide scale. Therefore, further testing of a minimum number
+of genes by formalin-fixed, paraffin-embedded tissue speci-
+mens has been studied [24]. This study identified five
+genes including RAN, MYC, TNFRSF10B, POLE2, and
+SLC29A2 which were validated by a quantitative reverse-
+transcriptase polymerase chain reaction (qRT-PCR) based
+test and predicted survival in 73 patients with MCL. Further
+validation of these genes and technique is needed before
+this is used outside a research context.
+
+Risk-Adapted Therapy
+MCL is responsive to a variety of initial therapies, but rel-
+
+atively short-term remissions are achieved with conven-
+tional chemotherapy regimens. The median duration of
+remission in most trials is 1.5–3 years, and the median OS
+is 3–6 years with standard chemotherapy. However, there
+is a wide variation in outcomes with some patients having a
+very aggressive presentation and succumbing to their dis-
+ease in a short period of time, while other patients at the
+opposite end of the spectrum have a very indolent clinical
+course. Because of the rarity of MCL, most trials have not
+been large randomized trials, and much of the available
+information is based on smaller phase II trials with histori-
+cal controls.
+
+Initial management of asymptomatic low MIPI or
+elderly MCL patients
+
+Given the unfavorable prognosis and the fact that stand-
+ard therapy does not appear to cure patients with MCL, a
+“watch and wait” strategy for patients with asymptomatic,
+low MIPI or elderly MCL patients should be considered.
+This strategy would be similar to that used for asymptom-
+atic patients with follicular or other indolent lymphomas. In
+a study from Weill-Cornell Medical Center, 97 patients with
+MCL were evaluated [25]. Of the 97, 31 (32%) were
+observed at the time of initial evaluation. These MCL
+patients were 46% low-MIPI index when compared to 32%
+low-MIPI in the patients who received initial treatment. The
+median time to treatment for the observation group was 12
+months (range 4 to 128 months) [25]. When this observa-
+tional patient group needed treatment, the majority received
+cyclophosphamide, doxorubicin, oncovin, and prednisone
+(CHOP)—like treatment (55%), with some patients receiv-
+ing rituximab monotherapy (13%), and at the time of publi-
+cation five patients had never received any therapy [25].
+
+When the asymptomatic elderly MCL patient population
+does become symptomatic and requires therapy, a number
+
+of options are available for treatment. Probably, the most
+commonly used regimen in the past has been an
+anthracycline-based therapy such as CHOP [26]. Rituximab
+monotherapy has some modest activity in MCL [27]. More
+recently, rituximab has been added to the drugs in CHOP
+(R-CHOP) and tested in MCL. The first report of R-CHOP
+for the treatment of MCL was in 40 previously untreated
+patients and yielded an overall response rate (ORR) of
+96%, including a complete response (CR) of 48% [28].
+Despite 36% of the patients having a molecular CR, there
+was no difference in the median progression-free survival
+(PFS) between the patients who achieved a molecular CR
+(16.5 months) and those who did not (18.8 months) [28].
+There were similar results from a randomized study in the
+German lymphoma study group which compared front-line
+CHOP to R-CHOP. In this study, the addition of rituximab
+to CHOP improved the ORR (94% vs. 75%, P50.0054)
+and the CR rate (34% vs. 7%, P50.00024) [29]. However,
+this did not translate into significant improvements in PFS
+or OS in this study [29].
+
+Purine analogues have also been used for the treatment
+of MCL in the older patient population. Single agent fludar-
+abine demonstrated an ORR< 40%; however, when com-
+bined with cyclophosphamide and rituximab the response
+rate is closer to 60% [30,31]. More recently, a large
+randomized trial done in Germany demonstrated that
+R-CHOP was superior to R-FC in the older MCL patient
+population with a 4 year OS of 65% for R-CHOP and 50%
+for R-FC (P5 0.0032) [32]. In addition, a second random-
+ization was done for maintenance either with rituximab or
+interferon. The arm that produced the best PFS and OS,
+was R-CHOP followed by rituximab maintenance with a
+4-year OS of 87% [32]. This is the first large randomized
+trial which demonstrated a benefit for rituximab mainte-
+nance in PFS for patients with MCL.
+
+Another agent that has been tested in patients with MCL,
+which demonstrated good activity is Bendamustine. A
+randomized trial done in Europe compared R-CHOP to
+R-Bendamustine in a number of different lymphomas [33].
+In this trial, the patients with MCL had a similar ORR (89%
+for BR and 95% for R-CHOP). The BR regimen was asso-
+ciated with a lower progression rate 42% vs. 63% for the
+R-CHOP arm [33]. In addition, the hematologic toxicity and
+alopecia were less in the R-Bendamustine arm [33]. A sec-
+ond study evaluating R-CHOP vs. R-Bendamustine did not
+demonstrate a superior outcome for the R-Bendamustine
+but did demonstrate an equivalent outcome [34]
+Some clinical studies are testing agents used in relapsed
+MCL in combinations in the front-line setting such as
+R-CHOP1Bortezomib [35].
+Recommendations: Asymptomatic elderly or low-
+MIPI patients can be observed without any therapy.
+When the patients become symptomatic, first line therapy
+choices include R-CHOP (6 rituximab maintenance), R-
+Bendamustine, or a clinical trial.
+
+Initial management of a young symptomatic patient
+Several studies have suggested that aggressive thera-
+
+pies in younger patients with MCL may improve the out-
+comes. One of the first studies to evaluate this was the
+European MCL Network study where responding patients
+under age 65 years were randomized after induction ther-
+apy to receive either myeloablative radio-chemotherapy fol-
+lowed by autologous stem cell transplantation (ASCT) or
+maintenance interferon [36]. In this study, the patients in
+the ASCT arm had an improved PFS over those in the
+interferon arm [36]. Several other single arm and retrospec-
+tive studies have suggested patients receiving an induction
+regimen that contains high-dose cytarabine, such as
+
+TABLE I. The Original MIPI Score Calculations
+
+[0.0335 3 age in (years)] 3 age (years)
+1 0.6978 (if ECOG performance status>1)
+1 1.367 3 log10 (LDH/ULN LDH)
+1 0.9393 3 log10 (white blood cells per 10
+
+6 L)
+
+TABLE II. Simplified MIPI Index
+
+Points Age, years ECOG PS LDH/ULN LDH WBC, 109/L
+
+0 <50 0–1 < 0.67 <6.700
+1 50–59 – 0.67–0.99 6.700–9.999
+2 60–69 2–4 1.00–1.49 1.0–14.999
+3 �70 – �1.500 �15.000
+
+annual clinical updates in hematological malignancies: a continuing medical education series
+
+American Journal of Hematology 1085
+
+
+
+hyperfractioned cyclophosphamide, vincristine, doxorubicin,
+and dexamethasone alternating with high-dose cytarabine
+and methotrexate (HyperCVAD 6rituximab) experience
+improved survival [37–39].
+
+The addition to rituximab to 6–8 cycles of HyperCVAD
+alternating with high dose cytarabine and methotrexate
+yielded a CR rate of 87% and had a 7-year failure-free sur-
+vival rate of 52% and OS of 68% [37]. This regimen was
+tested in a multicenter trial and was found to have a similar
+ORR of 88% and CR rate of 58%; however, there was
+grade IV hematologic toxicity in 87% of the patients making
+this regimen difficult to give in some community settings
+[38]. It was also suggested in a retrospective study that
+patients receiving R-HyperCVAD as an induction with auto
+ASCT in CR1 had an improved outcome as compared to
+R-CHOP [39]. However, a further analysis of a separate
+cohort of MCL patients demonstrated that when corrected
+for the MIPI, the outcomes may be similar [40].
+
+Because the R-HyperCVAD alternating with methotrex-
+ate/cytarabine is difficult to administer, modifications which
+drop the methotrexate portion [41] or drop both the metho-
+trexate and cytarabine have been tested [42]. In the study
+from Geisler et al. [41], 160 younger MCL patients received
+rituximab1maxi-CHOP, alternating with rituximab1 cytara-
+bine. Responders received high-dose chemotherapy with
+ASCT. The 6-year PFS was 66% and the OS was 70%.
+Compared to a historical control without the cytarabine, the
+results were much improved with the regimen as outlined
+[41]. In a small pilot trial in an older population, the rituxi-
+mab–Hyper CVAD regimen without the methotrexate or
+cytarabine, but with maintenance rituximab demonstrated
+an ORR of 77% and a median PFS of 37 months [42].
+Another approach has been for patients to receive R-
+CHOP X 3 cycles, then Rituximab, cisplatin, cytarabine,
+dexamethasone (R-DHAP) X 3, followed by high dose
+chemotherapy and autologous stem cell transplantation
+[43]. This study also demonstrated an excellent 5-year
+overall survival of 75% [43].
+
+The role of autologous stem cell transplantation in CR1
+has not been tested in a randomized trial. However in a ret-
+rospective analysis of 167 MCL patients under age 65, the
+patients received either R-HyperCVAD or R-CHOP followed
+by an auto ASCT in CR1 had an improved PFS compared
+to R-CHOP alone (P< 0.004), even when corrected for
+prognostic factors. [44]. The best induction regimen before
+transplant has not been defined but is currently being eval-
+uated in clinical trials.
+Recommendations: For young symptomatic patients with
+MCL, considerations include R-HyperCVAD with high-dose
+cytarabine (6Methotrexate) followed by ASCT in CR1 for
+selected patients. For patients who are not candidates for
+standard R-HyperCVAD with high dose cytarabine/metho-
+trexate, possible alternatives include R-CHOP or
+R-Bendamustine. If possible, ASCT in CR1 should still be
+considered for these patients as well.
+
+Management of relapse/refractory MCL
+For patients with relapsed but asymptomatic MCL, fur-
+
+ther “watch and wait” maybe possible as there are a per-
+centage of patients with indolent MCL who may not need
+therapy for months or years. Once the patient becomes
+symptomatic many options are considerations. The Benda-
+mustine1 rituximab (BR) regimen has also been tested in
+relapsed MCL patients. A phase II study of BR in 63
+patients with relapsed/refractory MCL demonstrated an
+ORR or 90% with a CR of 60% and a median PFS of 30
+months [45].
+
+Because many standard lymphoma salvage regimens
+have limited activity in MCL, novel treatment approaches
+
+based on targeting known signaling pathways have been
+tested. The first such agent to be tested as a proteasome
+inhibitor, bortezomib. As a monotherapy, bortezomib has
+demonstrated ORRs in the 30–40% range [46]. In a large
+phase II study of 141 evaluable MCL patients treated with
+bortezomib, there was an ORR of 33% with a CR rate of
+8% [47]. With further follow up, the phase II study of borte-
+zomib demonstrated a median time to progression of 6.7
+months and a median OS of 23.5 months [48]. Bortezomib
+has also been combined with other agents such as Benda-
+mustine and rituximab in the BVR regimen which also had
+excellent activity. In patients with MCL, the ORR rate for
+the BVR regimen was 71% [49].
+
+The PI3Kinase/Akt/mTOR pathway is implicated in the
+pathogenesis of MCL [50]. Based upon this information the
+mTOR inhibitor, temsirolimus was tested in a phase II study
+of patients with relapsed/refractory MCL. In this study, tem-
+sirolimus demonstrated moderate activity with an ORR of
+44% [51]. In a phase III study of 162 relapsed/refractory
+patients with MCL, high doses of temsirolimus (175 mg/75
+mg) resulted in an ORR of 22% and a PFS of 4.8 months
+[52]. Other mTOR inhibitors, such as everolimus, have also
+demonstrated activity in MCL [53].
+
+The immunomodulatory agent lenalidomide has also
+shown promising activity against MCL. In a phase II study,
+Zinzani et al. [54] reported an ORR of 41% in 39 MCL
+patients treated with lenalidomide. The larger EMERGE
+trial tested single agent lenalidomide in 134 patients with
+relapsed MCL. The ORR was 28% with a 7.5% CR rate
+[55]. There studies led to the FDA approval of lenalidomide
+for patients with relapsed MCL who had failed bortezomib.
+Lenalidomide has also been combined with rituximab with
+promising results. In a study by Wang et al. [56], 52
+patients with recurrent MCL were treated with lenalidamide
+and rituximab for recurrent disease. In this study, the ORR
+was 58% and the CR rate was 33% with the combination
+being well tolerated.
+
+Other agents that appear to have activity in MCL include
+the brutons tyrosine kinase (BTK) inhibitor (PCI-32765,
+Ibruitinib) and PI3Kinase inhibitor (GS-1101, Idelalisib)
+which target the B-cell receptor pathways. In a study of 51
+MCL patients, the BTK inhibitor was reported to have a
+69% ORR and a CR rate of 16%, with no differences
+between bortezomib na€ıve and patients who had relapsed
+after receiving bortezomib [57]. Kahl et al. reported on 38
+patients with MCL who were treated with Idelalisib who
+demonstrated a 48% ORR [58].
+
+There is not much data available for standard involved
+field irradiation in MCL. However, there is data with the use
+of radioimmunotherapy (RIT) with Yttrium 90—Ibritumomab
+Tiuxetan in patients with relapsed MCL demonstrating an
+ORR of 31% [59]. When RIT is used to consolidate after
+immunochemotherapy, it resulted in improvement of the
+percentages of responses compared with historical controls
+[60].
+
+The use of high-dose chemotherapy and ASCT for
+patients with relapsed MCL has not demonstrated as prom-
+ising results as with front-line use. However, a resent analy-
+sis of the CIBMTR data demonstrated in 159 MCL patients
+receiving an autologous transplant for relapsed disease,
+the 5-year OS was 44% and for 99 patients receiving an
+allogeneic transplant for MCL, the 5-year OS was 32%
+[61]. In appropriate patients with relapsed MCL who had a
+long initial remission and have been successfully salvaged,
+ASCT in CR2 maybe a consideration. Allogeneic stem cell
+transplantation is felt to be the only potentially curative
+treatment for advanced MCL. A number of small studies
+using various reduced intensity preparative regimens with
+an allogeneic source of stem cell have been reported
+
+annual clinical updates in hematological malignancies: a continuing medical education series
+
+1086 American Journal of Hematology
+
+
+
+[62,63]. In a study by Tam et al. [62], 35 patients with
+relapsed MCL receiving a reduced intensity regimen with
+an allogeneic stem cell transplant. With a median follow up
+of 56 months, the 6-year PFS was 46% and the 6-year
+actuarial OS was 53% [62]. Although the relapse rates are
+less with allogeneic transplantation, the risks of graft-
+versus host disease and infectious complications are much
+higher resulting in similar short term but apparently
+improved long term results compared to autologous stem
+cell transplantation for relapsed MCL.
+Recommendations: My first choice for a relapsed MCL
+patient would be bendamustine/rituximab if the patient has
+not previously received bendamustine. Other options would
+include a bortezomib containing regimen or lenalidamide. If
+the patient is a candidate for stem cell transplantation, con-
+sideration for an autologous transplant if there was a long
+first remission or a reduced intensity allogeneic stem cell
+transplant should be given. When clinically available, B-cell
+receptor pathway inhibitors would be an excellent choice
+for therapy as well.
+
+References
+1. Gerard-Marchant R, Hamlin I, Lennert K, et al. Classification of non-Hodgkin’s
+
+lymphomas [letter]. Lancet 1974;2:405–408.
+
+2. Berard CW, Dorfman RF. Histopathology of malignant lymphomas. Clin Hae-
+matol 1974;3:39–45.
+
+3. Weisenburger DD, Kim H, Rappaport H. Mantle-zone lymphoma. A follicular
+variant of intermediate lymphocytic lymphoma. Cancer 1982;49:1429–1434.
+
+4. Harris NL, Jaffe ES, Stein H, et al. A revised European-American classification
+of lymphoid neoplasms: A proposal from the International Lymphoma Study
+Group. Blood 1994;84:1361–1392.
+
+5. Swerdlow SH, Campo E, Harris N, et al. WHO Classification of Tumors of the
+Haematopietic and Lymphoid Tissues. Lyon, France: IARC; 2008.
+
+6. Non-Hodgkin’s Lymphoma Classification project. A clinical evaluation of the
+International Lymphoma Study Group. Blood 1997;89:3909–3918.
+
+7. Tiemann M, Schrader C, Klapper W, et al. Histopathology, cell proliferation
+indices and clinical outcome in 304 patients with mantle cell lymphoma (MCL):
+
+A clinicopathological study from the European MCL Network. Br J Haematol
+2005;131:29–38.
+
+8. Ferrer A, Salaverria I, Bosch F, et al. Leukemic involvement is a common fea-
+ture in mantle cell lymphoma. Cancer 2007;109:2473–2480.
+
+9. Ghielmini M, Zucca E. How I treat mantle cell lymphoma. Blood 2009;114:
+1469–1476.
+
+10. Samaha H, Dumontet C, Ketterer N, et al. Mantle cell lymphoma: A retrospec-
+tive study of 121 cases. Leukemia 1998;34:329–336.
+
+11. Romaguera JE, Medeiros LJ, Hagemeister FB, et al. Frequency of gastrointes-
+tinal involvement and its clinical significance in mantle cell lymphoma. Cancer
+2003;97:586–591.
+
+12. Bertoni R, Ponzoni M. The cellular origin of mantle cell lymphoma. Int J Bio-
+chem Cell Biol 2007;39:1747–1753.
+
+13. Bertoni F, Rinaldi A, Zucca E, Cavalli F. Update on the molecular biology of
+mantle cell lymphoma. Hematol Oncol 2006;24:22–27.
+
+14. Rosenwald A, Wright G, Wiestner A, et al. The proliferation gene expression
+signature is a quantitative integrator of oncogenic events that predicts survival
+in mantle cell lymphoma. Cancer Cell 2003;3:185–197.
+
+15. Fernandez V, Salamero O, Espinet B, et al. Genomic and gene expression
+profiling defines indolent forms of mantle cell lymphoma. Cancer Res 2010;70:
+1408–1418.
+
+16. Bernard M, Gressin R, Lefrere F, et al. Blastic variant of mantle cell lym-
+phoma: A rare but highly aggressive subtype. Leukemia 2001;15:1785–1791.
+
+17. Jares P, Colomer D, Campo E. Genetic and molecular pathogenesis of mantle
+cell lymphoma: Perspectives for new targeted therapeutics. Nat Rev Cancer
+2007;7:750–762.
+
+18. Gill S, Wolf M, Prince HM, et al. [18F] fluorodeoxyglucose positron emission
+tomography scanning for staging, response assessment, and disease surveil-
+lance in patients with mantle cell lymphoma. Clin Lymphoma Myeloma 2008;8:
+159–165.
+
+19. Ferrer A, Bosch F, Villamor N, et al. Central nervous system involvement in
+mantle cell lymphoma. Ann Onc 2008;19:135–141.
+
+20. International Non-Hodgkin’s Lymphoma Prognostic Factors Project. A predic-
+tive model for aggressive non-Hodgkin’s lymphoma. N Engl J Med 1993;329:
+987–994.
+
+21. Hoster E, Dreyling M, Klapper W, et al. A new prognostic index (MIPI) for
+patients with advanced mantle cell lymphoma. Blood 2008;111:558–565.
+
+22. Geisler CH, Kolstad A, Laurell A, et al. The mantle cell lymphoma International
+
+Prognostic Index (MIPI) is superior to the International Prognostic Index (IPI)
+in predicting survival following intensive first line immunochemotherapy and
+autologous stem cell transplantation (ASCT). Blood 2010;115:1530–1533.
+
+23. Rosenwald A, Wright G, Wiestner A, et al. The proliferation gene expression
+signature is a quantitative integrator of oncogenic events that predicts survival
+in mantle cell lymphoma. Cancer Cell 2003;3:185–197.
+
+24. Hartmann E, Fernandez V, Moreno V, et al. Five-gene model to predict sur-
+vival in mantle-cell lymphoma using frozen or formalin-fixed, paraffin-embed-
+ded tissue. J Clin Onc 2008;26:4966–4972.
+
+25. Martin P, Chadburn A, Christos P, et al. Outcome of deferred initial therapy in
+
+mantle-cell lymphoma. J Clin Onc 2009;27:1209–1213.
+
+26. Weisenburger DD, Vose JM, Greiner TC, et al. Mantle cell lymphoma: A clini-
+copathologic study of 68 cases from the Nebraska Lymphoma Study Group.
+Am J Hematol 2000;64:190–196.
+
+27. Foran JM, Rohatiner AZ, Cunningham D, et al. European phase II study of rit-
+uximab (chimeric anti-CD20 monoclonal antibody) for patients with newly diag-
+nosed mantle-cell lymphoma and previously treated mantle-cell lymphoma,
+immunocytoma, and small B-cell lymphocytic lymphoma. J Clin Onc 2000;18:
+317–324.
+
+28. Howard OM, Gribben JG, Neuberg DS, et al. Rituximab and CHOP induction
+therapy for newly diagnosed mantle-cell lymphoma: Molecular complete
+responses are not predictive of progression-free survival. J Clin Onc 2002;20:
+1288–1294.
+
+29. Lenz G, Dreyling M, Hoster E, et al. Immunochemotherapy with rituximab and
+cyclophosphamide, doxorubicin, vincristine, and prednisone significantly
+improves response and time to treatment failure, but not long term outcome in
+patients with previously untreated mantle cell lymphoma: Results of a prospec-
+tive randomized trial of the German Low Grade Lymphoma Study Group
+(GLSG). J Clin Onc 2005;23:1984–1992.
+
+30. Foran JM, Rohatiner AZ, Coiffier B, et al. Multicenter phase II study of fludara-
+bine phosphate for patients with newly diagnosed lymphplasmacytoid lym-
+phoma, Waldenstrom’s macroglobulinemia, and mantle cell lymphoma. J Clin
+Oncol 1999;17:546–553.
+
+31. Cohen BJ, Moskowitz C, Straus D, et al. Cyclophsphamide/fludarabine (CF) is
+active in the treatment of mantle cell lymphoma. Leuk Lymphoma 2001;42:
+1015–1022.
+
+32. Kluin-Nelemans JC, Hoster E, Hermine O, et al. Treatment of older patients
+
+with mantle cell lymphoma. NEJM 2012;376:520–531.
+
+33. Rummel M, Niederle N, Maschmeyer G, et al. Bendamustine plus rituximab
+versus CHOP plus rituximab as first-line treatment for patients with indolent
+and mantle-cell lymphomas: An open-label, muticentre, randomised, phase 3
+non-inferiority trial. Lancet 2013;381:1203–1210.
+
+34. Flinn IW, Van der Jagt RH, Kahl BS, et al. An open-level, randomized study of
+bendamustine and rituximab (BR) compared with rituximab, cyclophospha-
+mide, vincristine, and prednisone (R-CVP) or rituximab, cyclophosphamide,
+doxorubicin, vincristine, and prednisone (R-CHOP) in first-line treatment of
+patients with advanced indolent non-Hodgkin’s lymphoma (NHL) or mantle cell
+
+lymphoma (MCL): The Bright Study. Blood 2012;121:902a.
+
+35. Ruan J, Martin P, Furman RR, et al. Bortezomib plus CHOP-Rituximab for pre-
+viously untreated diffuse large B-cell lymphoma and mantle cell lymphoma.
+J Clin Onc 2010;29:690–697.
+
+36. Dreyling M, Lenz G, Hoster E, et al. Early consolidation by myeloablative
+radiochemotherapy followed by autologous stem cell transplantation in first
+remission significantly prolongs progression-free survival in mantle cell lym-
+phoma: Results of a prospective randomized trial of the European MCL Net-
+work. Blood 2005;105:2677–2684.
+
+37. Romaguera JE, Fayad L, Rodriguez MA, et al. High rate of durable remission
+after treatment of newly diagnosed aggressive mantle-cell lymphoma with rit-
+uximab plus HyperCVAD Alternating with Rituximab plus high-dose methotrex-
+ate and cytarabine. J Clin Onc 2005;23:7013–7023.
+
+38. Bernstein SH, Epner E, Unger JM, et al. A phase II multicenter trial of Hyper-
+CVAD MTX/Ara-C and rituximab in patients with previously untreated mantle
+cell lymphoma: SWOG 0213. Ann Onc 2013;24:1587–1593.
+
+39. Vose J, Loberiza F, Bierman P, et al. Mantle cell lymphoma (MCL): Induction
+therapy with HyperCVAD/high dose methotrexate and cytarabine (MC) 1/2 rit-
+uximab improves results of autologous stem cell transplant in first remission.
+J Clin Onc 2006;24:424a.
+
+40. Budde LE, Guthrie KA, Till GB, et al. Mantel cell lymphoma International Prog-
+nostic Index but not pretransplantation induction regimen predicts survival for
+
+patients with mantle-cell lymphoma receiving high-dose therapy and autolo-
+gous stem cell transplantation. J Clin Oncol 2011;29:3023–3029.
+
+41. Giesler CH, Kolstad A, Lurell A, et al. Long-term progression-free survival of
+mantle cell lymphoma after intensive front-line immunochemotherapy with in
+vivo-purged stem cell rescue: A non-randomized phase 2 multicenter study by
+
+the Nordic Lymphoma Group. Blood 2008;112:2687–2693.
+
+42. Kahl BS, Longo WL, Eickhoff JC, et al. Maintenance rituximab following induc-
+tion chemoimmunotherapy may prolong progression-free survival in mantle
+cell lymphoma: A pilot study from the Wisconsin Oncology Network. Ann
+Oncol 2006;17:1418–1423.
+
+43. Delarue R, Haioun C, Ribrag V, et al. CHOP and DHAP plus rituximab fol-
+lowed by autologous stem cell transplantation in mantle cell lymphoma: A
+phase 2 study from the Groupe d’Etude des Lymphomes de l’Adulte. Blood
+2013;121:48–53.
+
+44. LeCase AS, Vandergrift JL, Rodriguez MA, et al. Comparative outcome of ini-
+tial therapy for younger patients with mantle cell lymphoma: An analysis form
+the NCCN NHL Database. Blood 2012;119:093–2099.
+
+45. Rummel M, Atta J, Welslau M. Bendamustine and rituximab (BR) are effective
+and has a favorable toxicity profile in the treatment of mantle cell and low-
+grade non-Hodgkin’s lymphoma. J Clin Onc 2005;23:3383–3389.
+
+annual clinical updates in hematological malignancies: a continuing medical education series
+
+American Journal of Hematology 1087
+
+
+
+46. O’Connor OA, Wright J, Moskowitz C, et al. Phase II clinical experience with the
+novel proteasome inhibitor bortezomib in patients with indolent non-Hodgkin’s
+lymphoma and mantle cell lymphoma. J Clin Oncol 2005;23:676–684.
+
+47. Fisher RI, Bernstein SH, Kahl BS, et al. Multicenter phase II study of bortezo-
+mib in patients with relapsed or refractory mantle cell lymphoma. J Clin Oncol
+2006;24:4867–4874.
+
+48. Goy A, Bernstein SH, Kahl BS, et al. Bortezomib in patients with relapsed or
+refractory mantle cell lymphoma: Updated time-to-event analyses of the multi-
+center phase 2 PINNACLE study. Ann Onc 2009;20:520–525.
+
+49. Friedberg JW, Vose JM, Kelly JL, et al. The combination of bendamustine, bor-
+tezomib, and rituximab for patients with relapsed/refractory indolent and man-
+tle cell lymphoma. Blood 2011;117:2807–2812.
+
+50. Perez-Galan P, Dreyling M, Wiestner A. Mantle cell lymphoma: Biology, patho-
+genesis, and the molecular basis of treatment in the genomic era. Blood 2011;
+117:26–38.
+
+51. Ansell SM, Inwards DJ, Rowland KM, et al. Low-dose single-agent temsiroli-
+mus for relapsed mantle cell lymphoma: A phase 2 trial in the North Central
+Cancer Treatment Group. Cancer 2008;113:508–514.
+
+52. Hess G, Herbrecht R, Romaguera J, et al. Phase III study to evaluate temsiro-
+limus compared with investigator’s choice therapy for the treatment of relapsed
+or refractory mantle cell lymphoma. J Clin Oncol 2009;27:3822–3829.
+
+53. Witzig TE, Reeder CB, LaPlant BR, et al. A phase II trial of the oral mTOR
+inhibitor everoliumus in relapsed aggressive lymphoma. Leukemia 2011;25:
+341–347.
+
+54. Zinzani PL, Witzig TE, Vose J, et al. Confirmation of the efficacy and safety of lenali-
+domide oral monotherapy in patients with relapsed or refractory mantle cell lym-
+phoma: Results of an international study (NHL-003). Blood 2008;112:262–267.
+
+55. Goy A, Sinha R, Williams ME, et al. Single-agent lenalidomide in patients
+with mangle-cell lymphoma who relapsed or progressed after or were
+refractory to bortezomib: Phase II MCL-001 (EMERGE) Study. J Clin Onc
+2013;49:2835.
+
+56. Wang M, Fayad L, Wagner-Bartak N, et al. Lenalidamide in combination with
+rituximab for patients with relapsed or refractory mantle-cell lymphoma: A
+
+phase 1/2 clinical trial. Lancet Oncol 2012;13:716–723.
+57. Wang L, Rule S, Martin P, et al. Targeting BTK with Ibruitinib in relapsed or
+
+refractory mantle cell lymphoma. NEJM 2013;369:507–516.
+58. Kahl B, Byrd J, Flinn I, et al. Significant clinical activity of CAL-101, an isoform
+
+selective inhibitor of phosphatidylinositol 3 kinase P110D, in patients with relapsed
+or refractory indolent and mantle cell lymphoma. Ann Onc 2011;22:350a.
+
+59. Wang M, Oki Y, Pro B, et al. Phase II study of Yttrium-90 Ibritumomab tiuxetan
+in patients with relapsed or refractory mantle cell lymphoma. J Clin Oncol
+2009;27:5213–5218.
+
+60. Smith MR, Linjun A, Gordon LI, et al. Phase II study of rituximab plus cyclophos-
+phamide, doxorubicin, vincristine, and prednisone immunochemotherapy fol-
+lowed by 90Y-Ibritumomab tiuxetan in untreated mantle cell lymphoma: Eastern
+Cooperative Oncology Group Study E1499. J Clin Oncol 2012;30:3119–3126.
+
+61. Fenske TS, Carreras J, Zhang M, et al. Outcome of patients with mantle cell
+lymphoma undergoing autologous versus reduced-intensity allogeneic trans-
+plantation. Ann Onc 2011;22:18a.
+
+62. Tam CS, Bassett R, Ledesma C, et al. Mature results of the M. D. Anderson
+Cancer Center risk-adapted transplantation strategy in mantle cell lymphoma.
+
+Blood 2009;113:4144–4152.
+63. Maris MB, Sandmaier M, Storer FE, et al. Allogeneic hematopoietic cell trans-
+
+plantation after fludarabine and 2 Gy total body irradiation for relapsed and
+refractory mantle cell lymphoma. Blood 2004;104:3535–3542.
+
+annual clinical updates in hematological malignancies: a continuing medical education series
+
+1088 American Journal of Hematology
+
+
+
+

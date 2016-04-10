@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:syntax="http:///org/apache/ctakes/typesystem/type/syntax.ecore" xmlns:refsem="http:///org/apache/ctakes/typesystem/type/refsem.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:util="http:///org/apache/ctakes/typesystem/type/util.ecore" xmlns:textspan="http:///org/apache/ctakes/typesystem/type/textspan.ecore" xmlns:assertion="http:///org/apache/ctakes/typesystem/type/temporary/assertion.ecore" xmlns:structured="http:///org/apache/ctakes/typesystem/type/structured.ecore" xmlns:relation="http:///org/apache/ctakes/typesystem/type/relation.ecore" xmlns:textsem="http:///org/apache/ctakes/typesystem/type/textsem.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:type="http:///org/apache/ctakes/typesystem/type.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#13;&#10;Dr. Nutritious&#13;&#10;&#13;&#10;Medical Nutrition Therapy for Hyperlipidemia&#13;&#10;&#13;&#10;Referral from: Julie Tester, RD, LD, CNSD&#13;&#10;Phone contact: (555) 555-1212&#13;&#10;Height: 144 cm   Current Weight: 45 kg   Date of current weight: 02-29-2001   Admit Weight:  53 kg   BMI: 18 kg/m2&#13;&#10;Diet: General&#13;&#10;Daily Calorie needs (kcals): 1500 calories, assessed as HB + 20% for activity.&#13;&#10;Daily Protein needs: 40 grams,  assessed as 1.0 g/kg.&#13;&#10;Pt has been on a 3-day calorie count and has had an average intake of 1100 calories.  She was instructed to drink 2-3 cans of liquid supplement to help promote weight gain.  She agrees with the plan and has my number for further assessment. May want a Resting Metabolic Rate as well. She takes an aspirin a day for knee pain.&#13;&#10;"/>
+    <tcas:DocumentAnnotation xmi:id="2" sofa="1" begin="0" end="735" language="x-unspecified"/>
+    <textspan:Segment xmi:id="3" sofa="1" begin="0" end="735" id="SIMPLE_SEGMENT"/>
+    <textspan:Sentence xmi:id="4" sofa="1" begin="2" end="16" sentenceNumber="0"/>
+    <textspan:Sentence xmi:id="5" sofa="1" begin="20" end="64" sentenceNumber="1"/>
+    <textspan:Sentence xmi:id="6" sofa="1" begin="68" end="82" sentenceNumber="2"/>
+    <textspan:Sentence xmi:id="7" sofa="1" begin="83" end="109" sentenceNumber="3"/>
+    <textspan:Sentence xmi:id="8" sofa="1" begin="111" end="125" sentenceNumber="4"/>
+    <textspan:Sentence xmi:id="9" sofa="1" begin="126" end="131" sentenceNumber="5"/>
+    <textspan:Sentence xmi:id="10" sofa="1" begin="132" end="140" sentenceNumber="6"/>
+    <textspan:Sentence xmi:id="11" sofa="1" begin="142" end="149" sentenceNumber="7"/>
+    <textspan:Sentence xmi:id="12" sofa="1" begin="150" end="174" sentenceNumber="8"/>
+    <textspan:Sentence xmi:id="13" sofa="1" begin="175" end="233" sentenceNumber="9"/>
+    <textspan:Sentence xmi:id="14" sofa="1" begin="235" end="256" sentenceNumber="10"/>
+    <textspan:Sentence xmi:id="15" sofa="1" begin="258" end="263" sentenceNumber="11"/>
+    <textspan:Sentence xmi:id="16" sofa="1" begin="264" end="271" sentenceNumber="12"/>
+    <textspan:Sentence xmi:id="17" sofa="1" begin="273" end="351" sentenceNumber="13"/>
+    <textspan:Sentence xmi:id="18" sofa="1" begin="353" end="373" sentenceNumber="14"/>
+    <textspan:Sentence xmi:id="19" sofa="1" begin="374" end="406" sentenceNumber="15"/>
+    <textspan:Sentence xmi:id="20" sofa="1" begin="408" end="492" sentenceNumber="16"/>
+    <textspan:Sentence xmi:id="21" sofa="1" begin="494" end="580" sentenceNumber="17"/>
+    <textspan:Sentence xmi:id="22" sofa="1" begin="582" end="648" sentenceNumber="18"/>
+    <textspan:Sentence xmi:id="23" sofa="1" begin="649" end="691" sentenceNumber="19"/>
+    <textspan:Sentence xmi:id="24" sofa="1" begin="692" end="733" sentenceNumber="20"/>
+    <syntax:NewlineToken xmi:id="25" sofa="1" begin="0" end="2" tokenNumber="0" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="26" sofa="1" begin="16" end="18" tokenNumber="3" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="27" sofa="1" begin="18" end="20" tokenNumber="4" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="28" sofa="1" begin="64" end="66" tokenNumber="10" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="29" sofa="1" begin="66" end="68" tokenNumber="11" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="30" sofa="1" begin="109" end="111" tokenNumber="23" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="31" sofa="1" begin="140" end="142" tokenNumber="31" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="32" sofa="1" begin="256" end="258" tokenNumber="62" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="33" sofa="1" begin="271" end="273" tokenNumber="66" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="34" sofa="1" begin="351" end="353" tokenNumber="86" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="35" sofa="1" begin="406" end="408" tokenNumber="101" normalizedForm="&#13;&#10;"/>
+    <syntax:NewlineToken xmi:id="36" sofa="1" begin="733" end="735" tokenNumber="172" normalizedForm="&#13;&#10;"/>
+    <syntax:WordToken xmi:id="37" sofa="1" begin="2" end="5" tokenNumber="1" normalizedForm="Dr." partOfSpeech="NNP" capitalization="1" numPosition="0" canonicalForm="Dr."/>
+    <syntax:WordToken xmi:id="38" sofa="1" begin="6" end="16" tokenNumber="2" normalizedForm="nutritious" partOfSpeech="NNP" capitalization="1" numPosition="0" canonicalForm="nutritious"/>
+    <syntax:WordToken xmi:id="39" sofa="1" begin="20" end="27" tokenNumber="5" normalizedForm="medical" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="medical"/>
+    <syntax:WordToken xmi:id="40" sofa="1" begin="28" end="37" tokenNumber="6" normalizedForm="nutrition" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="nutrition"/>
+    <syntax:WordToken xmi:id="41" sofa="1" begin="38" end="45" tokenNumber="7" normalizedForm="therapy" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="therapy"/>
+    <syntax:WordToken xmi:id="42" sofa="1" begin="46" end="49" tokenNumber="8" normalizedForm="for" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="43" sofa="1" begin="50" end="64" tokenNumber="9" normalizedForm="hyperlipidemia" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="hyperlipidemia"/>
+    <syntax:WordToken xmi:id="44" sofa="1" begin="68" end="76" tokenNumber="12" normalizedForm="referral" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="referral"/>
+    <syntax:WordToken xmi:id="45" sofa="1" begin="77" end="81" tokenNumber="13" normalizedForm="from" partOfSpeech="IN" capitalization="0" numPosition="0" canonicalForm="from"/>
+    <syntax:WordToken xmi:id="46" sofa="1" begin="83" end="88" tokenNumber="15" normalizedForm="julie" partOfSpeech="NNP" capitalization="1" numPosition="0" canonicalForm="julie"/>
+    <syntax:WordToken xmi:id="47" sofa="1" begin="89" end="95" tokenNumber="16" normalizedForm="tester" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="tester"/>
+    <syntax:WordToken xmi:id="48" sofa="1" begin="97" end="99" tokenNumber="18" normalizedForm="RD" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="RD"/>
+    <syntax:WordToken xmi:id="49" sofa="1" begin="101" end="103" tokenNumber="20" normalizedForm="LD" partOfSpeech="NNP" capitalization="3" numPosition="0" canonicalForm="LD"/>
+    <syntax:WordToken xmi:id="50" sofa="1" begin="105" end="109" tokenNumber="22" normalizedForm="cnsd" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="cnsd"/>
+    <syntax:WordToken xmi:id="51" sofa="1" begin="111" end="116" tokenNumber="24" normalizedForm="phone" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="phone"/>
+    <syntax:WordToken xmi:id="52" sofa="1" begin="117" end="124" tokenNumber="25" normalizedForm="contact" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="contact"/>
+    <syntax:WordToken xmi:id="53" sofa="1" begin="132" end="140" tokenNumber="30" normalizedForm="555-1212" partOfSpeech="CD" capitalization="0" numPosition="1" canonicalForm="555-1212"/>
+    <syntax:WordToken xmi:id="54" sofa="1" begin="142" end="148" tokenNumber="32" normalizedForm="height" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="height"/>
+    <syntax:WordToken xmi:id="55" sofa="1" begin="154" end="156" tokenNumber="35" normalizedForm="CM" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="CM"/>
+    <syntax:WordToken xmi:id="56" sofa="1" begin="159" end="166" tokenNumber="36" normalizedForm="current" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="current"/>
+    <syntax:WordToken xmi:id="57" sofa="1" begin="167" end="173" tokenNumber="37" normalizedForm="weight" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="weight"/>
+    <syntax:WordToken xmi:id="58" sofa="1" begin="178" end="180" tokenNumber="40" normalizedForm="kg" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="kg"/>
+    <syntax:WordToken xmi:id="59" sofa="1" begin="183" end="187" tokenNumber="41" normalizedForm="date" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="date"/>
+    <syntax:WordToken xmi:id="60" sofa="1" begin="188" end="190" tokenNumber="42" normalizedForm="of" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="61" sofa="1" begin="191" end="198" tokenNumber="43" normalizedForm="current" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="current"/>
+    <syntax:WordToken xmi:id="62" sofa="1" begin="199" end="205" tokenNumber="44" normalizedForm="weight" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="weight"/>
+    <syntax:WordToken xmi:id="63" sofa="1" begin="220" end="225" tokenNumber="51" normalizedForm="admit" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="admit"/>
+    <syntax:WordToken xmi:id="64" sofa="1" begin="226" end="232" tokenNumber="52" normalizedForm="weight" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="weight"/>
+    <syntax:WordToken xmi:id="65" sofa="1" begin="238" end="240" tokenNumber="55" normalizedForm="kg" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="kg"/>
+    <syntax:WordToken xmi:id="66" sofa="1" begin="243" end="246" tokenNumber="56" normalizedForm="BMI" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="BMI"/>
+    <syntax:WordToken xmi:id="67" sofa="1" begin="251" end="253" tokenNumber="59" normalizedForm="kg" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="kg"/>
+    <syntax:WordToken xmi:id="68" sofa="1" begin="254" end="256" tokenNumber="61" normalizedForm="m2" partOfSpeech="NN" capitalization="0" numPosition="3" canonicalForm="m2"/>
+    <syntax:WordToken xmi:id="69" sofa="1" begin="258" end="262" tokenNumber="63" normalizedForm="diet" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="diet"/>
+    <syntax:WordToken xmi:id="70" sofa="1" begin="264" end="271" tokenNumber="65" normalizedForm="general" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="general"/>
+    <syntax:WordToken xmi:id="71" sofa="1" begin="273" end="278" tokenNumber="67" normalizedForm="daily" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="daily"/>
+    <syntax:WordToken xmi:id="72" sofa="1" begin="279" end="286" tokenNumber="68" normalizedForm="calorie" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="calorie"/>
+    <syntax:WordToken xmi:id="73" sofa="1" begin="287" end="292" tokenNumber="69" normalizedForm="need" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="need"/>
+    <syntax:WordToken xmi:id="74" sofa="1" begin="294" end="299" tokenNumber="71" normalizedForm="kcal" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="kcal"/>
+    <syntax:WordToken xmi:id="75" sofa="1" begin="307" end="315" tokenNumber="75" normalizedForm="calorie" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="calorie"/>
+    <syntax:WordToken xmi:id="76" sofa="1" begin="317" end="325" tokenNumber="77" normalizedForm="assess" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="assess"/>
+    <syntax:WordToken xmi:id="77" sofa="1" begin="326" end="328" tokenNumber="78" normalizedForm="A" partOfSpeech="IN" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="78" sofa="1" begin="329" end="331" tokenNumber="79" normalizedForm="HB" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="HB"/>
+    <syntax:WordToken xmi:id="79" sofa="1" begin="338" end="341" tokenNumber="83" normalizedForm="for" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="80" sofa="1" begin="342" end="350" tokenNumber="84" normalizedForm="activity" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="activity"/>
+    <syntax:WordToken xmi:id="81" sofa="1" begin="353" end="358" tokenNumber="87" normalizedForm="daily" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="daily"/>
+    <syntax:WordToken xmi:id="82" sofa="1" begin="359" end="366" tokenNumber="88" normalizedForm="protein" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="protein"/>
+    <syntax:WordToken xmi:id="83" sofa="1" begin="367" end="372" tokenNumber="89" normalizedForm="need" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="need"/>
+    <syntax:WordToken xmi:id="84" sofa="1" begin="377" end="382" tokenNumber="92" normalizedForm="gram" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="gram"/>
+    <syntax:WordToken xmi:id="85" sofa="1" begin="385" end="393" tokenNumber="94" normalizedForm="assess" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="assess"/>
+    <syntax:WordToken xmi:id="86" sofa="1" begin="394" end="396" tokenNumber="95" normalizedForm="A" partOfSpeech="IN" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="87" sofa="1" begin="401" end="402" tokenNumber="97" normalizedForm="G" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="G"/>
+    <syntax:WordToken xmi:id="88" sofa="1" begin="403" end="405" tokenNumber="99" normalizedForm="kg" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="kg"/>
+    <syntax:WordToken xmi:id="89" sofa="1" begin="408" end="410" tokenNumber="102" normalizedForm="PT" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="PT"/>
+    <syntax:WordToken xmi:id="90" sofa="1" begin="411" end="414" tokenNumber="103" normalizedForm="HA" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="HA"/>
+    <syntax:WordToken xmi:id="91" sofa="1" begin="415" end="419" tokenNumber="104" normalizedForm="be" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="be"/>
+    <syntax:WordToken xmi:id="92" sofa="1" begin="420" end="422" tokenNumber="105" normalizedForm="on" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="93" sofa="1" begin="423" end="424" tokenNumber="106" normalizedForm="A" partOfSpeech="DT" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="94" sofa="1" begin="427" end="430" tokenNumber="109" normalizedForm="Day" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="Day"/>
+    <syntax:WordToken xmi:id="95" sofa="1" begin="431" end="438" tokenNumber="110" normalizedForm="calorie" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="calorie"/>
+    <syntax:WordToken xmi:id="96" sofa="1" begin="439" end="444" tokenNumber="111" normalizedForm="Count" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="Count"/>
+    <syntax:WordToken xmi:id="97" sofa="1" begin="445" end="448" tokenNumber="112" normalizedForm="and" partOfSpeech="CC" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="98" sofa="1" begin="449" end="452" tokenNumber="113" normalizedForm="HA" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="HA"/>
+    <syntax:WordToken xmi:id="99" sofa="1" begin="453" end="456" tokenNumber="114" normalizedForm="have" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="have"/>
+    <syntax:WordToken xmi:id="100" sofa="1" begin="457" end="459" tokenNumber="115" normalizedForm="an" partOfSpeech="DT" capitalization="0" numPosition="0" canonicalForm="an"/>
+    <syntax:WordToken xmi:id="101" sofa="1" begin="460" end="467" tokenNumber="116" normalizedForm="average" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="average"/>
+    <syntax:WordToken xmi:id="102" sofa="1" begin="468" end="474" tokenNumber="117" normalizedForm="intake" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="intake"/>
+    <syntax:WordToken xmi:id="103" sofa="1" begin="475" end="477" tokenNumber="118" normalizedForm="of" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="104" sofa="1" begin="483" end="491" tokenNumber="120" normalizedForm="calorie" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="calorie"/>
+    <syntax:WordToken xmi:id="105" sofa="1" begin="494" end="497" tokenNumber="122" normalizedForm="she" partOfSpeech="PRP" capitalization="1" numPosition="0" canonicalForm="she"/>
+    <syntax:WordToken xmi:id="106" sofa="1" begin="498" end="501" tokenNumber="123" normalizedForm="WA" partOfSpeech="VBD" capitalization="0" numPosition="0" canonicalForm="WA"/>
+    <syntax:WordToken xmi:id="107" sofa="1" begin="502" end="512" tokenNumber="124" normalizedForm="instruct" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="instruct"/>
+    <syntax:WordToken xmi:id="108" sofa="1" begin="513" end="515" tokenNumber="125" normalizedForm="to" partOfSpeech="TO" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="109" sofa="1" begin="516" end="521" tokenNumber="126" normalizedForm="drink" partOfSpeech="VB" capitalization="0" numPosition="0" canonicalForm="drink"/>
+    <syntax:WordToken xmi:id="110" sofa="1" begin="526" end="530" tokenNumber="130" normalizedForm="can" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="can"/>
+    <syntax:WordToken xmi:id="111" sofa="1" begin="531" end="533" tokenNumber="131" normalizedForm="of" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="112" sofa="1" begin="534" end="540" tokenNumber="132" normalizedForm="liquid" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="liquid"/>
+    <syntax:WordToken xmi:id="113" sofa="1" begin="541" end="551" tokenNumber="133" normalizedForm="supplement" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="supplement"/>
+    <syntax:WordToken xmi:id="114" sofa="1" begin="552" end="554" tokenNumber="134" normalizedForm="to" partOfSpeech="TO" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="115" sofa="1" begin="555" end="559" tokenNumber="135" normalizedForm="help" partOfSpeech="VB" capitalization="0" numPosition="0" canonicalForm="help"/>
+    <syntax:WordToken xmi:id="116" sofa="1" begin="560" end="567" tokenNumber="136" normalizedForm="promote" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="promote"/>
+    <syntax:WordToken xmi:id="117" sofa="1" begin="568" end="574" tokenNumber="137" normalizedForm="weight" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="weight"/>
+    <syntax:WordToken xmi:id="118" sofa="1" begin="575" end="579" tokenNumber="138" normalizedForm="gain" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="gain"/>
+    <syntax:WordToken xmi:id="119" sofa="1" begin="582" end="585" tokenNumber="140" normalizedForm="she" partOfSpeech="PRP" capitalization="1" numPosition="0" canonicalForm="she"/>
+    <syntax:WordToken xmi:id="120" sofa="1" begin="586" end="592" tokenNumber="141" normalizedForm="agree" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="agree"/>
+    <syntax:WordToken xmi:id="121" sofa="1" begin="593" end="597" tokenNumber="142" normalizedForm="with" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="122" sofa="1" begin="598" end="601" tokenNumber="143" normalizedForm="the" partOfSpeech="DT" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="123" sofa="1" begin="602" end="606" tokenNumber="144" normalizedForm="plan" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="plan"/>
+    <syntax:WordToken xmi:id="124" sofa="1" begin="607" end="610" tokenNumber="145" normalizedForm="and" partOfSpeech="CC" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="125" sofa="1" begin="611" end="614" tokenNumber="146" normalizedForm="HA" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="HA"/>
+    <syntax:WordToken xmi:id="126" sofa="1" begin="615" end="617" tokenNumber="147" normalizedForm="my" partOfSpeech="PRP$" capitalization="0" numPosition="0" canonicalForm="my"/>
+    <syntax:WordToken xmi:id="127" sofa="1" begin="618" end="624" tokenNumber="148" normalizedForm="numb" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="numb"/>
+    <syntax:WordToken xmi:id="128" sofa="1" begin="625" end="628" tokenNumber="149" normalizedForm="for" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="129" sofa="1" begin="629" end="636" tokenNumber="150" normalizedForm="far" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="far"/>
+    <syntax:WordToken xmi:id="130" sofa="1" begin="637" end="647" tokenNumber="151" normalizedForm="assessment" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="assessment"/>
+    <syntax:WordToken xmi:id="131" sofa="1" begin="649" end="652" tokenNumber="153" normalizedForm="May" partOfSpeech="MD" capitalization="1" numPosition="0" canonicalForm="May"/>
+    <syntax:WordToken xmi:id="132" sofa="1" begin="653" end="657" tokenNumber="154" normalizedForm="want" partOfSpeech="VB" capitalization="0" numPosition="0" canonicalForm="want"/>
+    <syntax:WordToken xmi:id="133" sofa="1" begin="658" end="659" tokenNumber="155" normalizedForm="A" partOfSpeech="DT" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="134" sofa="1" begin="660" end="667" tokenNumber="156" normalizedForm="rest" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="rest"/>
+    <syntax:WordToken xmi:id="135" sofa="1" begin="668" end="677" tokenNumber="157" normalizedForm="metabolic" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="metabolic"/>
+    <syntax:WordToken xmi:id="136" sofa="1" begin="678" end="682" tokenNumber="158" normalizedForm="rate" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="rate"/>
+    <syntax:WordToken xmi:id="137" sofa="1" begin="683" end="685" tokenNumber="159" normalizedForm="A" partOfSpeech="RB" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="138" sofa="1" begin="686" end="690" tokenNumber="160" normalizedForm="well" partOfSpeech="RB" capitalization="0" numPosition="0" canonicalForm="well"/>
+    <syntax:WordToken xmi:id="139" sofa="1" begin="692" end="695" tokenNumber="162" normalizedForm="she" partOfSpeech="PRP" capitalization="1" numPosition="0" canonicalForm="she"/>
+    <syntax:WordToken xmi:id="140" sofa="1" begin="696" end="701" tokenNumber="163" normalizedForm="take" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="take"/>
+    <syntax:WordToken xmi:id="141" sofa="1" begin="702" end="704" tokenNumber="164" normalizedForm="an" partOfSpeech="DT" capitalization="0" numPosition="0" canonicalForm="an"/>
+    <syntax:WordToken xmi:id="142" sofa="1" begin="705" end="712" tokenNumber="165" normalizedForm="aspirin" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="aspirin"/>
+    <syntax:WordToken xmi:id="143" sofa="1" begin="713" end="714" tokenNumber="166" normalizedForm="A" partOfSpeech="DT" capitalization="0" numPosition="0" canonicalForm="A"/>
+    <syntax:WordToken xmi:id="144" sofa="1" begin="715" end="718" tokenNumber="167" normalizedForm="Day" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="Day"/>
+    <syntax:WordToken xmi:id="145" sofa="1" begin="719" end="722" tokenNumber="168" normalizedForm="for" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <syntax:WordToken xmi:id="146" sofa="1" begin="723" end="727" tokenNumber="169" normalizedForm="knee" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="knee"/>
+    <syntax:WordToken xmi:id="147" sofa="1" begin="728" end="732" tokenNumber="170" normalizedForm="pain" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="pain"/>
+    <syntax:PunctuationToken xmi:id="148" sofa="1" begin="81" end="82" tokenNumber="14" normalizedForm=":" partOfSpeech="NN"/>
+    <syntax:PunctuationToken xmi:id="149" sofa="1" begin="95" end="96" tokenNumber="17" normalizedForm="," partOfSpeech=","/>
+    <syntax:PunctuationToken xmi:id="150" sofa="1" begin="99" end="100" tokenNumber="19" normalizedForm="," partOfSpeech=","/>
+    <syntax:PunctuationToken xmi:id="151" sofa="1" begin="103" end="104" tokenNumber="21" normalizedForm="," partOfSpeech=","/>
+    <syntax:PunctuationToken xmi:id="152" sofa="1" begin="124" end="125" tokenNumber="26" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="153" sofa="1" begin="126" end="127" tokenNumber="27" normalizedForm="(" partOfSpeech="-LRB-"/>
+    <syntax:PunctuationToken xmi:id="154" sofa="1" begin="130" end="131" tokenNumber="29" normalizedForm=")" partOfSpeech="-RRB-"/>
+    <syntax:PunctuationToken xmi:id="155" sofa="1" begin="148" end="149" tokenNumber="33" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="156" sofa="1" begin="173" end="174" tokenNumber="38" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="157" sofa="1" begin="205" end="206" tokenNumber="45" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="158" sofa="1" begin="209" end="210" tokenNumber="47" normalizedForm="-" partOfSpeech="SYM"/>
+    <syntax:PunctuationToken xmi:id="159" sofa="1" begin="212" end="213" tokenNumber="49" normalizedForm="-" partOfSpeech="HYPH"/>
+    <syntax:PunctuationToken xmi:id="160" sofa="1" begin="232" end="233" tokenNumber="53" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="161" sofa="1" begin="246" end="247" tokenNumber="57" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="162" sofa="1" begin="253" end="254" tokenNumber="60" normalizedForm="/" partOfSpeech="SYM"/>
+    <syntax:PunctuationToken xmi:id="163" sofa="1" begin="262" end="263" tokenNumber="64" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="164" sofa="1" begin="293" end="294" tokenNumber="70" normalizedForm="(" partOfSpeech="-LRB-"/>
+    <syntax:PunctuationToken xmi:id="165" sofa="1" begin="299" end="300" tokenNumber="72" normalizedForm=")" partOfSpeech="-RRB-"/>
+    <syntax:PunctuationToken xmi:id="166" sofa="1" begin="300" end="301" tokenNumber="73" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="167" sofa="1" begin="315" end="316" tokenNumber="76" normalizedForm="," partOfSpeech=","/>
+    <syntax:PunctuationToken xmi:id="168" sofa="1" begin="350" end="351" tokenNumber="85" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="169" sofa="1" begin="372" end="373" tokenNumber="90" normalizedForm=":" partOfSpeech=":"/>
+    <syntax:PunctuationToken xmi:id="170" sofa="1" begin="382" end="383" tokenNumber="93" normalizedForm="," partOfSpeech=","/>
+    <syntax:PunctuationToken xmi:id="171" sofa="1" begin="402" end="403" tokenNumber="98" normalizedForm="/" partOfSpeech="SYM"/>
+    <syntax:PunctuationToken xmi:id="172" sofa="1" begin="405" end="406" tokenNumber="100" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="173" sofa="1" begin="426" end="427" tokenNumber="108" normalizedForm="-" partOfSpeech="HYPH"/>
+    <syntax:PunctuationToken xmi:id="174" sofa="1" begin="491" end="492" tokenNumber="121" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="175" sofa="1" begin="523" end="524" tokenNumber="128" normalizedForm="-" partOfSpeech="SYM"/>
+    <syntax:PunctuationToken xmi:id="176" sofa="1" begin="579" end="580" tokenNumber="139" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="177" sofa="1" begin="647" end="648" tokenNumber="152" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="178" sofa="1" begin="690" end="691" tokenNumber="161" normalizedForm="." partOfSpeech="."/>
+    <syntax:PunctuationToken xmi:id="179" sofa="1" begin="732" end="733" tokenNumber="171" normalizedForm="." partOfSpeech="."/>
+    <syntax:NumToken xmi:id="180" sofa="1" begin="127" end="130" tokenNumber="28" normalizedForm="555" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="181" sofa="1" begin="150" end="153" tokenNumber="34" normalizedForm="144" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="182" sofa="1" begin="175" end="177" tokenNumber="39" normalizedForm="45" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="183" sofa="1" begin="207" end="209" tokenNumber="46" normalizedForm="02" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="184" sofa="1" begin="210" end="212" tokenNumber="48" normalizedForm="29" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="185" sofa="1" begin="213" end="217" tokenNumber="50" normalizedForm="2001" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="186" sofa="1" begin="235" end="237" tokenNumber="54" normalizedForm="53" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="187" sofa="1" begin="248" end="250" tokenNumber="58" normalizedForm="18" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="188" sofa="1" begin="302" end="306" tokenNumber="74" normalizedForm="1500" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="189" sofa="1" begin="334" end="336" tokenNumber="81" normalizedForm="20" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="190" sofa="1" begin="374" end="376" tokenNumber="91" normalizedForm="40" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="191" sofa="1" begin="397" end="400" tokenNumber="96" normalizedForm="1.0" partOfSpeech="CD" numType="2"/>
+    <syntax:NumToken xmi:id="192" sofa="1" begin="425" end="426" tokenNumber="107" normalizedForm="3" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="193" sofa="1" begin="478" end="482" tokenNumber="119" normalizedForm="1100" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="194" sofa="1" begin="522" end="523" tokenNumber="127" normalizedForm="2" partOfSpeech="CD" numType="1"/>
+    <syntax:NumToken xmi:id="195" sofa="1" begin="524" end="525" tokenNumber="129" normalizedForm="3" partOfSpeech="CD" numType="1"/>
+    <syntax:SymbolToken xmi:id="196" sofa="1" begin="332" end="333" tokenNumber="80" normalizedForm="+" partOfSpeech="SYM"/>
+    <syntax:SymbolToken xmi:id="197" sofa="1" begin="336" end="337" tokenNumber="82" normalizedForm="%" partOfSpeech="NN"/>
+    <textsem:RomanNumeralAnnotation xmi:id="198" sofa="1" begin="101" end="103" id="5" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:RomanNumeralAnnotation xmi:id="199" sofa="1" begin="154" end="156" id="8" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="200" sofa="1" begin="150" end="156" id="7" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="201" sofa="1" begin="175" end="180" id="10" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="202" sofa="1" begin="248" end="253" id="14" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="203" sofa="1" begin="235" end="240" id="13" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="204" sofa="1" begin="397" end="402" id="17" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:MeasurementAnnotation xmi:id="205" sofa="1" begin="374" end="382" id="16" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:DateAnnotation xmi:id="206" sofa="1" begin="207" end="217" id="11" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:DateAnnotation xmi:id="207" sofa="1" begin="522" end="525" id="21" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:RangeAnnotation xmi:id="208" sofa="1" begin="207" end="212" id="12" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:RangeAnnotation xmi:id="209" sofa="1" begin="522" end="525" id="20" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <textsem:FractionAnnotation xmi:id="210" sofa="1" begin="397" end="400" id="18" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <syntax:NP xmi:id="211" sofa="1" begin="2" end="16" chunkType="NP"/>
+    <syntax:NP xmi:id="212" sofa="1" begin="20" end="64" chunkType="NP"/>
+    <syntax:NP xmi:id="213" sofa="1" begin="50" end="64" chunkType="NP"/>
+    <syntax:NP xmi:id="214" sofa="1" begin="68" end="82" chunkType="NP"/>
+    <syntax:NP xmi:id="215" sofa="1" begin="81" end="82" chunkType="NP"/>
+    <syntax:NP xmi:id="216" sofa="1" begin="83" end="95" chunkType="NP"/>
+    <syntax:NP xmi:id="217" sofa="1" begin="97" end="99" chunkType="NP"/>
+    <syntax:NP xmi:id="218" sofa="1" begin="101" end="103" chunkType="NP"/>
+    <syntax:NP xmi:id="219" sofa="1" begin="105" end="109" chunkType="NP"/>
+    <syntax:NP xmi:id="220" sofa="1" begin="111" end="124" chunkType="NP"/>
+    <syntax:NP xmi:id="221" sofa="1" begin="127" end="130" chunkType="NP"/>
+    <syntax:NP xmi:id="222" sofa="1" begin="132" end="140" chunkType="NP"/>
+    <syntax:NP xmi:id="223" sofa="1" begin="142" end="148" chunkType="NP"/>
+    <syntax:NP xmi:id="224" sofa="1" begin="150" end="173" chunkType="NP"/>
+    <syntax:NP xmi:id="225" sofa="1" begin="159" end="173" chunkType="NP"/>
+    <syntax:NP xmi:id="226" sofa="1" begin="175" end="205" chunkType="NP"/>
+    <syntax:NP xmi:id="227" sofa="1" begin="191" end="205" chunkType="NP"/>
+    <syntax:NP xmi:id="228" sofa="1" begin="207" end="232" chunkType="NP"/>
+    <syntax:NP xmi:id="229" sofa="1" begin="235" end="246" chunkType="NP"/>
+    <syntax:NP xmi:id="230" sofa="1" begin="248" end="253" chunkType="NP"/>
+    <syntax:NP xmi:id="231" sofa="1" begin="254" end="256" chunkType="NP"/>
+    <syntax:NP xmi:id="232" sofa="1" begin="258" end="262" chunkType="NP"/>
+    <syntax:NP xmi:id="233" sofa="1" begin="264" end="271" chunkType="NP"/>
+    <syntax:NP xmi:id="234" sofa="1" begin="273" end="292" chunkType="NP"/>
+    <syntax:NP xmi:id="235" sofa="1" begin="294" end="299" chunkType="NP"/>
+    <syntax:NP xmi:id="236" sofa="1" begin="302" end="315" chunkType="NP"/>
+    <syntax:NP xmi:id="237" sofa="1" begin="329" end="350" chunkType="NP"/>
+    <syntax:NP xmi:id="238" sofa="1" begin="342" end="350" chunkType="NP"/>
+    <syntax:NP xmi:id="239" sofa="1" begin="353" end="366" chunkType="NP"/>
+    <syntax:NP xmi:id="240" sofa="1" begin="374" end="382" chunkType="NP"/>
+    <syntax:NP xmi:id="241" sofa="1" begin="397" end="405" chunkType="NP"/>
+    <syntax:NP xmi:id="242" sofa="1" begin="402" end="405" chunkType="NP"/>
+    <syntax:NP xmi:id="243" sofa="1" begin="408" end="410" chunkType="NP"/>
+    <syntax:NP xmi:id="244" sofa="1" begin="423" end="426" chunkType="NP"/>
+    <syntax:NP xmi:id="245" sofa="1" begin="427" end="444" chunkType="NP"/>
+    <syntax:NP xmi:id="246" sofa="1" begin="457" end="491" chunkType="NP"/>
+    <syntax:NP xmi:id="247" sofa="1" begin="478" end="491" chunkType="NP"/>
+    <syntax:NP xmi:id="248" sofa="1" begin="494" end="497" chunkType="NP"/>
+    <syntax:NP xmi:id="249" sofa="1" begin="522" end="551" chunkType="NP"/>
+    <syntax:NP xmi:id="250" sofa="1" begin="534" end="551" chunkType="NP"/>
+    <syntax:NP xmi:id="251" sofa="1" begin="560" end="579" chunkType="NP"/>
+    <syntax:NP xmi:id="252" sofa="1" begin="582" end="585" chunkType="NP"/>
+    <syntax:NP xmi:id="253" sofa="1" begin="598" end="606" chunkType="NP"/>
+    <syntax:NP xmi:id="254" sofa="1" begin="615" end="647" chunkType="NP"/>
+    <syntax:NP xmi:id="255" sofa="1" begin="629" end="647" chunkType="NP"/>
+    <syntax:NP xmi:id="256" sofa="1" begin="658" end="682" chunkType="NP"/>
+    <syntax:NP xmi:id="257" sofa="1" begin="692" end="695" chunkType="NP"/>
+    <syntax:NP xmi:id="258" sofa="1" begin="702" end="718" chunkType="NP"/>
+    <syntax:NP xmi:id="259" sofa="1" begin="713" end="732" chunkType="NP"/>
+    <syntax:NP xmi:id="260" sofa="1" begin="723" end="732" chunkType="NP"/>
+    <syntax:PP xmi:id="261" sofa="1" begin="46" end="49" chunkType="PP"/>
+    <syntax:PP xmi:id="262" sofa="1" begin="77" end="81" chunkType="PP"/>
+    <syntax:PP xmi:id="263" sofa="1" begin="188" end="190" chunkType="PP"/>
+    <syntax:PP xmi:id="264" sofa="1" begin="326" end="328" chunkType="PP"/>
+    <syntax:PP xmi:id="265" sofa="1" begin="338" end="341" chunkType="PP"/>
+    <syntax:PP xmi:id="266" sofa="1" begin="394" end="396" chunkType="PP"/>
+    <syntax:PP xmi:id="267" sofa="1" begin="420" end="422" chunkType="PP"/>
+    <syntax:PP xmi:id="268" sofa="1" begin="475" end="477" chunkType="PP"/>
+    <syntax:PP xmi:id="269" sofa="1" begin="531" end="533" chunkType="PP"/>
+    <syntax:PP xmi:id="270" sofa="1" begin="593" end="597" chunkType="PP"/>
+    <syntax:PP xmi:id="271" sofa="1" begin="625" end="628" chunkType="PP"/>
+    <syntax:PP xmi:id="272" sofa="1" begin="719" end="722" chunkType="PP"/>
+    <syntax:O xmi:id="273" sofa="1" begin="95" end="96" chunkType="O"/>
+    <syntax:O xmi:id="274" sofa="1" begin="99" end="100" chunkType="O"/>
+    <syntax:O xmi:id="275" sofa="1" begin="103" end="104" chunkType="O"/>
+    <syntax:O xmi:id="276" sofa="1" begin="126" end="127" chunkType="O"/>
+    <syntax:O xmi:id="277" sofa="1" begin="205" end="206" chunkType="O"/>
+    <syntax:O xmi:id="278" sofa="1" begin="246" end="247" chunkType="O"/>
+    <syntax:O xmi:id="279" sofa="1" begin="253" end="254" chunkType="O"/>
+    <syntax:O xmi:id="280" sofa="1" begin="293" end="294" chunkType="O"/>
+    <syntax:O xmi:id="281" sofa="1" begin="299" end="300" chunkType="O"/>
+    <syntax:O xmi:id="282" sofa="1" begin="300" end="301" chunkType="O"/>
+    <syntax:O xmi:id="283" sofa="1" begin="315" end="316" chunkType="O"/>
+    <syntax:O xmi:id="284" sofa="1" begin="382" end="383" chunkType="O"/>
+    <syntax:O xmi:id="285" sofa="1" begin="426" end="427" chunkType="O"/>
+    <syntax:O xmi:id="286" sofa="1" begin="445" end="448" chunkType="O"/>
+    <syntax:O xmi:id="287" sofa="1" begin="607" end="610" chunkType="O"/>
+    <syntax:VP xmi:id="288" sofa="1" begin="317" end="325" chunkType="VP"/>
+    <syntax:VP xmi:id="289" sofa="1" begin="367" end="372" chunkType="VP"/>
+    <syntax:VP xmi:id="290" sofa="1" begin="385" end="393" chunkType="VP"/>
+    <syntax:VP xmi:id="291" sofa="1" begin="411" end="419" chunkType="VP"/>
+    <syntax:VP xmi:id="292" sofa="1" begin="449" end="456" chunkType="VP"/>
+    <syntax:VP xmi:id="293" sofa="1" begin="498" end="521" chunkType="VP"/>
+    <syntax:VP xmi:id="294" sofa="1" begin="552" end="559" chunkType="VP"/>
+    <syntax:VP xmi:id="295" sofa="1" begin="586" end="592" chunkType="VP"/>
+    <syntax:VP xmi:id="296" sofa="1" begin="611" end="614" chunkType="VP"/>
+    <syntax:VP xmi:id="297" sofa="1" begin="649" end="657" chunkType="VP"/>
+    <syntax:VP xmi:id="298" sofa="1" begin="696" end="701" chunkType="VP"/>
+    <syntax:ADVP xmi:id="299" sofa="1" begin="683" end="690" chunkType="ADVP"/>
+    <textspan:LookupWindowAnnotation xmi:id="300" sofa="1" begin="2" end="16"/>
+    <textspan:LookupWindowAnnotation xmi:id="301" sofa="1" begin="20" end="64"/>
+    <textspan:LookupWindowAnnotation xmi:id="302" sofa="1" begin="68" end="82"/>
+    <textspan:LookupWindowAnnotation xmi:id="303" sofa="1" begin="83" end="95"/>
+    <textspan:LookupWindowAnnotation xmi:id="304" sofa="1" begin="97" end="99"/>
+    <textspan:LookupWindowAnnotation xmi:id="305" sofa="1" begin="101" end="103"/>
+    <textspan:LookupWindowAnnotation xmi:id="306" sofa="1" begin="105" end="109"/>
+    <textspan:LookupWindowAnnotation xmi:id="307" sofa="1" begin="111" end="124"/>
+    <textspan:LookupWindowAnnotation xmi:id="308" sofa="1" begin="127" end="130"/>
+    <textspan:LookupWindowAnnotation xmi:id="309" sofa="1" begin="132" end="140"/>
+    <textspan:LookupWindowAnnotation xmi:id="310" sofa="1" begin="142" end="148"/>
+    <textspan:LookupWindowAnnotation xmi:id="311" sofa="1" begin="150" end="173"/>
+    <textspan:LookupWindowAnnotation xmi:id="312" sofa="1" begin="175" end="205"/>
+    <textspan:LookupWindowAnnotation xmi:id="313" sofa="1" begin="207" end="232"/>
+    <textspan:LookupWindowAnnotation xmi:id="314" sofa="1" begin="235" end="246"/>
+    <textspan:LookupWindowAnnotation xmi:id="315" sofa="1" begin="248" end="253"/>
+    <textspan:LookupWindowAnnotation xmi:id="316" sofa="1" begin="254" end="256"/>
+    <textspan:LookupWindowAnnotation xmi:id="317" sofa="1" begin="258" end="262"/>
+    <textspan:LookupWindowAnnotation xmi:id="318" sofa="1" begin="264" end="271"/>
+    <textspan:LookupWindowAnnotation xmi:id="319" sofa="1" begin="273" end="292"/>
+    <textspan:LookupWindowAnnotation xmi:id="320" sofa="1" begin="294" end="299"/>
+    <textspan:LookupWindowAnnotation xmi:id="321" sofa="1" begin="302" end="315"/>
+    <textspan:LookupWindowAnnotation xmi:id="322" sofa="1" begin="329" end="350"/>
+    <textspan:LookupWindowAnnotation xmi:id="323" sofa="1" begin="353" end="366"/>
+    <textspan:LookupWindowAnnotation xmi:id="324" sofa="1" begin="374" end="382"/>
+    <textspan:LookupWindowAnnotation xmi:id="325" sofa="1" begin="397" end="405"/>
+    <textspan:LookupWindowAnnotation xmi:id="326" sofa="1" begin="408" end="410"/>
+    <textspan:LookupWindowAnnotation xmi:id="327" sofa="1" begin="423" end="426"/>
+    <textspan:LookupWindowAnnotation xmi:id="328" sofa="1" begin="427" end="444"/>
+    <textspan:LookupWindowAnnotation xmi:id="329" sofa="1" begin="457" end="491"/>
+    <textspan:LookupWindowAnnotation xmi:id="330" sofa="1" begin="494" end="497"/>
+    <textspan:LookupWindowAnnotation xmi:id="331" sofa="1" begin="522" end="551"/>
+    <textspan:LookupWindowAnnotation xmi:id="332" sofa="1" begin="560" end="579"/>
+    <textspan:LookupWindowAnnotation xmi:id="333" sofa="1" begin="582" end="585"/>
+    <textspan:LookupWindowAnnotation xmi:id="334" sofa="1" begin="598" end="606"/>
+    <textspan:LookupWindowAnnotation xmi:id="335" sofa="1" begin="615" end="647"/>
+    <textspan:LookupWindowAnnotation xmi:id="336" sofa="1" begin="658" end="682"/>
+    <textspan:LookupWindowAnnotation xmi:id="337" sofa="1" begin="692" end="695"/>
+    <textspan:LookupWindowAnnotation xmi:id="338" sofa="1" begin="702" end="718"/>
+    <textspan:LookupWindowAnnotation xmi:id="339" sofa="1" begin="713" end="732"/>
+    <textsem:ProcedureMention xmi:id="340" sofa="1" begin="20" end="45" id="0" ontologyConceptArr="341" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:ProcedureMention xmi:id="342" sofa="1" begin="38" end="45" id="3" ontologyConceptArr="343 344 345 346" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:ProcedureMention xmi:id="347" sofa="1" begin="28" end="45" id="1" ontologyConceptArr="348" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:ProcedureMention xmi:id="349" sofa="1" begin="101" end="103" id="6" ontologyConceptArr="350" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:ProcedureMention xmi:id="351" sofa="1" begin="359" end="366" id="15" ontologyConceptArr="352" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:ProcedureMention xmi:id="353" sofa="1" begin="408" end="410" id="19" ontologyConceptArr="354 355 356 357 358 359 360" typeID="5" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="361" sofa="1" begin="28" end="37" id="2" ontologyConceptArr="362 363" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="364" sofa="1" begin="534" end="540" id="23" ontologyConceptArr="365" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="366" sofa="1" begin="568" end="579" id="24" ontologyConceptArr="367 368 369 370" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="371" sofa="1" begin="660" end="667" id="25" ontologyConceptArr="372" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="373" sofa="1" begin="723" end="732" id="26" ontologyConceptArr="374 375 376 377 378 379" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:SignSymptomMention xmi:id="380" sofa="1" begin="728" end="732" id="28" ontologyConceptArr="381 382 383 384 385" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:DiseaseDisorderMention xmi:id="386" sofa="1" begin="50" end="64" id="4" ontologyConceptArr="387 388 389 390 391" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:DiseaseDisorderMention xmi:id="392" sofa="1" begin="154" end="156" id="9" ontologyConceptArr="393" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:DiseaseDisorderMention xmi:id="394" sofa="1" begin="526" end="530" id="22" ontologyConceptArr="395" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <textsem:AnatomicalSiteMention xmi:id="396" sofa="1" begin="723" end="727" id="27" ontologyConceptArr="397 398 399 400" typeID="6" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <syntax:ConllDependencyNode xmi:id="401" sofa="1" begin="2" end="16" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="402" sofa="1" begin="2" end="5" id="1" form="Dr." lemma="dr." cpostag="NNP" postag="NNP" feats="_" head="403" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="403" sofa="1" begin="6" end="16" id="2" form="Nutritious" lemma="nutritious" cpostag="NNP" postag="NNP" feats="_" head="401" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="404" sofa="1" begin="20" end="64" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="405" sofa="1" begin="20" end="27" id="1" form="Medical" lemma="medical" cpostag="JJ" postag="JJ" feats="_" head="406" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="407" sofa="1" begin="28" end="37" id="2" form="Nutrition" lemma="nutrition" cpostag="NN" postag="NN" feats="_" head="406" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="406" sofa="1" begin="38" end="45" id="3" form="Therapy" lemma="therapy" cpostag="NN" postag="NN" feats="_" head="404" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="408" sofa="1" begin="46" end="49" id="4" form="for" lemma="for" cpostag="IN" postag="IN" feats="_" head="406" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="409" sofa="1" begin="50" end="64" id="5" form="Hyperlipidemia" lemma="hyperlipidemia" cpostag="NN" postag="NN" feats="_" head="408" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="410" sofa="1" begin="68" end="82" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="411" sofa="1" begin="68" end="76" id="1" form="Referral" lemma="referral" cpostag="NN" postag="NN" feats="_" head="410" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="412" sofa="1" begin="77" end="81" id="2" form="from" lemma="from" cpostag="IN" postag="IN" feats="_" head="411" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="413" sofa="1" begin="81" end="82" id="3" form=":" lemma=":" cpostag="NN" postag="NN" feats="_" head="412" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="414" sofa="1" begin="83" end="109" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="415" sofa="1" begin="83" end="88" id="1" form="Julie" lemma="julie" cpostag="NNP" postag="NNP" feats="_" head="416" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="416" sofa="1" begin="89" end="95" id="2" form="Tester" lemma="tester" cpostag="NN" postag="NN" feats="_" head="414" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="417" sofa="1" begin="95" end="96" id="3" form="," lemma="," cpostag="," postag="," feats="_" head="416" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="418" sofa="1" begin="97" end="99" id="4" form="RD" lemma="rd" cpostag="NN" postag="NN" feats="_" head="416" deprel="conj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="419" sofa="1" begin="99" end="100" id="5" form="," lemma="," cpostag="," postag="," feats="_" head="418" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="420" sofa="1" begin="101" end="103" id="6" form="LD" lemma="ld" cpostag="NNP" postag="NNP" feats="_" head="418" deprel="conj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="421" sofa="1" begin="103" end="104" id="7" form="," lemma="," cpostag="," postag="," feats="_" head="420" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="422" sofa="1" begin="105" end="109" id="8" form="CNSD" lemma="cnsd" cpostag="NN" postag="NN" feats="_" head="420" deprel="npadvmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="423" sofa="1" begin="111" end="125" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="424" sofa="1" begin="111" end="116" id="1" form="Phone" lemma="phone" cpostag="NN" postag="NN" feats="_" head="425" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="425" sofa="1" begin="117" end="124" id="2" form="contact" lemma="contact" cpostag="NN" postag="NN" feats="_" head="423" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="426" sofa="1" begin="124" end="125" id="3" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="425" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="427" sofa="1" begin="126" end="131" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="428" sofa="1" begin="126" end="127" id="1" form="(" lemma="(" cpostag="-LRB-" postag="-LRB-" feats="_" head="429" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="429" sofa="1" begin="127" end="130" id="2" form="555" lemma="0" cpostag="CD" postag="CD" feats="_" head="427" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="430" sofa="1" begin="130" end="131" id="3" form=")" lemma=")" cpostag="-RRB-" postag="-RRB-" feats="_" head="429" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="431" sofa="1" begin="132" end="140" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="432" sofa="1" begin="132" end="140" id="1" form="555-1212" lemma="0" cpostag="CD" postag="CD" feats="_" head="431" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="433" sofa="1" begin="142" end="149" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="434" sofa="1" begin="142" end="148" id="1" form="Height" lemma="height" cpostag="NN" postag="NN" feats="_" head="433" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="435" sofa="1" begin="148" end="149" id="2" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="434" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="436" sofa="1" begin="150" end="174" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="437" sofa="1" begin="150" end="153" id="1" form="144" lemma="0" cpostag="CD" postag="CD" feats="_" head="438" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="438" sofa="1" begin="154" end="156" id="2" form="cm" lemma="cm" cpostag="NNS" postag="NNS" feats="_" head="439" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="440" sofa="1" begin="159" end="166" id="3" form="Current" lemma="current" cpostag="JJ" postag="JJ" feats="_" head="439" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="439" sofa="1" begin="167" end="173" id="4" form="Weight" lemma="weight" cpostag="NN" postag="NN" feats="_" head="436" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="441" sofa="1" begin="173" end="174" id="5" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="436" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="442" sofa="1" begin="175" end="233" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="443" sofa="1" begin="175" end="177" id="1" form="45" lemma="0" cpostag="CD" postag="CD" feats="_" head="444" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="444" sofa="1" begin="178" end="180" id="2" form="kg" lemma="kg" cpostag="NNS" postag="NNS" feats="_" head="445" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="445" sofa="1" begin="183" end="187" id="3" form="Date" lemma="date" cpostag="NN" postag="NN" feats="_" head="442" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="446" sofa="1" begin="188" end="190" id="4" form="of" lemma="of" cpostag="IN" postag="IN" feats="_" head="445" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="447" sofa="1" begin="191" end="198" id="5" form="current" lemma="current" cpostag="JJ" postag="JJ" feats="_" head="448" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="448" sofa="1" begin="199" end="205" id="6" form="weight" lemma="weight" cpostag="NN" postag="NN" feats="_" head="446" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="449" sofa="1" begin="205" end="206" id="7" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="450" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="450" sofa="1" begin="207" end="209" id="8" form="02" lemma="0" cpostag="CD" postag="CD" feats="_" head="451" deprel="number" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="452" sofa="1" begin="209" end="210" id="9" form="-" lemma="-" cpostag="SYM" postag="SYM" feats="_" head="451" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="451" sofa="1" begin="210" end="212" id="10" form="29" lemma="0" cpostag="CD" postag="CD" feats="_" head="453" deprel="hmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="454" sofa="1" begin="212" end="213" id="11" form="-" lemma="-" cpostag="HYPH" postag="HYPH" feats="_" head="453" deprel="hyph" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="453" sofa="1" begin="213" end="217" id="12" form="2001" lemma="0" cpostag="CD" postag="CD" feats="_" head="455" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="455" sofa="1" begin="220" end="225" id="13" form="Admit" lemma="admit" cpostag="NN" postag="NN" feats="_" head="456" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="456" sofa="1" begin="226" end="232" id="14" form="Weight" lemma="weight" cpostag="NN" postag="NN" feats="_" head="445" deprel="npadvmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="457" sofa="1" begin="232" end="233" id="15" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="445" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="458" sofa="1" begin="235" end="256" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="459" sofa="1" begin="235" end="237" id="1" form="53" lemma="0" cpostag="CD" postag="CD" feats="_" head="460" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="460" sofa="1" begin="238" end="240" id="2" form="kg" lemma="kg" cpostag="NN" postag="NN" feats="_" head="458" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="461" sofa="1" begin="243" end="246" id="3" form="BMI" lemma="bmi" cpostag="NN" postag="NN" feats="_" head="462" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="463" sofa="1" begin="246" end="247" id="4" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="462" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="464" sofa="1" begin="248" end="250" id="5" form="18" lemma="0" cpostag="CD" postag="CD" feats="_" head="462" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="462" sofa="1" begin="251" end="253" id="6" form="kg" lemma="kg" cpostag="NNS" postag="NNS" feats="_" head="460" deprel="appos" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="465" sofa="1" begin="253" end="254" id="7" form="/" lemma="/" cpostag="SYM" postag="SYM" feats="_" head="466" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="466" sofa="1" begin="254" end="256" id="8" form="m2" lemma="m0" cpostag="NN" postag="NN" feats="_" head="462" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="467" sofa="1" begin="258" end="263" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="468" sofa="1" begin="258" end="262" id="1" form="Diet" lemma="diet" cpostag="NN" postag="NN" feats="_" head="467" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="469" sofa="1" begin="262" end="263" id="2" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="468" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="470" sofa="1" begin="264" end="271" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="471" sofa="1" begin="264" end="271" id="1" form="General" lemma="general" cpostag="JJ" postag="JJ" feats="_" head="470" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="472" sofa="1" begin="273" end="351" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="473" sofa="1" begin="273" end="278" id="1" form="Daily" lemma="daily" cpostag="JJ" postag="JJ" feats="_" head="474" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="475" sofa="1" begin="279" end="286" id="2" form="Calorie" lemma="calorie" cpostag="NN" postag="NN" feats="_" head="474" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="474" sofa="1" begin="287" end="292" id="3" form="needs" lemma="need" cpostag="NNS" postag="NNS" feats="_" head="476" deprel="dep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="477" sofa="1" begin="293" end="294" id="4" form="(" lemma="(" cpostag="-LRB-" postag="-LRB-" feats="_" head="474" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="478" sofa="1" begin="294" end="299" id="5" form="kcals" lemma="kcals" cpostag="NNS" postag="NNS" feats="_" head="474" deprel="appos" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="479" sofa="1" begin="299" end="300" id="6" form=")" lemma=")" cpostag="-RRB-" postag="-RRB-" feats="_" head="474" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="480" sofa="1" begin="300" end="301" id="7" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="476" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="481" sofa="1" begin="302" end="306" id="8" form="1500" lemma="0" cpostag="CD" postag="CD" feats="_" head="476" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="476" sofa="1" begin="307" end="315" id="9" form="calories" lemma="calorie" cpostag="NNS" postag="NNS" feats="_" head="472" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="482" sofa="1" begin="315" end="316" id="10" form="," lemma="," cpostag="," postag="," feats="_" head="476" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="483" sofa="1" begin="317" end="325" id="11" form="assessed" lemma="assess" cpostag="VBN" postag="VBN" feats="_" head="476" deprel="partmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="484" sofa="1" begin="326" end="328" id="12" form="as" lemma="as" cpostag="IN" postag="IN" feats="_" head="483" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="485" sofa="1" begin="329" end="331" id="13" form="HB" lemma="hb" cpostag="NN" postag="NN" feats="_" head="484" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="486" sofa="1" begin="332" end="333" id="14" form="+" lemma="+" cpostag="SYM" postag="SYM" feats="_" head="485" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="487" sofa="1" begin="334" end="336" id="15" form="20" lemma="0" cpostag="CD" postag="CD" feats="_" head="488" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="488" sofa="1" begin="336" end="337" id="16" form="%" lemma="%" cpostag="NN" postag="NN" feats="_" head="485" deprel="appos" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="489" sofa="1" begin="338" end="341" id="17" form="for" lemma="for" cpostag="IN" postag="IN" feats="_" head="488" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="490" sofa="1" begin="342" end="350" id="18" form="activity" lemma="activity" cpostag="NN" postag="NN" feats="_" head="489" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="491" sofa="1" begin="350" end="351" id="19" form="." lemma="." cpostag="." postag="." feats="_" head="476" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="492" sofa="1" begin="353" end="373" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="493" sofa="1" begin="353" end="358" id="1" form="Daily" lemma="daily" cpostag="JJ" postag="JJ" feats="_" head="494" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="494" sofa="1" begin="359" end="366" id="2" form="Protein" lemma="protein" cpostag="NN" postag="NN" feats="_" head="495" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="495" sofa="1" begin="367" end="372" id="3" form="needs" lemma="need" cpostag="VBZ" postag="VBZ" feats="_" head="492" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="496" sofa="1" begin="372" end="373" id="4" form=":" lemma=":" cpostag=":" postag=":" feats="_" head="495" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="497" sofa="1" begin="374" end="406" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="498" sofa="1" begin="374" end="376" id="1" form="40" lemma="0" cpostag="CD" postag="CD" feats="_" head="499" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="499" sofa="1" begin="377" end="382" id="2" form="grams" lemma="gram" cpostag="NNS" postag="NNS" feats="_" head="497" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="500" sofa="1" begin="382" end="383" id="3" form="," lemma="," cpostag="," postag="," feats="_" head="501" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="501" sofa="1" begin="385" end="393" id="4" form="assessed" lemma="assess" cpostag="VBN" postag="VBN" feats="_" head="497" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="502" sofa="1" begin="394" end="396" id="5" form="as" lemma="as" cpostag="IN" postag="IN" feats="_" head="501" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="503" sofa="1" begin="397" end="400" id="6" form="1.0" lemma="0" cpostag="CD" postag="CD" feats="_" head="504" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="504" sofa="1" begin="401" end="402" id="7" form="g" lemma="g" cpostag="NNS" postag="NNS" feats="_" head="502" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="505" sofa="1" begin="402" end="403" id="8" form="/" lemma="/" cpostag="SYM" postag="SYM" feats="_" head="506" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="506" sofa="1" begin="403" end="405" id="9" form="kg" lemma="kg" cpostag="NN" postag="NN" feats="_" head="504" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="507" sofa="1" begin="405" end="406" id="10" form="." lemma="." cpostag="." postag="." feats="_" head="501" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="508" sofa="1" begin="408" end="492" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="509" sofa="1" begin="408" end="410" id="1" form="Pt" lemma="pt" cpostag="NN" postag="NN" feats="_" head="510" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="511" sofa="1" begin="411" end="414" id="2" form="has" lemma="have" cpostag="VBZ" postag="VBZ" feats="_" head="510" deprel="aux" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="510" sofa="1" begin="415" end="419" id="3" form="been" lemma="be" cpostag="VBN" postag="VBN" feats="_" head="508" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="512" sofa="1" begin="420" end="422" id="4" form="on" lemma="on" cpostag="IN" postag="IN" feats="_" head="510" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="513" sofa="1" begin="423" end="424" id="5" form="a" lemma="a" cpostag="DT" postag="DT" feats="_" head="514" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="515" sofa="1" begin="425" end="426" id="6" form="3" lemma="0" cpostag="CD" postag="CD" feats="_" head="516" deprel="hmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="517" sofa="1" begin="426" end="427" id="7" form="-" lemma="-" cpostag="HYPH" postag="HYPH" feats="_" head="516" deprel="hyph" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="516" sofa="1" begin="427" end="430" id="8" form="day" lemma="day" cpostag="NN" postag="NN" feats="_" head="514" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="518" sofa="1" begin="431" end="438" id="9" form="calorie" lemma="calorie" cpostag="NN" postag="NN" feats="_" head="514" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="514" sofa="1" begin="439" end="444" id="10" form="count" lemma="count" cpostag="NN" postag="NN" feats="_" head="512" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="519" sofa="1" begin="445" end="448" id="11" form="and" lemma="and" cpostag="CC" postag="CC" feats="_" head="510" deprel="cc" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="520" sofa="1" begin="449" end="452" id="12" form="has" lemma="have" cpostag="VBZ" postag="VBZ" feats="_" head="521" deprel="aux" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="521" sofa="1" begin="453" end="456" id="13" form="had" lemma="have" cpostag="VBN" postag="VBN" feats="_" head="510" deprel="conj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="522" sofa="1" begin="457" end="459" id="14" form="an" lemma="an" cpostag="DT" postag="DT" feats="_" head="523" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="524" sofa="1" begin="460" end="467" id="15" form="average" lemma="average" cpostag="JJ" postag="JJ" feats="_" head="523" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="523" sofa="1" begin="468" end="474" id="16" form="intake" lemma="intake" cpostag="NN" postag="NN" feats="_" head="521" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="525" sofa="1" begin="475" end="477" id="17" form="of" lemma="of" cpostag="IN" postag="IN" feats="_" head="523" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="526" sofa="1" begin="478" end="482" id="18" form="1100" lemma="0" cpostag="CD" postag="CD" feats="_" head="527" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="527" sofa="1" begin="483" end="491" id="19" form="calories" lemma="calorie" cpostag="NNS" postag="NNS" feats="_" head="525" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="528" sofa="1" begin="491" end="492" id="20" form="." lemma="." cpostag="." postag="." feats="_" head="510" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="529" sofa="1" begin="494" end="580" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="530" sofa="1" begin="494" end="497" id="1" form="She" lemma="she" cpostag="PRP" postag="PRP" feats="_" head="531" deprel="nsubjpass" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="532" sofa="1" begin="498" end="501" id="2" form="was" lemma="be" cpostag="VBD" postag="VBD" feats="_" head="531" deprel="auxpass" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="531" sofa="1" begin="502" end="512" id="3" form="instructed" lemma="instruct" cpostag="VBN" postag="VBN" feats="_" head="529" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="533" sofa="1" begin="513" end="515" id="4" form="to" lemma="to" cpostag="TO" postag="TO" feats="_" head="534" deprel="aux" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="534" sofa="1" begin="516" end="521" id="5" form="drink" lemma="drink" cpostag="VB" postag="VB" feats="_" head="531" deprel="xcomp" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="535" sofa="1" begin="522" end="523" id="6" form="2" lemma="0" cpostag="CD" postag="CD" feats="_" head="536" deprel="number" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="537" sofa="1" begin="523" end="524" id="7" form="-" lemma="-" cpostag="SYM" postag="SYM" feats="_" head="536" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="536" sofa="1" begin="524" end="525" id="8" form="3" lemma="0" cpostag="CD" postag="CD" feats="_" head="538" deprel="num" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="538" sofa="1" begin="526" end="530" id="9" form="cans" lemma="can" cpostag="NNS" postag="NNS" feats="_" head="534" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="539" sofa="1" begin="531" end="533" id="10" form="of" lemma="of" cpostag="IN" postag="IN" feats="_" head="538" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="540" sofa="1" begin="534" end="540" id="11" form="liquid" lemma="liquid" cpostag="NN" postag="NN" feats="_" head="541" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="541" sofa="1" begin="541" end="551" id="12" form="supplement" lemma="supplement" cpostag="NN" postag="NN" feats="_" head="539" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="542" sofa="1" begin="552" end="554" id="13" form="to" lemma="to" cpostag="TO" postag="TO" feats="_" head="543" deprel="aux" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="543" sofa="1" begin="555" end="559" id="14" form="help" lemma="help" cpostag="VB" postag="VB" feats="_" head="534" deprel="advcl" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="544" sofa="1" begin="560" end="567" id="15" form="promote" lemma="promote" cpostag="JJ" postag="JJ" feats="_" head="545" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="546" sofa="1" begin="568" end="574" id="16" form="weight" lemma="weight" cpostag="NN" postag="NN" feats="_" head="545" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="545" sofa="1" begin="575" end="579" id="17" form="gain" lemma="gain" cpostag="NN" postag="NN" feats="_" head="543" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="547" sofa="1" begin="579" end="580" id="18" form="." lemma="." cpostag="." postag="." feats="_" head="531" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="548" sofa="1" begin="582" end="648" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="549" sofa="1" begin="582" end="585" id="1" form="She" lemma="she" cpostag="PRP" postag="PRP" feats="_" head="550" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="550" sofa="1" begin="586" end="592" id="2" form="agrees" lemma="agree" cpostag="VBZ" postag="VBZ" feats="_" head="548" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="551" sofa="1" begin="593" end="597" id="3" form="with" lemma="with" cpostag="IN" postag="IN" feats="_" head="550" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="552" sofa="1" begin="598" end="601" id="4" form="the" lemma="the" cpostag="DT" postag="DT" feats="_" head="553" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="553" sofa="1" begin="602" end="606" id="5" form="plan" lemma="plan" cpostag="NN" postag="NN" feats="_" head="551" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="554" sofa="1" begin="607" end="610" id="6" form="and" lemma="and" cpostag="CC" postag="CC" feats="_" head="550" deprel="cc" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="555" sofa="1" begin="611" end="614" id="7" form="has" lemma="have" cpostag="VBZ" postag="VBZ" feats="_" head="550" deprel="conj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="556" sofa="1" begin="615" end="617" id="8" form="my" lemma="my" cpostag="PRP$" postag="PRP$" feats="_" head="557" deprel="poss" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="557" sofa="1" begin="618" end="624" id="9" form="number" lemma="number" cpostag="NN" postag="NN" feats="_" head="555" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="558" sofa="1" begin="625" end="628" id="10" form="for" lemma="for" cpostag="IN" postag="IN" feats="_" head="555" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="559" sofa="1" begin="629" end="636" id="11" form="further" lemma="further" cpostag="JJ" postag="JJ" feats="_" head="560" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="560" sofa="1" begin="637" end="647" id="12" form="assessment" lemma="assessment" cpostag="NN" postag="NN" feats="_" head="558" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="561" sofa="1" begin="647" end="648" id="13" form="." lemma="." cpostag="." postag="." feats="_" head="550" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="562" sofa="1" begin="649" end="691" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="563" sofa="1" begin="649" end="652" id="1" form="May" lemma="may" cpostag="MD" postag="MD" feats="_" head="564" deprel="aux" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="564" sofa="1" begin="653" end="657" id="2" form="want" lemma="want" cpostag="VB" postag="VB" feats="_" head="562" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="565" sofa="1" begin="658" end="659" id="3" form="a" lemma="a" cpostag="DT" postag="DT" feats="_" head="566" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="567" sofa="1" begin="660" end="667" id="4" form="Resting" lemma="resting" cpostag="NN" postag="NN" feats="_" head="566" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="568" sofa="1" begin="668" end="677" id="5" form="Metabolic" lemma="metabolic" cpostag="JJ" postag="JJ" feats="_" head="566" deprel="amod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="566" sofa="1" begin="678" end="682" id="6" form="Rate" lemma="rate" cpostag="NN" postag="NN" feats="_" head="564" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="569" sofa="1" begin="683" end="685" id="7" form="as" lemma="as" cpostag="RB" postag="RB" feats="_" head="570" deprel="advmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="570" sofa="1" begin="686" end="690" id="8" form="well" lemma="well" cpostag="RB" postag="RB" feats="_" head="564" deprel="advmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="571" sofa="1" begin="690" end="691" id="9" form="." lemma="." cpostag="." postag="." feats="_" head="564" deprel="punct" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="572" sofa="1" begin="692" end="733" id="0"/>
+    <syntax:ConllDependencyNode xmi:id="573" sofa="1" begin="692" end="695" id="1" form="She" lemma="she" cpostag="PRP" postag="PRP" feats="_" head="574" deprel="nsubj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="574" sofa="1" begin="696" end="701" id="2" form="takes" lemma="take" cpostag="VBZ" postag="VBZ" feats="_" head="572" deprel="root" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="575" sofa="1" begin="702" end="704" id="3" form="an" lemma="an" cpostag="DT" postag="DT" feats="_" head="576" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="576" sofa="1" begin="705" end="712" id="4" form="aspirin" lemma="aspirin" cpostag="NN" postag="NN" feats="_" head="574" deprel="dobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="577" sofa="1" begin="713" end="714" id="5" form="a" lemma="a" cpostag="DT" postag="DT" feats="_" head="578" deprel="det" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="578" sofa="1" begin="715" end="718" id="6" form="day" lemma="day" cpostag="NN" postag="NN" feats="_" head="574" deprel="npadvmod" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="579" sofa="1" begin="719" end="722" id="7" form="for" lemma="for" cpostag="IN" postag="IN" feats="_" head="574" deprel="prep" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="580" sofa="1" begin="723" end="727" id="8" form="knee" lemma="knee" cpostag="NN" postag="NN" feats="_" head="581" deprel="nn" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="581" sofa="1" begin="728" end="732" id="9" form="pain" lemma="pain" cpostag="NN" postag="NN" feats="_" head="579" deprel="pobj" pdeprel="_"/>
+    <syntax:ConllDependencyNode xmi:id="582" sofa="1" begin="732" end="733" id="10" form="." lemma="." cpostag="." postag="." feats="_" head="574" deprel="punct" pdeprel="_"/>
+    <textsem:Predicate xmi:id="583" sofa="1" begin="317" end="325" relations="584 585" frameSet="assess.01"/>
+    <textsem:Predicate xmi:id="586" sofa="1" begin="367" end="372" relations="587" frameSet="need.01"/>
+    <textsem:Predicate xmi:id="588" sofa="1" begin="385" end="393" relations="589" frameSet="assess.01"/>
+    <textsem:Predicate xmi:id="590" sofa="1" begin="411" end="414" relations="" frameSet="have.01"/>
+    <textsem:Predicate xmi:id="591" sofa="1" begin="415" end="419" relations="592 593" frameSet="be.01"/>
+    <textsem:Predicate xmi:id="594" sofa="1" begin="449" end="452" relations="" frameSet="have.01"/>
+    <textsem:Predicate xmi:id="595" sofa="1" begin="453" end="456" relations="596 597" frameSet="have.03"/>
+    <textsem:Predicate xmi:id="598" sofa="1" begin="498" end="501" relations="" frameSet="be.03"/>
+    <textsem:Predicate xmi:id="599" sofa="1" begin="502" end="512" relations="600 601" frameSet="instruct.01"/>
+    <textsem:Predicate xmi:id="602" sofa="1" begin="516" end="521" relations="603 604 605" frameSet="drink.01"/>
+    <textsem:Predicate xmi:id="606" sofa="1" begin="555" end="559" relations="607" frameSet="help.01"/>
+    <textsem:Predicate xmi:id="608" sofa="1" begin="586" end="592" relations="609 610" frameSet="agree.01"/>
+    <textsem:Predicate xmi:id="611" sofa="1" begin="611" end="614" relations="612 613" frameSet="have.03"/>
+    <textsem:Predicate xmi:id="614" sofa="1" begin="653" end="657" relations="615 616 617" frameSet="want.01"/>
+    <textsem:Predicate xmi:id="618" sofa="1" begin="696" end="701" relations="619 620 621 622" frameSet="take.01"/>
+    <textsem:SemanticArgument xmi:id="623" sofa="1" begin="307" end="315" relation="584" label="A1"/>
+    <textsem:SemanticArgument xmi:id="624" sofa="1" begin="326" end="328" relation="585" label="AM-MNR"/>
+    <textsem:SemanticArgument xmi:id="625" sofa="1" begin="359" end="366" relation="587" label="A0"/>
+    <textsem:SemanticArgument xmi:id="626" sofa="1" begin="394" end="396" relation="589" label="AM-MNR"/>
+    <textsem:SemanticArgument xmi:id="627" sofa="1" begin="408" end="410" relation="592" label="A1"/>
+    <textsem:SemanticArgument xmi:id="628" sofa="1" begin="408" end="410" relation="596" label="A0"/>
+    <textsem:SemanticArgument xmi:id="629" sofa="1" begin="420" end="422" relation="593" label="A2"/>
+    <textsem:SemanticArgument xmi:id="630" sofa="1" begin="468" end="474" relation="597" label="A1"/>
+    <textsem:SemanticArgument xmi:id="631" sofa="1" begin="494" end="497" relation="600" label="A1"/>
+    <textsem:SemanticArgument xmi:id="632" sofa="1" begin="494" end="497" relation="603" label="A0"/>
+    <textsem:SemanticArgument xmi:id="633" sofa="1" begin="516" end="521" relation="601" label="A2"/>
+    <textsem:SemanticArgument xmi:id="634" sofa="1" begin="526" end="530" relation="604" label="A1"/>
+    <textsem:SemanticArgument xmi:id="635" sofa="1" begin="555" end="559" relation="605" label="AM-PRP"/>
+    <textsem:SemanticArgument xmi:id="636" sofa="1" begin="575" end="579" relation="607" label="A1"/>
+    <textsem:SemanticArgument xmi:id="637" sofa="1" begin="582" end="585" relation="609" label="A0"/>
+    <textsem:SemanticArgument xmi:id="638" sofa="1" begin="582" end="585" relation="612" label="A0"/>
+    <textsem:SemanticArgument xmi:id="639" sofa="1" begin="593" end="597" relation="610" label="A1"/>
+    <textsem:SemanticArgument xmi:id="640" sofa="1" begin="618" end="624" relation="613" label="A1"/>
+    <textsem:SemanticArgument xmi:id="641" sofa="1" begin="649" end="652" relation="615" label="AM-MOD"/>
+    <textsem:SemanticArgument xmi:id="642" sofa="1" begin="678" end="682" relation="616" label="A1"/>
+    <textsem:SemanticArgument xmi:id="643" sofa="1" begin="686" end="690" relation="617" label="AM-DIS"/>
+    <textsem:SemanticArgument xmi:id="644" sofa="1" begin="692" end="695" relation="619" label="A0"/>
+    <textsem:SemanticArgument xmi:id="645" sofa="1" begin="705" end="712" relation="620" label="A1"/>
+    <textsem:SemanticArgument xmi:id="646" sofa="1" begin="715" end="718" relation="621" label="AM-TMP"/>
+    <textsem:SemanticArgument xmi:id="647" sofa="1" begin="719" end="722" relation="622" label="AM-PRP"/>
+    <textsem:SemanticRoleRelation xmi:id="584" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="583" argument="623"/>
+    <textsem:SemanticRoleRelation xmi:id="585" id="0" category="AM-MNR" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="583" argument="624"/>
+    <textsem:SemanticRoleRelation xmi:id="587" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="586" argument="625"/>
+    <textsem:SemanticRoleRelation xmi:id="589" id="0" category="AM-MNR" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="588" argument="626"/>
+    <textsem:SemanticRoleRelation xmi:id="592" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="591" argument="627"/>
+    <textsem:SemanticRoleRelation xmi:id="593" id="0" category="A2" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="591" argument="629"/>
+    <textsem:SemanticRoleRelation xmi:id="596" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="595" argument="628"/>
+    <textsem:SemanticRoleRelation xmi:id="597" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="595" argument="630"/>
+    <textsem:SemanticRoleRelation xmi:id="607" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="606" argument="636"/>
+    <textsem:SemanticRoleRelation xmi:id="600" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="599" argument="631"/>
+    <textsem:SemanticRoleRelation xmi:id="601" id="0" category="A2" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="599" argument="633"/>
+    <textsem:SemanticRoleRelation xmi:id="603" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="602" argument="632"/>
+    <textsem:SemanticRoleRelation xmi:id="604" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="602" argument="634"/>
+    <textsem:SemanticRoleRelation xmi:id="605" id="0" category="AM-PRP" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="602" argument="635"/>
+    <textsem:SemanticRoleRelation xmi:id="609" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="608" argument="637"/>
+    <textsem:SemanticRoleRelation xmi:id="610" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="608" argument="639"/>
+    <textsem:SemanticRoleRelation xmi:id="612" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="611" argument="638"/>
+    <textsem:SemanticRoleRelation xmi:id="613" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="611" argument="640"/>
+    <textsem:SemanticRoleRelation xmi:id="615" id="0" category="AM-MOD" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="614" argument="641"/>
+    <textsem:SemanticRoleRelation xmi:id="616" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="614" argument="642"/>
+    <textsem:SemanticRoleRelation xmi:id="617" id="0" category="AM-DIS" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="614" argument="643"/>
+    <textsem:SemanticRoleRelation xmi:id="619" id="0" category="A0" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="618" argument="644"/>
+    <textsem:SemanticRoleRelation xmi:id="620" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="618" argument="645"/>
+    <textsem:SemanticRoleRelation xmi:id="621" id="0" category="AM-TMP" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="618" argument="646"/>
+    <textsem:SemanticRoleRelation xmi:id="622" id="0" category="AM-PRP" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" predicate="618" argument="647"/>
+    <cas:NonEmptyFSList xmi:id="648" head="584" tail="649"/>
+    <cas:NonEmptyFSList xmi:id="649" head="585" tail="650"/>
+    <cas:NonEmptyFSList xmi:id="651" head="587" tail="652"/>
+    <cas:NonEmptyFSList xmi:id="653" head="589" tail="654"/>
+    <cas:NonEmptyFSList xmi:id="655" head="592" tail="656"/>
+    <cas:NonEmptyFSList xmi:id="656" head="593" tail="657"/>
+    <cas:NonEmptyFSList xmi:id="658" head="596" tail="659"/>
+    <cas:NonEmptyFSList xmi:id="659" head="597" tail="660"/>
+    <cas:NonEmptyFSList xmi:id="661" head="607" tail="662"/>
+    <cas:NonEmptyFSList xmi:id="663" head="600" tail="664"/>
+    <cas:NonEmptyFSList xmi:id="664" head="601" tail="665"/>
+    <cas:NonEmptyFSList xmi:id="666" head="603" tail="667"/>
+    <cas:NonEmptyFSList xmi:id="667" head="604" tail="668"/>
+    <cas:NonEmptyFSList xmi:id="668" head="605" tail="669"/>
+    <cas:NonEmptyFSList xmi:id="670" head="609" tail="671"/>
+    <cas:NonEmptyFSList xmi:id="671" head="610" tail="672"/>
+    <cas:NonEmptyFSList xmi:id="673" head="612" tail="674"/>
+    <cas:NonEmptyFSList xmi:id="674" head="613" tail="675"/>
+    <cas:NonEmptyFSList xmi:id="676" head="615" tail="677"/>
+    <cas:NonEmptyFSList xmi:id="677" head="616" tail="678"/>
+    <cas:NonEmptyFSList xmi:id="678" head="617" tail="679"/>
+    <cas:NonEmptyFSList xmi:id="680" head="619" tail="681"/>
+    <cas:NonEmptyFSList xmi:id="681" head="620" tail="682"/>
+    <cas:NonEmptyFSList xmi:id="682" head="621" tail="683"/>
+    <cas:NonEmptyFSList xmi:id="683" head="622" tail="684"/>
+    <syntax:TerminalTreebankNode xmi:id="685" sofa="1" begin="2" end="5" nodeType="NNP" nodeValue="Dr." leaf="true" parent="686" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="687" sofa="1" begin="6" end="16" nodeType="NNP" nodeValue="Nutritious" leaf="true" parent="686" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="688" sofa="1" begin="20" end="27" nodeType="JJ" nodeValue="Medical" leaf="true" parent="689" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="690" sofa="1" begin="28" end="37" nodeType="NN" nodeValue="Nutrition" leaf="true" parent="689" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="691" sofa="1" begin="38" end="45" nodeType="NNP" nodeValue="Therapy" leaf="true" parent="689" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="692" sofa="1" begin="46" end="49" nodeType="IN" nodeValue="for" leaf="true" parent="693" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="694" sofa="1" begin="50" end="64" nodeType="NN" nodeValue="Hyperlipidemia" leaf="true" parent="695" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="696" sofa="1" begin="68" end="76" nodeType="NN" nodeValue="Referral" leaf="true" parent="697" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="698" sofa="1" begin="77" end="81" nodeType="IN" nodeValue="from" leaf="true" parent="699" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="700" sofa="1" begin="81" end="82" nodeType="NN" nodeValue=":" leaf="true" parent="701" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="702" sofa="1" begin="83" end="88" nodeType="NNP" nodeValue="Julie" leaf="true" parent="703" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="704" sofa="1" begin="89" end="95" nodeType="NNP" nodeValue="Tester" leaf="true" parent="703" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="705" sofa="1" begin="95" end="96" nodeType="," nodeValue="," leaf="true" parent="703" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="706" sofa="1" begin="97" end="99" nodeType="NNP" nodeValue="RD" leaf="true" parent="703" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="707" sofa="1" begin="99" end="100" nodeType="," nodeValue="," leaf="true" parent="703" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="708" sofa="1" begin="101" end="103" nodeType="NNP" nodeValue="LD" leaf="true" parent="703" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="709" sofa="1" begin="103" end="104" nodeType="," nodeValue="," leaf="true" parent="703" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="710" sofa="1" begin="105" end="109" nodeType="NNP" nodeValue="CNSD" leaf="true" parent="703" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="711" sofa="1" begin="111" end="116" nodeType="NN" nodeValue="Phone" leaf="true" parent="712" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="713" sofa="1" begin="117" end="124" nodeType="NN" nodeValue="contact" leaf="true" parent="712" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="714" sofa="1" begin="124" end="125" nodeType=":" nodeValue=":" leaf="true" parent="712" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="715" sofa="1" begin="126" end="127" nodeType="-LRB-" nodeValue="-LRB-" leaf="true" parent="716" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="717" sofa="1" begin="127" end="130" nodeType="CD" nodeValue="555" leaf="true" parent="716" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="718" sofa="1" begin="130" end="131" nodeType="-RRB-" nodeValue="-RRB-" leaf="true" parent="716" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="719" sofa="1" begin="132" end="140" nodeType="CD" nodeValue="555-1212" leaf="true" parent="720" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="721" sofa="1" begin="142" end="148" nodeType="NN" nodeValue="Height" leaf="true" parent="722" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="723" sofa="1" begin="148" end="149" nodeType=":" nodeValue=":" leaf="true" parent="722" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="724" sofa="1" begin="150" end="153" nodeType="CD" nodeValue="144" leaf="true" parent="725" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="726" sofa="1" begin="154" end="156" nodeType="NNS" nodeValue="cm" leaf="true" parent="725" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="727" sofa="1" begin="159" end="166" nodeType="JJ" nodeValue="Current" leaf="true" parent="728" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="729" sofa="1" begin="167" end="173" nodeType="NN" nodeValue="Weight" leaf="true" parent="728" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="730" sofa="1" begin="173" end="174" nodeType=":" nodeValue=":" leaf="true" parent="728" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="731" sofa="1" begin="175" end="177" nodeType="CD" nodeValue="45" leaf="true" parent="732" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="733" sofa="1" begin="178" end="180" nodeType="NNS" nodeValue="kg" leaf="true" parent="732" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="734" sofa="1" begin="183" end="187" nodeType="NN" nodeValue="Date" leaf="true" parent="735" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="736" sofa="1" begin="188" end="190" nodeType="IN" nodeValue="of" leaf="true" parent="737" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="738" sofa="1" begin="191" end="198" nodeType="JJ" nodeValue="current" leaf="true" parent="739" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="740" sofa="1" begin="199" end="205" nodeType="NN" nodeValue="weight" leaf="true" parent="739" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="741" sofa="1" begin="205" end="206" nodeType=":" nodeValue=":" leaf="true" parent="742" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="743" sofa="1" begin="207" end="209" nodeType="CD" nodeValue="02" leaf="true" parent="744" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="745" sofa="1" begin="209" end="210" nodeType="SYM" nodeValue="-" leaf="true" parent="746" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="747" sofa="1" begin="210" end="212" nodeType="CD" nodeValue="29" leaf="true" parent="748" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="749" sofa="1" begin="212" end="213" nodeType="HYPH" nodeValue="-" leaf="true" parent="748" headIndex="0" index="10" tokenIndex="10"/>
+    <syntax:TerminalTreebankNode xmi:id="750" sofa="1" begin="213" end="217" nodeType="CD" nodeValue="2001" leaf="true" parent="748" headIndex="0" index="11" tokenIndex="11"/>
+    <syntax:TerminalTreebankNode xmi:id="751" sofa="1" begin="220" end="225" nodeType="NN" nodeValue="Admit" leaf="true" parent="748" headIndex="0" index="12" tokenIndex="12"/>
+    <syntax:TerminalTreebankNode xmi:id="752" sofa="1" begin="226" end="232" nodeType="NN" nodeValue="Weight" leaf="true" parent="748" headIndex="0" index="13" tokenIndex="13"/>
+    <syntax:TerminalTreebankNode xmi:id="753" sofa="1" begin="232" end="233" nodeType=":" nodeValue=":" leaf="true" parent="748" headIndex="0" index="14" tokenIndex="14"/>
+    <syntax:TerminalTreebankNode xmi:id="754" sofa="1" begin="235" end="237" nodeType="CD" nodeValue="53" leaf="true" parent="755" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="756" sofa="1" begin="238" end="240" nodeType="NNS" nodeValue="kg" leaf="true" parent="755" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="757" sofa="1" begin="243" end="246" nodeType="NN" nodeValue="BMI" leaf="true" parent="758" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="759" sofa="1" begin="246" end="247" nodeType=":" nodeValue=":" leaf="true" parent="760" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="761" sofa="1" begin="248" end="250" nodeType="CD" nodeValue="18" leaf="true" parent="762" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="763" sofa="1" begin="251" end="253" nodeType="NNS" nodeValue="kg" leaf="true" parent="762" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="764" sofa="1" begin="253" end="254" nodeType="SYM" nodeValue="/" leaf="true" parent="765" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="766" sofa="1" begin="254" end="256" nodeType="NN" nodeValue="m2" leaf="true" parent="767" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="768" sofa="1" begin="258" end="262" nodeType="NN" nodeValue="Diet" leaf="true" parent="769" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="770" sofa="1" begin="262" end="263" nodeType=":" nodeValue=":" leaf="true" parent="769" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="771" sofa="1" begin="264" end="271" nodeType="NN" nodeValue="General" leaf="true" parent="772" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="773" sofa="1" begin="273" end="278" nodeType="JJ" nodeValue="Daily" leaf="true" parent="774" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="775" sofa="1" begin="279" end="286" nodeType="NN" nodeValue="Calorie" leaf="true" parent="774" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="776" sofa="1" begin="287" end="292" nodeType="NNS" nodeValue="needs" leaf="true" parent="774" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="777" sofa="1" begin="293" end="294" nodeType="-LRB-" nodeValue="-LRB-" leaf="true" parent="778" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="779" sofa="1" begin="294" end="299" nodeType="NNS" nodeValue="kcals" leaf="true" parent="780" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="781" sofa="1" begin="299" end="300" nodeType="-RRB-" nodeValue="-RRB-" leaf="true" parent="778" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="782" sofa="1" begin="300" end="301" nodeType=":" nodeValue=":" leaf="true" parent="783" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="784" sofa="1" begin="302" end="306" nodeType="CD" nodeValue="1500" leaf="true" parent="785" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="786" sofa="1" begin="307" end="315" nodeType="NNS" nodeValue="calories" leaf="true" parent="785" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="787" sofa="1" begin="315" end="316" nodeType="," nodeValue="," leaf="true" parent="788" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="789" sofa="1" begin="317" end="325" nodeType="VBN" nodeValue="assessed" leaf="true" parent="790" headIndex="0" index="10" tokenIndex="10"/>
+    <syntax:TerminalTreebankNode xmi:id="791" sofa="1" begin="326" end="328" nodeType="IN" nodeValue="as" leaf="true" parent="792" headIndex="0" index="11" tokenIndex="11"/>
+    <syntax:TerminalTreebankNode xmi:id="793" sofa="1" begin="329" end="331" nodeType="NNP" nodeValue="HB" leaf="true" parent="794" headIndex="0" index="12" tokenIndex="12"/>
+    <syntax:TerminalTreebankNode xmi:id="795" sofa="1" begin="332" end="333" nodeType="SYM" nodeValue="+" leaf="true" parent="796" headIndex="0" index="13" tokenIndex="13"/>
+    <syntax:TerminalTreebankNode xmi:id="797" sofa="1" begin="334" end="336" nodeType="CD" nodeValue="20" leaf="true" parent="798" headIndex="0" index="14" tokenIndex="14"/>
+    <syntax:TerminalTreebankNode xmi:id="799" sofa="1" begin="336" end="337" nodeType="NN" nodeValue="%" leaf="true" parent="798" headIndex="0" index="15" tokenIndex="15"/>
+    <syntax:TerminalTreebankNode xmi:id="800" sofa="1" begin="338" end="341" nodeType="IN" nodeValue="for" leaf="true" parent="801" headIndex="0" index="16" tokenIndex="16"/>
+    <syntax:TerminalTreebankNode xmi:id="802" sofa="1" begin="342" end="350" nodeType="NN" nodeValue="activity" leaf="true" parent="803" headIndex="0" index="17" tokenIndex="17"/>
+    <syntax:TerminalTreebankNode xmi:id="804" sofa="1" begin="350" end="351" nodeType="." nodeValue="." leaf="true" parent="783" headIndex="0" index="18" tokenIndex="18"/>
+    <syntax:TerminalTreebankNode xmi:id="805" sofa="1" begin="353" end="358" nodeType="JJ" nodeValue="Daily" leaf="true" parent="806" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="807" sofa="1" begin="359" end="366" nodeType="NN" nodeValue="Protein" leaf="true" parent="806" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="808" sofa="1" begin="367" end="372" nodeType="NNS" nodeValue="needs" leaf="true" parent="806" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="809" sofa="1" begin="372" end="373" nodeType=":" nodeValue=":" leaf="true" parent="806" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="810" sofa="1" begin="374" end="376" nodeType="CD" nodeValue="40" leaf="true" parent="811" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="812" sofa="1" begin="377" end="382" nodeType="NNS" nodeValue="grams" leaf="true" parent="811" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="813" sofa="1" begin="382" end="383" nodeType="," nodeValue="," leaf="true" parent="814" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="815" sofa="1" begin="385" end="393" nodeType="VBN" nodeValue="assessed" leaf="true" parent="816" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="817" sofa="1" begin="394" end="396" nodeType="IN" nodeValue="as" leaf="true" parent="818" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="819" sofa="1" begin="397" end="400" nodeType="CD" nodeValue="1.0" leaf="true" parent="820" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="821" sofa="1" begin="401" end="402" nodeType="NNS" nodeValue="g" leaf="true" parent="820" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="822" sofa="1" begin="402" end="403" nodeType="SYM" nodeValue="/" leaf="true" parent="823" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="824" sofa="1" begin="403" end="405" nodeType="NN" nodeValue="kg" leaf="true" parent="825" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="826" sofa="1" begin="405" end="406" nodeType="." nodeValue="." leaf="true" parent="814" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="827" sofa="1" begin="408" end="410" nodeType="NN" nodeValue="Pt" leaf="true" parent="828" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="829" sofa="1" begin="411" end="414" nodeType="VBZ" nodeValue="has" leaf="true" parent="830" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="831" sofa="1" begin="415" end="419" nodeType="VBN" nodeValue="been" leaf="true" parent="832" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="833" sofa="1" begin="420" end="422" nodeType="IN" nodeValue="on" leaf="true" parent="834" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="835" sofa="1" begin="423" end="424" nodeType="DT" nodeValue="a" leaf="true" parent="836" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="837" sofa="1" begin="425" end="426" nodeType="CD" nodeValue="3" leaf="true" parent="838" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="839" sofa="1" begin="426" end="427" nodeType="HYPH" nodeValue="-" leaf="true" parent="838" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="840" sofa="1" begin="427" end="430" nodeType="NN" nodeValue="day" leaf="true" parent="838" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="841" sofa="1" begin="431" end="438" nodeType="NN" nodeValue="calorie" leaf="true" parent="836" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="842" sofa="1" begin="439" end="444" nodeType="NN" nodeValue="count" leaf="true" parent="836" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="843" sofa="1" begin="445" end="448" nodeType="CC" nodeValue="and" leaf="true" parent="844" headIndex="0" index="10" tokenIndex="10"/>
+    <syntax:TerminalTreebankNode xmi:id="845" sofa="1" begin="449" end="452" nodeType="VBZ" nodeValue="has" leaf="true" parent="846" headIndex="0" index="11" tokenIndex="11"/>
+    <syntax:TerminalTreebankNode xmi:id="847" sofa="1" begin="453" end="456" nodeType="VBN" nodeValue="had" leaf="true" parent="848" headIndex="0" index="12" tokenIndex="12"/>
+    <syntax:TerminalTreebankNode xmi:id="849" sofa="1" begin="457" end="459" nodeType="DT" nodeValue="an" leaf="true" parent="850" headIndex="0" index="13" tokenIndex="13"/>
+    <syntax:TerminalTreebankNode xmi:id="851" sofa="1" begin="460" end="467" nodeType="JJ" nodeValue="average" leaf="true" parent="850" headIndex="0" index="14" tokenIndex="14"/>
+    <syntax:TerminalTreebankNode xmi:id="852" sofa="1" begin="468" end="474" nodeType="NN" nodeValue="intake" leaf="true" parent="850" headIndex="0" index="15" tokenIndex="15"/>
+    <syntax:TerminalTreebankNode xmi:id="853" sofa="1" begin="475" end="477" nodeType="IN" nodeValue="of" leaf="true" parent="854" headIndex="0" index="16" tokenIndex="16"/>
+    <syntax:TerminalTreebankNode xmi:id="855" sofa="1" begin="478" end="482" nodeType="CD" nodeValue="1100" leaf="true" parent="856" headIndex="0" index="17" tokenIndex="17"/>
+    <syntax:TerminalTreebankNode xmi:id="857" sofa="1" begin="483" end="491" nodeType="NNS" nodeValue="calories" leaf="true" parent="856" headIndex="0" index="18" tokenIndex="18"/>
+    <syntax:TerminalTreebankNode xmi:id="858" sofa="1" begin="491" end="492" nodeType="." nodeValue="." leaf="true" parent="859" headIndex="0" index="19" tokenIndex="19"/>
+    <syntax:TerminalTreebankNode xmi:id="860" sofa="1" begin="494" end="497" nodeType="PRP" nodeValue="She" leaf="true" parent="861" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="862" sofa="1" begin="498" end="501" nodeType="VBD" nodeValue="was" leaf="true" parent="863" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="864" sofa="1" begin="502" end="512" nodeType="VBN" nodeValue="instructed" leaf="true" parent="865" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="866" sofa="1" begin="513" end="515" nodeType="TO" nodeValue="to" leaf="true" parent="867" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="868" sofa="1" begin="516" end="521" nodeType="VB" nodeValue="drink" leaf="true" parent="869" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="870" sofa="1" begin="522" end="523" nodeType="CD" nodeValue="2" leaf="true" parent="871" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="872" sofa="1" begin="523" end="524" nodeType="SYM" nodeValue="-" leaf="true" parent="871" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="873" sofa="1" begin="524" end="525" nodeType="CD" nodeValue="3" leaf="true" parent="871" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="874" sofa="1" begin="526" end="530" nodeType="NNS" nodeValue="cans" leaf="true" parent="875" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="876" sofa="1" begin="531" end="533" nodeType="IN" nodeValue="of" leaf="true" parent="877" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="878" sofa="1" begin="534" end="540" nodeType="NN" nodeValue="liquid" leaf="true" parent="879" headIndex="0" index="10" tokenIndex="10"/>
+    <syntax:TerminalTreebankNode xmi:id="880" sofa="1" begin="541" end="551" nodeType="NN" nodeValue="supplement" leaf="true" parent="879" headIndex="0" index="11" tokenIndex="11"/>
+    <syntax:TerminalTreebankNode xmi:id="881" sofa="1" begin="552" end="554" nodeType="TO" nodeValue="to" leaf="true" parent="882" headIndex="0" index="12" tokenIndex="12"/>
+    <syntax:TerminalTreebankNode xmi:id="883" sofa="1" begin="555" end="559" nodeType="VB" nodeValue="help" leaf="true" parent="884" headIndex="0" index="13" tokenIndex="13"/>
+    <syntax:TerminalTreebankNode xmi:id="885" sofa="1" begin="560" end="567" nodeType="VB" nodeValue="promote" leaf="true" parent="886" headIndex="0" index="14" tokenIndex="14"/>
+    <syntax:TerminalTreebankNode xmi:id="887" sofa="1" begin="568" end="574" nodeType="NN" nodeValue="weight" leaf="true" parent="888" headIndex="0" index="15" tokenIndex="15"/>
+    <syntax:TerminalTreebankNode xmi:id="889" sofa="1" begin="575" end="579" nodeType="NN" nodeValue="gain" leaf="true" parent="888" headIndex="0" index="16" tokenIndex="16"/>
+    <syntax:TerminalTreebankNode xmi:id="890" sofa="1" begin="579" end="580" nodeType="." nodeValue="." leaf="true" parent="891" headIndex="0" index="17" tokenIndex="17"/>
+    <syntax:TerminalTreebankNode xmi:id="892" sofa="1" begin="582" end="585" nodeType="PRP" nodeValue="She" leaf="true" parent="893" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="894" sofa="1" begin="586" end="592" nodeType="VBZ" nodeValue="agrees" leaf="true" parent="895" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="896" sofa="1" begin="593" end="597" nodeType="IN" nodeValue="with" leaf="true" parent="897" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="898" sofa="1" begin="598" end="601" nodeType="DT" nodeValue="the" leaf="true" parent="899" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="900" sofa="1" begin="602" end="606" nodeType="NN" nodeValue="plan" leaf="true" parent="899" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="901" sofa="1" begin="607" end="610" nodeType="CC" nodeValue="and" leaf="true" parent="902" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="903" sofa="1" begin="611" end="614" nodeType="VBZ" nodeValue="has" leaf="true" parent="904" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="905" sofa="1" begin="615" end="617" nodeType="PRP$" nodeValue="my" leaf="true" parent="906" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="907" sofa="1" begin="618" end="624" nodeType="NN" nodeValue="number" leaf="true" parent="906" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="908" sofa="1" begin="625" end="628" nodeType="IN" nodeValue="for" leaf="true" parent="909" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TerminalTreebankNode xmi:id="910" sofa="1" begin="629" end="636" nodeType="JJ" nodeValue="further" leaf="true" parent="911" headIndex="0" index="10" tokenIndex="10"/>
+    <syntax:TerminalTreebankNode xmi:id="912" sofa="1" begin="637" end="647" nodeType="NN" nodeValue="assessment" leaf="true" parent="911" headIndex="0" index="11" tokenIndex="11"/>
+    <syntax:TerminalTreebankNode xmi:id="913" sofa="1" begin="647" end="648" nodeType="." nodeValue="." leaf="true" parent="914" headIndex="0" index="12" tokenIndex="12"/>
+    <syntax:TerminalTreebankNode xmi:id="915" sofa="1" begin="649" end="652" nodeType="NNP" nodeValue="May" leaf="true" parent="916" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="917" sofa="1" begin="653" end="657" nodeType="VB" nodeValue="want" leaf="true" parent="918" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="919" sofa="1" begin="658" end="659" nodeType="DT" nodeValue="a" leaf="true" parent="920" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="921" sofa="1" begin="660" end="667" nodeType="NN" nodeValue="Resting" leaf="true" parent="920" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="922" sofa="1" begin="668" end="677" nodeType="JJ" nodeValue="Metabolic" leaf="true" parent="920" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="923" sofa="1" begin="678" end="682" nodeType="NN" nodeValue="Rate" leaf="true" parent="920" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="924" sofa="1" begin="683" end="685" nodeType="RB" nodeValue="as" leaf="true" parent="925" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="926" sofa="1" begin="686" end="690" nodeType="RB" nodeValue="well" leaf="true" parent="925" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="927" sofa="1" begin="690" end="691" nodeType="." nodeValue="." leaf="true" parent="928" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="929" sofa="1" begin="692" end="695" nodeType="PRP" nodeValue="She" leaf="true" parent="930" headIndex="0" index="0" tokenIndex="0"/>
+    <syntax:TerminalTreebankNode xmi:id="931" sofa="1" begin="696" end="701" nodeType="VBZ" nodeValue="takes" leaf="true" parent="932" headIndex="0" index="1" tokenIndex="1"/>
+    <syntax:TerminalTreebankNode xmi:id="933" sofa="1" begin="702" end="704" nodeType="DT" nodeValue="an" leaf="true" parent="934" headIndex="0" index="2" tokenIndex="2"/>
+    <syntax:TerminalTreebankNode xmi:id="935" sofa="1" begin="705" end="712" nodeType="NN" nodeValue="aspirin" leaf="true" parent="934" headIndex="0" index="3" tokenIndex="3"/>
+    <syntax:TerminalTreebankNode xmi:id="936" sofa="1" begin="713" end="714" nodeType="DT" nodeValue="a" leaf="true" parent="937" headIndex="0" index="4" tokenIndex="4"/>
+    <syntax:TerminalTreebankNode xmi:id="938" sofa="1" begin="715" end="718" nodeType="NN" nodeValue="day" leaf="true" parent="937" headIndex="0" index="5" tokenIndex="5"/>
+    <syntax:TerminalTreebankNode xmi:id="939" sofa="1" begin="719" end="722" nodeType="IN" nodeValue="for" leaf="true" parent="940" headIndex="0" index="6" tokenIndex="6"/>
+    <syntax:TerminalTreebankNode xmi:id="941" sofa="1" begin="723" end="727" nodeType="NN" nodeValue="knee" leaf="true" parent="942" headIndex="0" index="7" tokenIndex="7"/>
+    <syntax:TerminalTreebankNode xmi:id="943" sofa="1" begin="728" end="732" nodeType="NN" nodeValue="pain" leaf="true" parent="942" headIndex="0" index="8" tokenIndex="8"/>
+    <syntax:TerminalTreebankNode xmi:id="944" sofa="1" begin="732" end="733" nodeType="." nodeValue="." leaf="true" parent="945" headIndex="0" index="9" tokenIndex="9"/>
+    <syntax:TreebankNode xmi:id="686" sofa="1" begin="2" end="16" nodeType="NP" leaf="false" parent="946" children="685 687" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="947" sofa="1" begin="20" end="64" nodeType="NP" leaf="false" parent="948" children="689 693" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="689" sofa="1" begin="20" end="45" nodeType="NP" leaf="false" parent="947" children="688 690 691" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="693" sofa="1" begin="46" end="64" nodeType="PP" leaf="false" parent="947" children="692 695" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="695" sofa="1" begin="50" end="64" nodeType="NP" leaf="false" parent="693" children="694" headIndex="4"/>
+    <syntax:TreebankNode xmi:id="949" sofa="1" begin="68" end="82" nodeType="NP" leaf="false" parent="950" children="697 699" headIndex="0"/>
+    <syntax:TreebankNode xmi:id="697" sofa="1" begin="68" end="76" nodeType="NP" leaf="false" parent="949" children="696" headIndex="0"/>
+    <syntax:TreebankNode xmi:id="699" sofa="1" begin="77" end="82" nodeType="PP" leaf="false" parent="949" children="698 701" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="701" sofa="1" begin="81" end="82" nodeType="NP" leaf="false" parent="699" children="700" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="703" sofa="1" begin="83" end="109" nodeType="NP" leaf="false" parent="951" children="702 704 705 706 707 708 709 710" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="712" sofa="1" begin="111" end="125" nodeType="NP" leaf="false" parent="952" children="711 713 714" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="716" sofa="1" begin="126" end="131" nodeType="NP" leaf="false" parent="953" children="715 717 718" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="722" sofa="1" begin="142" end="149" nodeType="NP" leaf="false" parent="954" children="721 723" headIndex="0"/>
+    <syntax:TreebankNode xmi:id="728" sofa="1" begin="150" end="174" nodeType="NP" leaf="false" parent="955" children="725 727 729 730" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="725" sofa="1" begin="150" end="156" nodeType="NP" leaf="false" parent="728" children="724 726" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="742" sofa="1" begin="175" end="233" nodeType="FRAG" leaf="false" parent="956" children="732 957 741 958" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="732" sofa="1" begin="175" end="180" nodeType="NP" leaf="false" parent="742" children="731 733" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="957" sofa="1" begin="183" end="205" nodeType="NP" leaf="false" parent="742" children="735 737" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="735" sofa="1" begin="183" end="187" nodeType="NP" leaf="false" parent="957" children="734" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="737" sofa="1" begin="188" end="205" nodeType="PP" leaf="false" parent="957" children="736 739" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="739" sofa="1" begin="191" end="205" nodeType="NP" leaf="false" parent="737" children="738 740" headIndex="5"/>
+    <syntax:TreebankNode xmi:id="958" sofa="1" begin="207" end="233" nodeType="NP" leaf="false" parent="742" children="744 746" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="744" sofa="1" begin="207" end="209" nodeType="NP" leaf="false" parent="958" children="743" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="746" sofa="1" begin="209" end="233" nodeType="PP" leaf="false" parent="958" children="745 748" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="748" sofa="1" begin="210" end="233" nodeType="NP" leaf="false" parent="746" children="747 749 750 751 752 753" headIndex="13"/>
+    <syntax:TreebankNode xmi:id="959" sofa="1" begin="235" end="256" nodeType="FRAG" leaf="false" parent="960" children="755 760" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="755" sofa="1" begin="235" end="240" nodeType="NP" leaf="false" parent="959" children="754 756" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="760" sofa="1" begin="243" end="256" nodeType="S" leaf="false" parent="959" children="758 759 961" headIndex="6">
+        <nodeTags>RED</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="758" sofa="1" begin="243" end="246" nodeType="NP" leaf="false" parent="760" children="757" headIndex="2">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="961" sofa="1" begin="248" end="256" nodeType="NP" leaf="false" parent="760" children="762 765" headIndex="6">
+        <nodeTags>PRD</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="762" sofa="1" begin="248" end="253" nodeType="NP" leaf="false" parent="961" children="761 763" headIndex="5"/>
+    <syntax:TreebankNode xmi:id="765" sofa="1" begin="253" end="256" nodeType="PP" leaf="false" parent="961" children="764 767" headIndex="6"/>
+    <syntax:TreebankNode xmi:id="767" sofa="1" begin="254" end="256" nodeType="NP" leaf="false" parent="765" children="766" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="769" sofa="1" begin="258" end="263" nodeType="NP" leaf="false" parent="962" children="768 770" headIndex="0"/>
+    <syntax:TreebankNode xmi:id="783" sofa="1" begin="273" end="351" nodeType="FRAG" leaf="false" parent="963" children="778 782 788 804" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="778" sofa="1" begin="273" end="300" nodeType="NP" leaf="false" parent="783" children="774 777 780 781" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="774" sofa="1" begin="273" end="292" nodeType="NP" leaf="false" parent="778" children="773 775 776" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="780" sofa="1" begin="294" end="299" nodeType="NP" leaf="false" parent="778" children="779" headIndex="4"/>
+    <syntax:TreebankNode xmi:id="788" sofa="1" begin="302" end="350" nodeType="NP" leaf="false" parent="783" children="785 787 790" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="785" sofa="1" begin="302" end="315" nodeType="NP" leaf="false" parent="788" children="784 786" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="790" sofa="1" begin="317" end="350" nodeType="VP" leaf="false" parent="788" children="789 792" headIndex="10"/>
+    <syntax:TreebankNode xmi:id="792" sofa="1" begin="326" end="350" nodeType="PP" leaf="false" parent="790" children="791 796" headIndex="11"/>
+    <syntax:TreebankNode xmi:id="796" sofa="1" begin="329" end="350" nodeType="NP" leaf="false" parent="792" children="794 795 964" headIndex="12"/>
+    <syntax:TreebankNode xmi:id="794" sofa="1" begin="329" end="331" nodeType="NP" leaf="false" parent="796" children="793" headIndex="12"/>
+    <syntax:TreebankNode xmi:id="964" sofa="1" begin="334" end="350" nodeType="NP" leaf="false" parent="796" children="798 801" headIndex="15"/>
+    <syntax:TreebankNode xmi:id="798" sofa="1" begin="334" end="337" nodeType="NP" leaf="false" parent="964" children="797 799" headIndex="15"/>
+    <syntax:TreebankNode xmi:id="801" sofa="1" begin="338" end="350" nodeType="PP" leaf="false" parent="964" children="800 803" headIndex="16"/>
+    <syntax:TreebankNode xmi:id="803" sofa="1" begin="342" end="350" nodeType="NP" leaf="false" parent="801" children="802" headIndex="17"/>
+    <syntax:TreebankNode xmi:id="806" sofa="1" begin="353" end="373" nodeType="NP" leaf="false" parent="965" children="805 807 808 809" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="814" sofa="1" begin="374" end="406" nodeType="NP" leaf="false" parent="966" children="811 813 816 826" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="811" sofa="1" begin="374" end="382" nodeType="NP" leaf="false" parent="814" children="810 812" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="816" sofa="1" begin="385" end="405" nodeType="VP" leaf="false" parent="814" children="815 818" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="818" sofa="1" begin="394" end="405" nodeType="PP" leaf="false" parent="816" children="817 967" headIndex="4"/>
+    <syntax:TreebankNode xmi:id="967" sofa="1" begin="397" end="405" nodeType="NP" leaf="false" parent="818" children="820 823" headIndex="6"/>
+    <syntax:TreebankNode xmi:id="820" sofa="1" begin="397" end="402" nodeType="NP" leaf="false" parent="967" children="819 821" headIndex="6"/>
+    <syntax:TreebankNode xmi:id="823" sofa="1" begin="402" end="405" nodeType="PP" leaf="false" parent="967" children="822 825" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="825" sofa="1" begin="403" end="405" nodeType="NP" leaf="false" parent="823" children="824" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="859" sofa="1" begin="408" end="492" nodeType="S" leaf="false" parent="968" children="828 844 858" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="828" sofa="1" begin="408" end="410" nodeType="NP" leaf="false" parent="859" children="827" headIndex="0">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="844" sofa="1" begin="411" end="491" nodeType="VP" leaf="false" parent="859" children="830 843 846" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="830" sofa="1" begin="411" end="444" nodeType="VP" leaf="false" parent="844" children="829 832" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="832" sofa="1" begin="415" end="444" nodeType="VP" leaf="false" parent="830" children="831 834" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="834" sofa="1" begin="420" end="444" nodeType="PP" leaf="false" parent="832" children="833 836" headIndex="9">
+        <nodeTags>PRD</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="836" sofa="1" begin="423" end="444" nodeType="NP" leaf="false" parent="834" children="835 838 841 842" headIndex="9"/>
+    <syntax:TreebankNode xmi:id="838" sofa="1" begin="425" end="430" nodeType="NML" leaf="false" parent="836" children="837 839 840" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="846" sofa="1" begin="449" end="491" nodeType="VP" leaf="false" parent="844" children="845 848" headIndex="11"/>
+    <syntax:TreebankNode xmi:id="848" sofa="1" begin="453" end="491" nodeType="VP" leaf="false" parent="846" children="847 969" headIndex="12"/>
+    <syntax:TreebankNode xmi:id="969" sofa="1" begin="457" end="491" nodeType="NP" leaf="false" parent="848" children="850 854" headIndex="15"/>
+    <syntax:TreebankNode xmi:id="850" sofa="1" begin="457" end="474" nodeType="NP" leaf="false" parent="969" children="849 851 852" headIndex="15"/>
+    <syntax:TreebankNode xmi:id="854" sofa="1" begin="475" end="491" nodeType="PP" leaf="false" parent="969" children="853 856" headIndex="16"/>
+    <syntax:TreebankNode xmi:id="856" sofa="1" begin="478" end="491" nodeType="NP" leaf="false" parent="854" children="855 857" headIndex="18"/>
+    <syntax:TreebankNode xmi:id="891" sofa="1" begin="494" end="580" nodeType="S" leaf="false" parent="970" children="861 863 890" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="861" sofa="1" begin="494" end="497" nodeType="NP" leaf="false" parent="891" children="860" headIndex="0">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="863" sofa="1" begin="498" end="579" nodeType="VP" leaf="false" parent="891" children="862 865" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="865" sofa="1" begin="502" end="579" nodeType="VP" leaf="false" parent="863" children="864 971" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="971" sofa="1" begin="513" end="579" nodeType="S" leaf="false" parent="865" children="867" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="867" sofa="1" begin="513" end="579" nodeType="VP" leaf="false" parent="971" children="866 869" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="869" sofa="1" begin="516" end="579" nodeType="VP" leaf="false" parent="867" children="868 972 973" headIndex="4"/>
+    <syntax:TreebankNode xmi:id="972" sofa="1" begin="522" end="551" nodeType="NP" leaf="false" parent="869" children="875 877" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="875" sofa="1" begin="522" end="530" nodeType="NP" leaf="false" parent="972" children="871 874" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="871" sofa="1" begin="522" end="525" nodeType="QP" leaf="false" parent="875" children="870 872 873" headIndex="7"/>
+    <syntax:TreebankNode xmi:id="877" sofa="1" begin="531" end="551" nodeType="PP" leaf="false" parent="972" children="876 879" headIndex="9"/>
+    <syntax:TreebankNode xmi:id="879" sofa="1" begin="534" end="551" nodeType="NP" leaf="false" parent="877" children="878 880" headIndex="11"/>
+    <syntax:TreebankNode xmi:id="973" sofa="1" begin="552" end="579" nodeType="S" leaf="false" parent="869" children="882" headIndex="12">
+        <nodeTags>PRP</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="882" sofa="1" begin="552" end="579" nodeType="VP" leaf="false" parent="973" children="881 884" headIndex="12"/>
+    <syntax:TreebankNode xmi:id="884" sofa="1" begin="555" end="579" nodeType="VP" leaf="false" parent="882" children="883 974" headIndex="13"/>
+    <syntax:TreebankNode xmi:id="974" sofa="1" begin="560" end="579" nodeType="S" leaf="false" parent="884" children="886" headIndex="14"/>
+    <syntax:TreebankNode xmi:id="886" sofa="1" begin="560" end="579" nodeType="VP" leaf="false" parent="974" children="885 888" headIndex="14"/>
+    <syntax:TreebankNode xmi:id="888" sofa="1" begin="568" end="579" nodeType="NP" leaf="false" parent="886" children="887 889" headIndex="16"/>
+    <syntax:TreebankNode xmi:id="914" sofa="1" begin="582" end="648" nodeType="S" leaf="false" parent="975" children="893 902 913" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="893" sofa="1" begin="582" end="585" nodeType="NP" leaf="false" parent="914" children="892" headIndex="0">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="902" sofa="1" begin="586" end="647" nodeType="VP" leaf="false" parent="914" children="895 901 904" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="895" sofa="1" begin="586" end="606" nodeType="VP" leaf="false" parent="902" children="894 897" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="897" sofa="1" begin="593" end="606" nodeType="PP" leaf="false" parent="895" children="896 899" headIndex="2"/>
+    <syntax:TreebankNode xmi:id="899" sofa="1" begin="598" end="606" nodeType="NP" leaf="false" parent="897" children="898 900" headIndex="4"/>
+    <syntax:TreebankNode xmi:id="904" sofa="1" begin="611" end="647" nodeType="VP" leaf="false" parent="902" children="903 976" headIndex="6"/>
+    <syntax:TreebankNode xmi:id="976" sofa="1" begin="615" end="647" nodeType="NP" leaf="false" parent="904" children="906 909" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="906" sofa="1" begin="615" end="624" nodeType="NP" leaf="false" parent="976" children="905 907" headIndex="8"/>
+    <syntax:TreebankNode xmi:id="909" sofa="1" begin="625" end="647" nodeType="PP" leaf="false" parent="976" children="908 911" headIndex="9"/>
+    <syntax:TreebankNode xmi:id="911" sofa="1" begin="629" end="647" nodeType="NP" leaf="false" parent="909" children="910 912" headIndex="11"/>
+    <syntax:TreebankNode xmi:id="928" sofa="1" begin="649" end="691" nodeType="S" leaf="false" parent="977" children="916 918 927" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="916" sofa="1" begin="649" end="652" nodeType="NP" leaf="false" parent="928" children="915" headIndex="0">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="918" sofa="1" begin="653" end="690" nodeType="VP" leaf="false" parent="928" children="917 920 925" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="920" sofa="1" begin="658" end="682" nodeType="NP" leaf="false" parent="918" children="919 921 922 923" headIndex="5"/>
+    <syntax:TreebankNode xmi:id="925" sofa="1" begin="683" end="690" nodeType="ADVP" leaf="false" parent="918" children="924 926" headIndex="6"/>
+    <syntax:TreebankNode xmi:id="945" sofa="1" begin="692" end="733" nodeType="S" leaf="false" parent="978" children="930 932 944" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="930" sofa="1" begin="692" end="695" nodeType="NP" leaf="false" parent="945" children="929" headIndex="0">
+        <nodeTags>SBJ</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="932" sofa="1" begin="696" end="732" nodeType="VP" leaf="false" parent="945" children="931 934 937 940" headIndex="1"/>
+    <syntax:TreebankNode xmi:id="934" sofa="1" begin="702" end="712" nodeType="NP" leaf="false" parent="932" children="933 935" headIndex="3"/>
+    <syntax:TreebankNode xmi:id="937" sofa="1" begin="713" end="718" nodeType="NP" leaf="false" parent="932" children="936 938" headIndex="5">
+        <nodeTags>TMP</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="940" sofa="1" begin="719" end="732" nodeType="PP" leaf="false" parent="932" children="939 942" headIndex="8">
+        <nodeTags>PRP</nodeTags>
+    </syntax:TreebankNode>
+    <syntax:TreebankNode xmi:id="942" sofa="1" begin="723" end="732" nodeType="NP" leaf="false" parent="940" children="941 943" headIndex="8"/>
+    <syntax:TopTreebankNode xmi:id="946" sofa="1" begin="2" end="16" nodeType="TOP" leaf="false" children="686" headIndex="0" treebankParse="(TOP (NP (NNP Dr.) (NNP Nutritious)))" terminals="685 687"/>
+    <syntax:TopTreebankNode xmi:id="948" sofa="1" begin="20" end="64" nodeType="TOP" leaf="false" children="947" headIndex="0" treebankParse="(TOP (NP (NP (JJ Medical) (NN Nutrition) (NNP Therapy)) (PP (IN for) (NP (NN Hyperlipidemia)))))" terminals="688 690 691 692 694"/>
+    <syntax:TopTreebankNode xmi:id="950" sofa="1" begin="68" end="82" nodeType="TOP" leaf="false" children="949" headIndex="0" treebankParse="(TOP (NP (NP (NN Referral)) (PP (IN from)(NP (NN :)))))" terminals="696 698 700"/>
+    <syntax:TopTreebankNode xmi:id="951" sofa="1" begin="83" end="109" nodeType="TOP" leaf="false" children="703" headIndex="0" treebankParse="(TOP (NP (NNP Julie) (NNP Tester)(, ,) (NNP RD)(, ,) (NNP LD)(, ,) (NNP CNSD)))" terminals="702 704 705 706 707 708 709 710"/>
+    <syntax:TopTreebankNode xmi:id="952" sofa="1" begin="111" end="125" nodeType="TOP" leaf="false" children="712" headIndex="0" treebankParse="(TOP (NP (NN Phone) (NN contact)(: :)))" terminals="711 713 714"/>
+    <syntax:TopTreebankNode xmi:id="953" sofa="1" begin="126" end="131" nodeType="TOP" leaf="false" children="716" headIndex="0" treebankParse="(TOP (NP (-LRB- -LRB-)(CD 555)(-RRB- -RRB-)))" terminals="715 717 718"/>
+    <syntax:TopTreebankNode xmi:id="720" sofa="1" begin="132" end="140" nodeType="TOP" leaf="false" children="719" headIndex="0" treebankParse="(TOP (CD 555-1212))" terminals="719"/>
+    <syntax:TopTreebankNode xmi:id="954" sofa="1" begin="142" end="149" nodeType="TOP" leaf="false" children="722" headIndex="0" treebankParse="(TOP (NP (NN Height)(: :)))" terminals="721 723"/>
+    <syntax:TopTreebankNode xmi:id="955" sofa="1" begin="150" end="174" nodeType="TOP" leaf="false" children="728" headIndex="0" treebankParse="(TOP (NP (NP (CD 144) (NNS cm))   (JJ Current) (NN Weight)(: :)))" terminals="724 726 727 729 730"/>
+    <syntax:TopTreebankNode xmi:id="956" sofa="1" begin="175" end="233" nodeType="TOP" leaf="false" children="742" headIndex="0" treebankParse="(TOP (FRAG (NP (CD 45) (NNS kg))   (NP (NP (NN Date)) (PP (IN of) (NP (JJ current) (NN weight))))(: :) (NP (NP (CD 02))(PP (SYM -)(NP (CD 29)(HYPH -)(CD 2001)   (NN Admit) (NN Weight)(: :))))))" terminals="731 733 734 736 738 740 741 743 745 747 749 750 751 752 753"/>
+    <syntax:TopTreebankNode xmi:id="960" sofa="1" begin="235" end="256" nodeType="TOP" leaf="false" children="959" headIndex="0" treebankParse="(TOP (FRAG (NP (CD 53) (NNS kg))   (S-RED (NP-SBJ (NN BMI))(: :) (NP-PRD (NP (CD 18) (NNS kg))(PP (SYM /)(NP (NN m2)))))))" terminals="754 756 757 759 761 763 764 766"/>
+    <syntax:TopTreebankNode xmi:id="962" sofa="1" begin="258" end="263" nodeType="TOP" leaf="false" children="769" headIndex="0" treebankParse="(TOP (NP (NN Diet)(: :)))" terminals="768 770"/>
+    <syntax:TopTreebankNode xmi:id="772" sofa="1" begin="264" end="271" nodeType="TOP" leaf="false" children="771" headIndex="0" treebankParse="(TOP (NN General))" terminals="771"/>
+    <syntax:TopTreebankNode xmi:id="963" sofa="1" begin="273" end="351" nodeType="TOP" leaf="false" children="783" headIndex="0" treebankParse="(TOP (FRAG (NP (NP (JJ Daily) (NN Calorie) (NNS needs)) (-LRB- -LRB-)(NP (NNS kcals))(-RRB- -RRB-))(: :) (NP (NP (CD 1500) (NNS calories))(, ,) (VP (VBN assessed) (PP (IN as) (NP (NP (NNP HB)) (SYM +) (NP (NP (CD 20)(NN %)) (PP (IN for) (NP (NN activity))))))))(. .)))" terminals="773 775 776 777 779 781 782 784 786 787 789 791 793 795 797 799 800 802 804"/>
+    <syntax:TopTreebankNode xmi:id="965" sofa="1" begin="353" end="373" nodeType="TOP" leaf="false" children="806" headIndex="0" treebankParse="(TOP (NP (JJ Daily) (NN Protein) (NNS needs)(: :)))" terminals="805 807 808 809"/>
+    <syntax:TopTreebankNode xmi:id="966" sofa="1" begin="374" end="406" nodeType="TOP" leaf="false" children="814" headIndex="0" treebankParse="(TOP (NP (NP (CD 40) (NNS grams))(, ,)  (VP (VBN assessed) (PP (IN as) (NP (NP (CD 1.0) (NNS g))(PP (SYM /)(NP (NN kg))))))(. .)))" terminals="810 812 813 815 817 819 821 822 824 826"/>
+    <syntax:TopTreebankNode xmi:id="968" sofa="1" begin="408" end="492" nodeType="TOP" leaf="false" children="859" headIndex="0" treebankParse="(TOP (S (NP-SBJ (NN Pt)) (VP (VP (VBZ has) (VP (VBN been) (PP-PRD (IN on) (NP (DT a) (NML (CD 3)(HYPH -)(NN day)) (NN calorie) (NN count))))) (CC and) (VP (VBZ has) (VP (VBN had) (NP (NP (DT an) (JJ average) (NN intake)) (PP (IN of) (NP (CD 1100) (NNS calories)))))))(. .)))" terminals="827 829 831 833 835 837 839 840 841 842 843 845 847 849 851 852 853 855 857 858"/>
+    <syntax:TopTreebankNode xmi:id="970" sofa="1" begin="494" end="580" nodeType="TOP" leaf="false" children="891" headIndex="0" treebankParse="(TOP (S (NP-SBJ (PRP She)) (VP (VBD was) (VP (VBN instructed) (S (VP (TO to) (VP (VB drink) (NP (NP (QP (CD 2)(SYM -)(CD 3)) (NNS cans)) (PP (IN of) (NP (NN liquid) (NN supplement)))) (S-PRP (VP (TO to) (VP (VB help) (S (VP (VB promote) (NP (NN weight) (NN gain))))))))))))(. .)))" terminals="860 862 864 866 868 870 872 873 874 876 878 880 881 883 885 887 889 890"/>
+    <syntax:TopTreebankNode xmi:id="975" sofa="1" begin="582" end="648" nodeType="TOP" leaf="false" children="914" headIndex="0" treebankParse="(TOP (S (NP-SBJ (PRP She)) (VP (VP (VBZ agrees) (PP (IN with) (NP (DT the) (NN plan)))) (CC and) (VP (VBZ has) (NP (NP (PRP$ my) (NN number)) (PP (IN for) (NP (JJ further) (NN assessment))))))(. .)))" terminals="892 894 896 898 900 901 903 905 907 908 910 912 913"/>
+    <syntax:TopTreebankNode xmi:id="977" sofa="1" begin="649" end="691" nodeType="TOP" leaf="false" children="928" headIndex="0" treebankParse="(TOP (S (NP-SBJ (NNP May)) (VP (VB want) (NP (DT a) (NN Resting) (JJ Metabolic) (NN Rate)) (ADVP (RB as) (RB well)))(. .)))" terminals="915 917 919 921 922 923 924 926 927"/>
+    <syntax:TopTreebankNode xmi:id="978" sofa="1" begin="692" end="733" nodeType="TOP" leaf="false" children="945" headIndex="0" treebankParse="(TOP (S (NP-SBJ (PRP She)) (VP (VBZ takes) (NP (DT an) (NN aspirin)) (NP-TMP (DT a) (NN day)) (PP-PRP (IN for) (NP (NN knee) (NN pain))))(. .)))" terminals="929 931 933 935 936 938 939 941 943 944"/>
+    <cas:EmptyFSList xmi:id="684"/>
+    <cas:EmptyFSList xmi:id="679"/>
+    <cas:EmptyFSList xmi:id="675"/>
+    <cas:EmptyFSList xmi:id="672"/>
+    <cas:EmptyFSList xmi:id="669"/>
+    <cas:EmptyFSList xmi:id="665"/>
+    <cas:EmptyFSList xmi:id="662"/>
+    <cas:EmptyFSList xmi:id="660"/>
+    <cas:EmptyFSList xmi:id="657"/>
+    <cas:EmptyFSList xmi:id="654"/>
+    <cas:EmptyFSList xmi:id="652"/>
+    <cas:EmptyFSList xmi:id="650"/>
+    <refsem:UmlsConcept xmi:id="400" codingScheme="SNOMED" code="49076000" oid="49076000#SNOMED" score="0.0" disambiguated="false" cui="C0022745" tui="T030"/>
+    <refsem:UmlsConcept xmi:id="399" codingScheme="SNOMED" code="361291001" oid="361291001#SNOMED" score="0.0" disambiguated="false" cui="C1283838" tui="T029"/>
+    <refsem:UmlsConcept xmi:id="398" codingScheme="SNOMED" code="304679005" oid="304679005#SNOMED" score="0.0" disambiguated="false" cui="C0022742" tui="T023"/>
+    <refsem:UmlsConcept xmi:id="397" codingScheme="SNOMED" code="72696002" oid="72696002#SNOMED" score="0.0" disambiguated="false" cui="C1963703" tui="T029"/>
+    <refsem:UmlsConcept xmi:id="395" codingScheme="SNOMED" code="236578006" oid="236578006#SNOMED" score="0.0" disambiguated="false" cui="C0403592" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="393" codingScheme="SNOMED" code="397012002" oid="397012002#SNOMED" score="0.0" disambiguated="false" cui="C1136033" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="391" codingScheme="SNOMED" code="267499005" oid="267499005#SNOMED" score="0.0" disambiguated="false" cui="C0020473" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="390" codingScheme="SNOMED" code="154739000" oid="154739000#SNOMED" score="0.0" disambiguated="false" cui="C0020473" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="389" codingScheme="SNOMED" code="190782002" oid="190782002#SNOMED" score="0.0" disambiguated="false" cui="C0020473" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="388" codingScheme="SNOMED" code="55822004" oid="55822004#SNOMED" score="0.0" disambiguated="false" cui="C0020473" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="387" codingScheme="SNOMED" code="154743001" oid="154743001#SNOMED" score="0.0" disambiguated="false" cui="C0020473" tui="T047"/>
+    <refsem:UmlsConcept xmi:id="385" codingScheme="SNOMED" code="162412006" oid="162412006#SNOMED" score="0.0" disambiguated="false" cui="C0030193" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="384" codingScheme="SNOMED" code="279075009" oid="279075009#SNOMED" score="0.0" disambiguated="false" cui="C0030193" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="383" codingScheme="SNOMED" code="367206007" oid="367206007#SNOMED" score="0.0" disambiguated="false" cui="C0030193" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="382" codingScheme="SNOMED" code="366981002" oid="366981002#SNOMED" score="0.0" disambiguated="false" cui="C0030193" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="381" codingScheme="SNOMED" code="22253000" oid="22253000#SNOMED" score="0.0" disambiguated="false" cui="C0030193" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="379" codingScheme="SNOMED" code="390076006" oid="390076006#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="378" codingScheme="SNOMED" code="202488008" oid="202488008#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="377" codingScheme="SNOMED" code="30989003" oid="30989003#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="376" codingScheme="SNOMED" code="389343009" oid="389343009#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="375" codingScheme="SNOMED" code="202474009" oid="202474009#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="374" codingScheme="SNOMED" code="156599003" oid="156599003#SNOMED" score="0.0" disambiguated="false" cui="C0231749" tui="T184"/>
+    <refsem:UmlsConcept xmi:id="372" codingScheme="SNOMED" code="258157001" oid="258157001#SNOMED" score="0.0" disambiguated="false" cui="C0035253" tui="T056"/>
+    <refsem:UmlsConcept xmi:id="370" codingScheme="SNOMED" code="161831008" oid="161831008#SNOMED" score="0.0" disambiguated="false" cui="C0043094" tui="T033"/>
+    <refsem:UmlsConcept xmi:id="369" codingScheme="SNOMED" code="139088004" oid="139088004#SNOMED" score="0.0" disambiguated="false" cui="C0043094" tui="T033"/>
+    <refsem:UmlsConcept xmi:id="368" codingScheme="SNOMED" code="8943002" oid="8943002#SNOMED" score="0.0" disambiguated="false" cui="C0043094" tui="T033"/>
+    <refsem:UmlsConcept xmi:id="367" codingScheme="SNOMED" code="262286000" oid="262286000#SNOMED" score="0.0" disambiguated="false" cui="C0043094" tui="T033"/>
+    <refsem:UmlsConcept xmi:id="365" codingScheme="SNOMED" code="264312008" oid="264312008#SNOMED" score="0.0" disambiguated="false" cui="C1304698" tui="T033"/>
+    <refsem:UmlsConcept xmi:id="363" codingScheme="SNOMED" code="4327008" oid="4327008#SNOMED" score="0.0" disambiguated="false" cui="C1442959" tui="T040"/>
+    <refsem:UmlsConcept xmi:id="362" codingScheme="SNOMED" code="384759009" oid="384759009#SNOMED" score="0.0" disambiguated="false" cui="C1442959" tui="T040"/>
+    <refsem:UmlsConcept xmi:id="360" codingScheme="SNOMED" code="151490002" oid="151490002#SNOMED" score="0.0" disambiguated="false" cui="C0949766" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="359" codingScheme="SNOMED" code="91251008" oid="91251008#SNOMED" score="0.0" disambiguated="false" cui="C0949766" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="358" codingScheme="SNOMED" code="90735005" oid="90735005#SNOMED" score="0.0" disambiguated="false" cui="C0033707" tui="T059"/>
+    <refsem:UmlsConcept xmi:id="357" codingScheme="SNOMED" code="142979005" oid="142979005#SNOMED" score="0.0" disambiguated="false" cui="C0033707" tui="T059"/>
+    <refsem:UmlsConcept xmi:id="356" codingScheme="SNOMED" code="183269009" oid="183269009#SNOMED" score="0.0" disambiguated="false" cui="C0949766" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="355" codingScheme="SNOMED" code="66500008" oid="66500008#SNOMED" score="0.0" disambiguated="false" cui="C0949766" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="354" codingScheme="SNOMED" code="396451008" oid="396451008#SNOMED" score="0.0" disambiguated="false" cui="C0033707" tui="T059"/>
+    <refsem:UmlsConcept xmi:id="352" codingScheme="SNOMED" code="304383000" oid="304383000#SNOMED" score="0.0" disambiguated="false" cui="C0555903" tui="T059"/>
+    <refsem:UmlsConcept xmi:id="350" codingScheme="SNOMED" code="46159000" oid="46159000#SNOMED" score="0.0" disambiguated="false" cui="C0011911" tui="T060"/>
+    <refsem:UmlsConcept xmi:id="348" codingScheme="SNOMED" code="278906000" oid="278906000#SNOMED" score="0.0" disambiguated="false" cui="C0242739" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="346" codingScheme="SNOMED" code="277132007" oid="277132007#SNOMED" score="0.0" disambiguated="false" cui="C0087111" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="345" codingScheme="SNOMED" code="276239002" oid="276239002#SNOMED" score="0.0" disambiguated="false" cui="C0087111" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="344" codingScheme="SNOMED" code="103733002" oid="103733002#SNOMED" score="0.0" disambiguated="false" cui="C0087111" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="343" codingScheme="SNOMED" code="266761005" oid="266761005#SNOMED" score="0.0" disambiguated="false" cui="C0087111" tui="T061"/>
+    <refsem:UmlsConcept xmi:id="341" codingScheme="SNOMED" code="243121000" oid="243121000#SNOMED" score="0.0" disambiguated="false" cui="C0418981" tui="T061"/>
+    <cas:View sofa="1" members="2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 342 347 349 351 353 361 364 366 371 373 380 386 392 394 396 401 402 403 404 405 407 406 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 440 439 441 442 443 444 445 446 447 448 449 450 452 451 454 453 455 456 457 458 459 460 461 463 464 462 465 466 467 468 469 470 471 472 473 475 474 477 478 479 480 481 476 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 511 510 512 513 515 517 516 518 514 519 520 521 522 524 523 525 526 527 528 529 530 532 531 533 534 535 537 536 538 539 540 541 542 543 544 546 545 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 567 568 566 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 586 588 590 591 594 595 598 599 602 606 608 611 614 618 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 584 585 587 589 592 593 596 597 607 600 601 603 604 605 609 610 612 613 615 616 617 619 620 621 622 648 649 651 653 655 656 658 659 661 663 664 666 667 668 670 671 673 674 676 677 678 680 681 682 683 685 687 688 690 691 692 694 696 698 700 702 704 705 706 707 708 709 710 711 713 714 715 717 718 719 721 723 724 726 727 729 730 731 733 734 736 738 740 741 743 745 747 749 750 751 752 753 754 756 757 759 761 763 764 766 768 770 771 773 775 776 777 779 781 782 784 786 787 789 791 793 795 797 799 800 802 804 805 807 808 809 810 812 813 815 817 819 821 822 824 826 827 829 831 833 835 837 839 840 841 842 843 845 847 849 851 852 853 855 857 858 860 862 864 866 868 870 872 873 874 876 878 880 881 883 885 887 889 890 892 894 896 898 900 901 903 905 907 908 910 912 913 915 917 919 921 922 923 924 926 927 929 931 933 935 936 938 939 941 943 944 686 947 689 693 695 949 697 699 701 703 712 716 722 728 725 742 732 957 735 737 739 958 744 746 748 959 755 760 758 961 762 765 767 769 783 778 774 780 788 785 790 792 796 794 964 798 801 803 806 814 811 816 818 967 820 823 825 859 828 844 830 832 834 836 838 846 848 969 850 854 856 891 861 863 865 971 867 869 972 875 871 877 879 973 882 884 974 886 888 914 893 902 895 897 899 904 976 906 909 911 928 916 918 920 925 945 930 932 934 937 940 942 946 948 950 951 952 953 720 954 955 956 960 962 772 963 965 966 968 970 975 977 978"/>
+</xmi:XMI>
