@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Development Compound Recommendation Document:    
+Compoundtype AML Project: TARGETCOMPOUND 
+
+Company Confidential 11  
+
+1. EXECUTIVE SUMMARY 
+
+1.1. Introduction 
+Sorafenib is a small molecule derived from the historical IMiD compound library and is being 
+brought forward for nomination as a treatment for acute myeloid leukemia (AML).  AML is a 
+devastating hematologic cancer diagnosis which progresses rapidly and is invariably fatal if left 
+untreated. Over the past several decades there has been little progress toward new treatment 
+options.  Induction of remission therapy consists mainly of powerful cytotoxic agents (e.g. 
+cytarabine plus an anthracycline) in a standard ‘7 + 3’ regimen that has remained unchanged for 
+nearly three decades (JCO July 10, 2012 vol. 30 no. 202425-2428).  Rates of recurrence and 
+survival are tied to the particular cytogenetic abnormality present at diagnosis.  While initial 
+complete response rates are high with induction therapy (50- 70%), these responses vary with 
+age and are not durable with median overall survival measured in months for those in the higher 
+risk subtypes. The dire need for better treatment options, especially in the relapsed/refractory 
+setting, makes this a very high unmet medical need and an important patient population for 
+Company. 
+
+The concept of developing a “New IMiD” for AML was initiated following a challenge  
+presented by Tom Daniel during the first quarterly review meeting of 2014.    Analysis of 
+historical in-house data suggested our IMiD library contained chemical matter active against at 
+least one AML cell line. Our relatively recent understanding of the Antimetabolites MoA in 
+altering intracellular protein homeostasis has led to tremendous excitement and focused scientific 
+endeavor among academic and pharmaceutical labs in this emerging field (Licht, J.D., Shortt, J., 
+Johnstone, R., 2014).  We now recognize Cereblon, the substrate adapter protein for E3 ubiquitin 
+ligase, as the target for Antimetabolites.  As such, we now redefine this class of molecules as 
+Inhibitors for Cereblon E3 Ligase Modulating Drugs.  What began as the “AML-IMiD project” 
+is therefore now known as the Inhibitors-AML project.  Sorafenib emerged from a phenotypic 
+screen for compounds that demonstrated cell-autonomous activity across a broad panel of AML 
+cell lines.  
+
+Sorafenib is strongly anti-proliferative in the majority of AML cell lines tested (9 out of 10) and 
+exerts its effects through rapid induction of apoptosis – less than 12 hours of exposure at 100 nM 
+will induce apoptosis in the most sensitive line (HNT-34).   Detailed mechanism of action studies 
+have shown that Sorafenib is unlike any of the clinically approved Antimetabolites. In addition 
+to its activity in AML, Sorafenib does not induce the degradation of Aiolos or Ikaros, prototypic 
+substrates for all clinically approved Antimetabolites.  In further differentiation from the 
+Antimetabolites, Sorafenib has been shown to induce the degradation of GSPT1 (eRF3a).  
+GSPT1 (G1 to S Phase Transition protein 1) is a translation termination factor with intrinsic 
+GTPase activity.  GSPT1 in complex with eRF1 recognizes the mRNA stop codon and functions 
+to terminate protein translation by catalyzing the cleavage of the nascent protein from the 
+terminal tRNA as well as by releasing the ribosomal subunits from the stop site allowing 
+reformation and translation initiation at a new start site.  Through genetic and biochemical 
+means, the degradation of GSPT1 has been shown to be necessary and sufficient for the 
+Sorafenib induced apoptosis in AML cell lines.    
+
+
+
+Development Compound Recommendation Document:    
+Compoundtype AML Project: TARGETCOMPOUND 
+
+Company Confidential 12  
+
+To further support the AML clinical hypothesis, Sorafenib was tested by Vivia Biotech in a panel 
+of samples obtained from 10 newly diagnosed AML patients.  Bone marrow aspirates obtained 
+during patient diagnosis were plated without separation of constituent cells and tested for 
+sensitivity to approved and experimental drugs.  For standard of care agents, this test has been 
+shown to correlate very well with clinical sensitivity.  The “ex vivo” efficacy of Sorafenib was 
+concentration dependent and remarkably active in 9/10 patient samples tested with an average 
+EC50 < 10 nM. Leukemic cell killing was rapid (active at 24 hours) and very efficient in that by 
+100 nM approximately 100 percent of the leukemic cells were gone.  In patient samples where 
+sufficient normal lymphocytes could be counted, CYTARABINE showed only modest activity 
+against the normal cells (differential between AML and normal cells of 10-44fold). 
+
+In routine in vitro toxicology panel screens (e.g. hERG, CEREP, Kinase panel, Ames, etc), 
+Sorafenib shows minimal activity within  acceptable limits for a DC nomination targeting AML  
+The compound is only modestly active against the hERG channel (IC50 = 5.3 µM) and the 
+muscarinic receptors M1 and M2 in the CEREP panel (IC50 > 10 µM for both).  Assuming 
+clinical activity commensurate with potency in AML patient derived samples, and a low 
+predicted human clearance based on rodent and cyno allometric scaling, doses and exposures in 
+patients are predicted to be low; therefore, activity against these receptors is not anticipated in  
+the clinic.  One area where we do see unwanted activity at relevant concentrations is in CD34+ 
+cells from healthy donors.  The observed apoptosis induction in liquid culture (but not in 
+methylcellulose) may be on target (GSPT1 related) and is being explored further.  Consistent 
+with these in vitro observations, bone marrow and lymphoid cell toxicity was observed in in vivo 
+toxicology studies in non-human primates.  These findings suggest that Sorafenib will have a 
+narrow therapeutic index.  Using an HL-60 model in mice, dose and scheduling studies are 
+planned but have not yet been completed. 
+
+Going forward, the Discovery and Transition teams have identified the following key issues and 
+recommendations for follow-up post-DC recommendation: 
+
+1. Solubility/Formulation.  Sorafenib is poorly soluble in water (~ 4 µg/mL). The 
+projected human minimum efficacious dose is low and thus mitigates low solubility.  
+Potential formulations have been evaluated for FIH studies. Further discussion will focus 
+on acceptable formulations and dose levels for further toxicology studies.  Common to 
+other structurally related drugs (e.g. lenalidomide, pomalidomide) is the chemical 
+instability of the glutarimide ring at neutral pH.  Formulation and handling will have to 
+take into consideration the increased stability at pH ranges below 6.5.   
+
+2. Narrow Therapeutic Index. AML, particularly the relapsed and refractory setting, is a 
+very high unmet medical need.  It is anticipated that a non-continuous schedule will help 
+mitigate potential tox issues. Although formal reversibility studies of the observed 
+toxicities have not yet been undertaken, reticulocyte  decreases appeared reversible in a 
+cyno MTD study.  Additionally, timed exposure studies show GSPT1 levels recover in 
+normal cells but not in tumor cells after 8 to 16 hours of exposure at > 100 nM.  
+Scheduling studies are planned post- DC nomination in1Q15.  
+
+ 
+
+
