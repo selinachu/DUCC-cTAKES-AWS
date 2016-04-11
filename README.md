@@ -1,6 +1,6 @@
-# DUCC-cTAKES-AWS
+# ShangriDocs-DUCC-cTAKES
 
-Setting up DUCC
+##Setting up DUCC
 
 Quick start tutorial
 https://cwiki.apache.org/confluence/display/UIMA/DUCC
@@ -23,7 +23,7 @@ $ ./ducc_post_install
 ducc_post_install runs the script that sets up the default configuration in ducc.properties
 The default configuration file is here:
 /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties
-* For advanced DUCC user: This default configuration file can be manually modified.  After changes are made, run the script apache-uima-ducc-2.0.1/admin/ducc_post_install again.
+Note: For advanced DUCC user, this default configuration file can be manually modified.  After changes are made, run the script apache-uima-ducc-2.0.1/admin/ducc_post_install again.
 
 DUCC Documentation
 https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html
@@ -51,12 +51,13 @@ $ /home/ducc/apache-uima-ducc-2.0.1/admin/stop_ducc -a
 To stop a job 
 
 
-Setting up DUCC with cTAKES and Shangridocs
+###Setting up DUCC with cTAKES and Shangridocs
 
 Replace the /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties with current in this github repository
 Then, run the script /home/ducc/apache-uima-ducc-2.0.1/admin/ducc_post_install again
 
-Setting up cTAKES 
+
+##Setting up cTAKES 
 
 You can follow the instructions in https://wiki.apache.org/tika/cTAKESParser for “Installing cTAKES”.
 We DO NOT need Tika working with cTAKE. Thus, installing the cTAKESParser is unnecessary for this version of ShangriDocs
@@ -84,32 +85,32 @@ $ cd /home/ducc/ctakes/apache-ctakes-3.2.2
 $ unzip ctakes-resources-3.2.1.1-bin.zip
 
 
-Basic installation of 
-Also: https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+User+Install+Guide
-
-
-$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs
-
-Set up Apache Tika Server
-https://github.com/chrismattmann/shangridocs#apache-tika-server
-Note: For this version of Shangridocs, one do not need a ctakes-tika server. This can be accomplished by skipping step 3 (or ignoring ‘mkdir -p tika/ctakes’) from https://github.com/chrismattmann/shangridocs#apache-tika-server
-
 Obtain the UMLS license
 UMLS license (username and password) can be obtain from: https://uts.nlm.nih.gov//license.html
 This takes 2-3 days to processed.
 
-Setting up ShangriDocs
+###Configuring cTAKES for DUCC
+
+From ${CTAKES_HOME}/desc/
+Changed all descriptor files that has a <multipleDeploymentAllowed> tag from “false” to “true”.  
+One way is to: perform a search under {CTAKES_HOME}/desc/ for all descriptor files with “<multipleDeploymentAllowed>false”  and changed them to “true".  
+
+Replace the ${CTAKES_HOME}/desc/ctakes-core/desc/collection_reader/FilesInDirectoryCollectionReader.xml in this github repository
+
+
+##Setting up ShangriDocs
 
 ShangriDocs’s main site is at https://github.com/chrismattmann/shangridocs
 Prior configuration DUCC with cTAKES+ShangriDocs can be found on: https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc
 
-For convenience, the current version of ShangriDocs on AWS can also be set up with the following
+For convenience, the codes of the current version of ShangriDocs on AWS is at https://github.com/selinachu/DUCC-cTAKES-AWS.git
 
+For convenience
 From /home/ducc/
 $ git clone https://github.com/selinachu/DUCC-cTAKES-AWS.git
 
 
-Add UMLS username and password in here:
+Add UMLS username and password to CTAKESConfig.properties
 /Users/ducc/shangridocs/shangridocs-services/src/main/resources/CTAKESContentHandler/config/org/apache/tika/sax/CTAKESConfig.properties
 
 Also, need to add UMLS username and password to shell variables
@@ -118,17 +119,38 @@ export ctakes_umlspw=‘password’
 
 
 Set these environment variables
-export DUCC_HOME=[path]
+export DUCC_HOME=[path]	
 export CTAKES_HOME=[path]
 export SHANGRIDOCS_HOME=[path]
+export TIKA_HOME=[path]
+
+If following the instructions here, then the paths would be 
+export DUCC_HOME=“/home/ducc/apache-uima-ducc-2.0.1“
+export CTAKES_HOME=“/home/ducc/ctakes/apache-ctakes-3.2.2”
+export SHANGRIDOCS_HOME=“/home/ducc/DUCC-cTAKES-AWS/shangridocs”
+export TIKA_HOME=“/home/ducc/DUCC-cTAKES-AWS/shangridocs/tika”
+
+##Setting up Tika Server (If not copying from from https://github.com/selinachu/DUCC-cTAKES-AWS.git)
+
+https://github.com/chrismattmann/shangridocs#apache-tika-server
+Note: For this version of Shangridocs, one do not need a ctakes-tika server. This can be accomplished by skipping step 3 (or ignoring ‘mkdir -p tika/ctakes’) from https://github.com/chrismattmann/shangridocs#apache-tika-server
+
+Summarizing instructions to set up Tika server
+
+$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs 
+$ git clone https://github.com/apache/tika.git
+$ cd tika
+To start Tika server
+$ java -jar tika-server/target/tika-server-1.11-SNAPSHOT.jar > ../tika-server.log 2>&1&
 
 
-Configuring cTAKES for DUCC
 
-From ${CTAKES_HOME}/desc/
-Changed all descriptor files that has a <multipleDeploymentAllowed> tag from “false” to “true”.  
-One way is to: perform a search under {CTAKES_HOME}/desc/ for all descriptor files with “<multipleDeploymentAllowed>false”  and changed them to “true".  
+##To start ShangriDocs
 
-Replace the ${CTAKES_HOME}/desc/ctakes-core/desc/collection_reader/FilesInDirectoryCollectionReader.xml in this github repository
-
+$ cd /home/ducc/apache-uima-ducc-2.0./admin
+$ ./start_ducc
+$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs/tika
+$ ./run.bash
+$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs/shangridocs-webapp
+$ ./mvn clean tomcat7:run&
 
