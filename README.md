@@ -1,10 +1,6 @@
 # ShangriDocs-DUCC-cTAKES
 
 ##Setting up DUCC
-
-Quick start tutorial
-https://cwiki.apache.org/confluence/display/UIMA/DUCC
-
 Before installing DUCC, create user ducc and enable passwordless ssh for user ducc
 
 Then to Install DUCC
@@ -16,7 +12,6 @@ from /home/ducc
 $ tar -xvzf uima-ducc-2.0.1-bin.tar.gz
 
 ###Configure DUCC
-
 $ cd apache-uima-ducc-2.0.1/admin/
 
 $ ./ducc_post_install
@@ -29,8 +24,11 @@ The default configuration file is here:
 
 Note: For advanced DUCC user, this default configuration file can be manually modified.  After changes are made, run the script apache-uima-ducc-2.0.1/admin/ducc_post_install again.
 
-###DUCC Documentation
+####DUCC Documentation
 https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html
+
+####Quick start tutorial
+https://cwiki.apache.org/confluence/display/UIMA/DUCC
 
 Starting DUCC
 From /home/ducc/apache-uima-ducc-2.0.1/admin
