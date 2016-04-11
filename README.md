@@ -105,9 +105,9 @@ This takes 2-3 days to processed.
 
 From ${CTAKES_HOME}/desc/
 
-Changed all descriptor files that has a <multipleDeploymentAllowed> tag from “false” to “true”.  
+Changed descriptor files that has a "multipleDeploymentAllowed" tag from “false” to “true”.  
 
-One way is to: perform a search under {CTAKES_HOME}/desc/ for all descriptor files with “<multipleDeploymentAllowed>false”  and changed them to “true".  
+One way is to: perform a search under ${CTAKES_HOME}/desc/ for all descriptor files with "multipleDeploymentAllowed" which are false and modify them.  
 
 Replace the ${CTAKES_HOME}/desc/ctakes-core/desc/collection_reader/FilesInDirectoryCollectionReader.xml in this github repository
 
@@ -119,7 +119,7 @@ Prior configuration DUCC with cTAKES+ShangriDocs can be found on: https://github
 
 For convenience, the codes of the current version of ShangriDocs on AWS is at https://github.com/selinachu/DUCC-cTAKES-AWS.git
 
-For convenience
+For convenience,
 
 From /home/ducc/
 
