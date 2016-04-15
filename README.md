@@ -15,7 +15,7 @@ This guide includes
 
 #### Prerequisites
 
-Before installing DUCC, create user ducc and enable passwordless ssh for user ducc.
+Before installing DUCC, create user **ducc** and enable **passwordless ssh** for user _ducc_.
 Example for setting this up (for Red Hat Linux) can be found in
 [DUCC Prerequisites](https://cwiki.apache.org/confluence/display/UIMA/DUCC#DUCC-t0)
 
@@ -44,7 +44,7 @@ The **<em>ducc_post_install</em>** script sets up the default configuration in _
 
 The default configuration file is located at _.../apache-uima-ducc-2.0.1/resources/default.ducc.properties_
 
-Running <em>ducc_post_install</em> copies the parameters in **_default.ducc.properties_** into _ducc.properties_, along with incorporating the hostname of head node and the java path in the configuration file. Any changes made to _ducc.properties_ will be overwritten from running <em>ducc_post_install</em>.
+Running <em>ducc_post_install</em> copies the parameters in **_default.ducc.properties_**, along with incorporating the hostname of head node and the java path to _ducc.properties_. Any changes made to _ducc.properties_ will be overwritten from running <em>ducc_post_install</em>. [Modifying ducc properties](#heading_configducc)
 
 
 #### Starting DUCC
@@ -53,7 +53,7 @@ From _.../apache-uima-ducc-2.0.1/admin_
 
 ```$ ./start_ducc```
 
-**Note:** Wait at least a minute, after starting DUCC before submitting any jobs. It takes DUCC a while for all initialization to be completed. If you submit a job before the initialization has been completed, it will return errors regarding _type=system error, text=job driver node unavailable_
+**Note:** Wait at least a minute, after starting DUCC before submitting any jobs. It takes DUCC a while for all initialization to be completed. If you submit a job before the initialization has been completed, it will return errors, such as _type=system error, text=job driver node unavailable_.
 
 
 #### Checking status
@@ -75,7 +75,7 @@ To test your system out, you can submit a simple example job via command line
 #### Stopping DUCC
 $ /home/ducc/apache-uima-ducc-2.0.1/admin/stop_ducc -a
 
-#### Further configuration to DUCC properties
+####<a name="heading_configducc"></a> Further configuration to DUCC properties
 
 Modification to DUCC's configuration should be performed in **_default.ducc.properties_** .  You can manually change the parameters in this file. Make sure to run the <em>ducc_post_install</em> script again after modification are made. Changes will take effect after DUCC is restarted.
 
@@ -110,7 +110,7 @@ UMLS license (username and password) can be obtain from: [Obtain UMLS license he
 This takes about 2 working days.
 
 ### Improving performance of cTAKES
-Advanced  modification of cTAKES to improve performance and customize the annotated categories can be found in [Creating New Types](https://github.com/selinachu/CreateNewType). This requires the developer's verison of cTAKES   ([apache-ctakes-3.2.2-src.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.tar.gz)). Please refer to the [Developer Install Guide]( https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+Developer+Install+Guide).
+Advanced  modification of cTAKES to improve performance and customize the annotated categories can be found in [Creating New Types](https://github.com/selinachu/CreateNewType). This requires the developer's version of cTAKES   ([apache-ctakes-3.2.2-src.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.tar.gz)). Please refer to the [Developer Install Guide]( https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+Developer+Install+Guide).
 
 
 ## <a name="heading_tika">Setting up Tika Server
