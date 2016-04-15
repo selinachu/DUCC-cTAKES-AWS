@@ -5,7 +5,7 @@ This guide includes
 
 * [Set up DUCC](#head_ducc)
 * [Set up cTAKES](#head_ctakes)
-* [set up Tika Server](#head_tika)
+* [Set up Tika Server](#head_tika)
 * [Set up ShangriDocs UI](#head_shang)
 
 ## <a name="head_ducc"></a>Setting up DUCC
