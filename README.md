@@ -5,10 +5,10 @@
 
 This guide includes
 
-* [Install DUCC](#heading_ducc)
-* [Install cTAKES](#heading_ctakes)
-* [Install Tika Server](#heading_tika)
-* [Install ShangriDocs](#heading_shang)
+* [Set Up DUCC](#heading_ducc)
+* [Set Up cTAKES](#heading_ctakes)
+* [Set Up Tika Server](#heading_tika)
+* [Set Up ShangriDocs](#heading_shang)
 * [Putting it all together](#heading_together)
 
 ## <a name="heading_ducc"></a>Setting up DUCC
@@ -44,7 +44,7 @@ The **<em>ducc_post_install</em>** script sets up the default configuration in _
 
 The default configuration file is located at _.../apache-uima-ducc-2.0.1/resources/default.ducc.properties_
 
-Running <em>ducc_post_install</em> copies the parameters in **_default.ducc.properties_**, along with incorporating the hostname of head node and the java path to _ducc.properties_. Any changes made to _ducc.properties_ will be overwritten from running <em>ducc_post_install</em>. [Modifying ducc properties](#heading_configducc)
+Running <em>ducc_post_install</em> copies the parameters in **_default.ducc.properties_**, along with incorporating the hostname of head node and the java path to _ducc.properties_. Any changes made to _ducc.properties_ will be overwritten from running <em>ducc_post_install</em>. Refer to [Modifying ducc properties](#heading_configducc) for making changes to the properties.
 
 
 #### Starting DUCC
@@ -82,8 +82,6 @@ Modification to DUCC's configuration should be performed in **_default.ducc.prop
 
 ## <a name="heading_ctakes">Setting up cTAKES
 
-Summarizing steps to set up cTAKES
-
 Download the binary installation file [apache-ctakes-3.2.2-bin.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz) to _/home/ducc/_
 
 If this site doesn’t work, other mirror sites can be found from [cTAKES] (http://ctakes.apache.org/downloads.cgi), go to bottom of page “Current Download Mirror:”
@@ -98,14 +96,14 @@ $ cd /home/ducc/apache-ctakes-3.2.2
 $ unzip ctakes-resources-3.2.1.1-bin.zip
 ```
 
-You can also follow the instructions in [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser#Installing_cTAKES) for only _Installing cTAKES_.
-**Note:** This version of ShangriDocs DO NOT require Tika working with cTAKES as a server like the finished product of [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser)
+You can also follow the instructions in [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser#Installing_cTAKES) for _Installing cTAKES_.
+**Note:** This version of ShangriDocs DO NOT require Tika working with cTAKES as a server, like the finished product of [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser)
 
 ### Obtain UMLS license
 
-The use of the analysis engine in ShangriDocs requires a UMLS license
+The use of the analysis engine in ShangriDocs requires a UMLS license.
 
-UMLS license (username and password) can be obtain from: [Obtain UMLS license here](https://uts.nlm.nih.gov//license.html)
+UMLS license (username and password) can be obtained from: [Obtain UMLS license here](https://uts.nlm.nih.gov//license.html)
 
 This takes about 2 working days.
 
@@ -113,28 +111,10 @@ This takes about 2 working days.
 Advanced  modification of cTAKES to improve performance and customize the annotated categories can be found in [Creating New Types](https://github.com/selinachu/CreateNewType). This requires the developer's version of cTAKES   ([apache-ctakes-3.2.2-src.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.tar.gz)). Please refer to the [Developer Install Guide]( https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+Developer+Install+Guide).
 
 
-## <a name="heading_tika">Setting up Tika Server
-
-(If not cloning from https://github.com/selinachu/DUCC-cTAKES-AWS.git)
-
-This can be accomplished by skipping step 3 (or ignoring ‘mkdir -p tika/ctakes’) from [ShangriDocs-TikaServer](https://github.com/chrismattmann/shangridocs#apache-tika-server).
-Note: This version of Shangridocs, one do not need a ctakes-tika server.
-
-Sumarizing the steps:
-```
-$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs
-$ git clone https://github.com/apache/tika.git
-```
-##### <a name="heading_start_tika"> Starting Tika server
-```
-$ cd tika
-$ java -jar tika-server/target/tika-server-1.11-SNAPSHOT.jar > ../tika-server.log 2>&1&
-```
-
 ## <a name="heading_shang"> Setting up ShangriDocs
 
 ShangriDocs’s main site is at https://github.com/chrismattmann/shangridocs
-Prior configuration DUCC with cTAKES+ShangriDocs can be found on: https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc
+
 
 For convenience, the code of the current version of ShangriDocs on AWS is at https://github.com/selinachu/DUCC-cTAKES-AWS.git
 
@@ -155,11 +135,28 @@ export ctakes_umlsuser=‘username’
 export ctakes_umlspw=‘password’
 ```
 
+## <a name="heading_tika">Setting up Tika Server
+
+(If not cloning from https://github.com/selinachu/DUCC-cTAKES-AWS.git)
+
+This is taken from [ShangriDocs Tika Server](https://github.com/chrismattmann/shangridocs#apache-tika-server), but skipping step 3. Note: This version of Shangridocs, do not require the ctakes-tika server.
+
+```
+$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs
+$ git clone https://github.com/apache/tika.git
+```
+##### <a name="heading_start_tika"> Starting Tika server
+```
+$ cd tika
+$ java -jar tika-server/target/tika-server-1.11-SNAPSHOT.jar > ../tika-server.log 2>&1&
+```
+
 Now you are all set up to start **ShangriDocs**
 
 ## <a name="heading_together"> Putting it all together
 
 ### Configuring cTAKES for DUCC
+
 
 From _/home/ducc/apache-ctakes-3.2.2/desc/_
 
@@ -168,6 +165,7 @@ Change all descriptor files with ```<multipleDeploymentAllowed>``` tag from _fal
 
 Replace the FilesInDirectoryCollectionReader.xml in _.../apache-ctakes-3.2.2/desc/ctakes-core/desc/collection_reader/_ with the the [FilesInDirectoryCollectionReader.xml](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/FilesInDirectoryCollectionReader.xml) in this repository
 
+Set up of ShangriDocs+DUCC+cTAKES is based on [ctakes-scale-out-with-uima-ducc](https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc).
 
 ### Setting up DUCC with cTAKES and Shangridocs
 
