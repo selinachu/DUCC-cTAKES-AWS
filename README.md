@@ -83,6 +83,10 @@ $ /home/ducc/apache-uima-ducc-2.0.1/admin/stop_ducc -a
 Modification to DUCC's configuration should be performed in **_default.ducc.properties_** .  You can manually change the parameters in this file. Make sure to run the <em>ducc_post_install</em> script again after modification are made. Changes will take effect after DUCC is restarted.
 
 
+#### <a name="heading_illegal_char">Issues with _illegal_ characters in DUCC
+
+DUCC will cancel a job and related processes when encountering **illegal** characters. This issue arises from the CollectionReader when the Job Driver is putting _illegal_ characters in the work item CAS, which cannot be XML serialized. Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.
+
 ## <a name="heading_ctakes">Setting Up cTAKES
 
 Download the binary installation file [apache-ctakes-3.2.2-bin.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz) to _/home/ducc/_
@@ -254,8 +258,3 @@ This would be done by incorporating a custom _Flow Controller_ to work inside th
 An example related to this topic can be  found from the [DUCC Documentation](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1380009). This explains the process to split a single text file, by using paragraphs as boundaries, to further segment the text into separate documents. Thus, breaking large files into multiple _Work_ items.   
 
 Documentation related to DUCC's [Flow Controller](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1340008.5.2) and UIMA's [Flow Controllers with CAS Multipliers](https://uima.apache.org/d/uimaj-2.4.0/tutorials_and_users_guides.html#ugr.tug.fc.using_fc_with_cas_multipliers)
-
-
-### <a name="heading_illegal_char">Known DUCC issue with _illegal_ characters
-
-DUCC will cancel a job and related processes when encountering **illegal** characters. This issue arises from the CollectionReader when the Job Driver is putting _illegal_ characters in the work item CAS, which cannot be XML serialized. Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
