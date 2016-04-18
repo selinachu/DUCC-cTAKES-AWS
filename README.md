@@ -11,9 +11,10 @@ This guide includes
 * [Set Up ShangriDocs](#heading_shang)
 * [Putting it all together](#heading_together)
     * [Configuring cTAKES for DUCC](#heading_ctakes_ducc)
-    * [Setting up DUCC with cTAKES and ShangriDocs](#heading_ducc_ctakesshang)
+    * [Setting Up DUCC with cTAKES and ShangriDocs](#heading_ducc_ctakesshang)
     * [Starting ShangriDocs with DUCC+cTAKES](#heading_starting_shang)
-    * [Running DUCC with multiple nodes](#heading_multinodes)
+    * [Running DUCC with Multiple Nodes](#heading_multinodes)
+    * [Parallelism with Flow Controller (Brief explanation)](#heading_parallel)
 
 #### Prerequisites
 
@@ -243,11 +244,16 @@ ducc-4.aws-hostname.com
 
 This sets up DUCC to run on a cluster, or more specifically connecting the head node with the other three work nodes.  This allows the head node to send a job to one of its worker nodes.  
 
-However, DUCC does not automatically break up a large job to be run on multiple machines simultaneously. To accomplish this, it would require preprocessing of the document(s). The idea is to create separate set of CASes for each document and send them into the pipeline. This would be done in the Analysis Engine to include a custom flow controller which would route the CASes. The multiple Cas consumer and Analysis Engine threads can then be run in parallel.
+### <a name="heading_parallel">Parallelism with Flow Controller (Brief explanation)
+
+DUCC does not automatically break up a large job to be run on multiple machines simultaneously. To accomplish this, it would require preprocessing of the document(s). The idea is to create separate set of CASes for each document and send them into the pipeline.
+This would be done by incorporating a custom _Flow Controller_ to work inside the Aggregate Analysis Engine that contains a CAS Multiplier. By routing a CAS to a CAS Multiplier, it permits the creation of new CASes. The Cas Multiplier and Analysis Engine threads can then be run in parallel.
 
 An example related to this topic can be  found from the [DUCC Documentation](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1380009). This explains the process to split a single text file, by using paragraphs as boundaries, to further segment the text into separate documents. Thus, breaking large files into multiple _Work_ items.   
 
-##### Issue with _illegal_ characters
+Documentation related to DUCC's [Flow Controller](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1340008.5.2) and UIMA's [Flow Controllers with CAS Multipliers](https://uima.apache.org/d/uimaj-2.4.0/tutorials_and_users_guides.html#ugr.tug.fc.using_fc_with_cas_multipliers)
 
-DUCC will canceled a job and related processes if it encounters **illegal** characters. This issue arises from the CollectionReader when the JobDriver is putting those _illegal characters in the work item CAS, which cannot be XML, serialized.
-Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
+
+### Known DUCC issue with _illegal_ characters
+
+DUCC will canceled a job and related processes if it encounters **illegal** characters. This issue arises from the CollectionReader when the Job Driver is putting _illegal_ characters in the work item CAS, which cannot be XML serialized. Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
