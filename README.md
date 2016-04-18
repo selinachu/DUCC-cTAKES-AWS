@@ -5,10 +5,10 @@
 
 This guide includes
 
-* [Set Up DUCC](#heading_ducc)
-* [Set Up cTAKES](#heading_ctakes)
-* [Set Up Tika Server](#heading_tika)
-* [Set Up ShangriDocs](#heading_shang)
+* [Setting Up DUCC](#heading_ducc)
+* [Setting Up cTAKES](#heading_ctakes)
+* [Setting Up Tika Server](#heading_tika)
+* [Setting Up ShangriDocs](#heading_shang)
 * [Putting it all together](#heading_together)
     * [Configuring cTAKES for DUCC](#heading_ctakes_ducc)
     * [Setting Up DUCC with cTAKES and ShangriDocs](#heading_ducc_ctakesshang)
@@ -22,11 +22,11 @@ Before installing DUCC, create user **ducc** and enable **passwordless ssh** for
 Example for setting this up (for Red Hat Linux) can be found in
 [DUCC Prerequisites](https://cwiki.apache.org/confluence/display/UIMA/DUCC#DUCC-t0)
 
-##### References
+#### References
 [DUCC Documentation](https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html), [Quick Start Tutorial](https://cwiki.apache.org/confluence/display/UIMA/DUCC)
 
 
-### Install DUCC
+### <a name="heading_ducc">Setting Up DUCC
 
 Download the binary installation file [uima-ducc-2.0.1-bin.tar.gz](http://www-us.apache.org/dist/uima/uima-ducc-2.0.1/uima-ducc-2.0.1-bin.tar.gz) to _/home/ducc/_
 
@@ -83,7 +83,7 @@ $ /home/ducc/apache-uima-ducc-2.0.1/admin/stop_ducc -a
 Modification to DUCC's configuration should be performed in **_default.ducc.properties_** .  You can manually change the parameters in this file. Make sure to run the <em>ducc_post_install</em> script again after modification are made. Changes will take effect after DUCC is restarted.
 
 
-## <a name="heading_ctakes">Setting up cTAKES
+## <a name="heading_ctakes">Setting Up cTAKES
 
 Download the binary installation file [apache-ctakes-3.2.2-bin.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz) to _/home/ducc/_
 
@@ -114,7 +114,7 @@ This takes about 2 working days.
 Advanced  modification of cTAKES to improve performance and customize the annotated categories can be found in [Creating New Types](https://github.com/selinachu/CreateNewType). This requires the developer's version of cTAKES   ([apache-ctakes-3.2.2-src.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-src.tar.gz)). Please refer to the [Developer Install Guide]( https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+3.2+Developer+Install+Guide).
 
 
-## <a name="heading_shang"> Setting up ShangriDocs
+## <a name="heading_shang"> Setting Up ShangriDocs
 
 [ShangriDocs’s main site](https://github.com/chrismattmann/shangridocs)
 
@@ -136,7 +136,7 @@ export ctakes_umlsuser=‘username’
 export ctakes_umlspw=‘password’
 ```
 
-## <a name="heading_tika">Setting up Tika Server
+## <a name="heading_tika">Setting Up Tika Server
 
 
 This is taken from [ShangriDocs Tika Server](https://github.com/chrismattmann/shangridocs#apache-tika-server), but skipping step 3.
@@ -156,7 +156,7 @@ The Tika server will be on _port 9998_.
 
 Now you are all set up to start **ShangriDocs**
 
-## <a name="heading_together"> Putting it all together
+## <a name="heading_together"> Putting It All Together
 
 ### <a name="heading_ctakes_ducc">Configuring cTAKES for DUCC
 
