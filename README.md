@@ -239,7 +239,7 @@ $ ./mvn clean tomcat7:run&
 
 ### <a name="heading_multinodes">Running DUCC with multiple nodes
 
-The multiple nodes needs to be defined in the following in the files: **ducc.nodes** and **jobdriver.nodes** under _...apache-uima-ducc-2.0.1/resources/_
+The multiple nodes needs to be defined in the following files: **ducc.nodes** and **jobdriver.nodes** under _...apache-uima-ducc-2.0.1/resources/_
 
 ```
 ducc-1.aws-hostname.com
