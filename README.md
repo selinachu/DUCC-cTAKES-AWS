@@ -23,9 +23,8 @@ Example for setting this up (for Red Hat Linux) can be found in
 [DUCC Prerequisites](https://cwiki.apache.org/confluence/display/UIMA/DUCC#DUCC-t0)
 
 #### References
-[DUCC Documentation](https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html), [Quick Start Tutorial](https://cwiki.apache.org/confluence/display/UIMA/DUCC)
-
-
+[cTAKES Scale Out with UIMA DUCC](https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc),
+[Quick Start Tutorial](https://cwiki.apache.org/confluence/display/UIMA/DUCC),  [DUCC Documentation](https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html) 
 ### <a name="heading_ducc">Setting Up DUCC
 
 Download the binary installation file [uima-ducc-2.0.1-bin.tar.gz](http://www-us.apache.org/dist/uima/uima-ducc-2.0.1/uima-ducc-2.0.1-bin.tar.gz) to _/home/ducc/_
@@ -197,8 +196,6 @@ Add type system information to **XCasWriterCasConsumer.xml** from _...pache-ctak
 <import name="org.apache.ctakes.typesystem.types.TypeSystem"/>
 ```
 
-
-Set up of ShangriDocs+DUCC+cTAKES is based on [ctakes-scale-out-with-uima-ducc](https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc).
 
 ### <a name="heading_ducc_ctakesshang">Setting up DUCC with cTAKES and Shangridocs
 
