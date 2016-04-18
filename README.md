@@ -24,7 +24,7 @@ Example for setting this up (for Red Hat Linux) can be found in
 
 #### References
 [cTAKES Scale Out with UIMA DUCC](https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc),
-[Quick Start Tutorial](https://cwiki.apache.org/confluence/display/UIMA/DUCC),  [DUCC Documentation](https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html) 
+[Quick Start Tutorial](https://cwiki.apache.org/confluence/display/UIMA/DUCC),  [DUCC Documentation](https://uima.apache.org/d/uima-ducc-2.0.0/duccbook.html)
 ### <a name="heading_ducc">Setting Up DUCC
 
 Download the binary installation file [uima-ducc-2.0.1-bin.tar.gz](http://www-us.apache.org/dist/uima/uima-ducc-2.0.1/uima-ducc-2.0.1-bin.tar.gz) to _/home/ducc/_
@@ -70,9 +70,10 @@ The web interface to monitor the system and jobs can be accessed via a browser u
 
 * ```http://[DUCC hostname]:42133/jobs.jsp```
 
-Submit a simple example job via command line to test out DUCC
+#### Testing DUCC
+Submit a simple example job via command line
 
-```$ /home/ducc/apache-uima-ducc-2.0.1/bin/ducc_submit -f /Users/ducc/apache-uima-ducc-2.0.1/examples/simple/1.job```
+```$ /home/ducc/apache-uima-ducc-2.0.1/bin/ducc_submit -f /home/ducc/apache-uima-ducc-2.0.1/examples/simple/1.job```
 
 #### Stopping DUCC
 $ /home/ducc/apache-uima-ducc-2.0.1/admin/stop_ducc -a
