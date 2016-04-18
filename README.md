@@ -40,7 +40,7 @@ Once the files are extracted, you need to configure DUCC to your system
 
 ```$ ./ducc_post_install```
 
-
+##### <a name="heading_duccpost">Post install configuration
 The **<em>ducc_post_install</em>** script sets up the default configuration in _ducc.properties_. This is where you can define:
 * Hostname of the DUCC head node
 * Full path to your Java executable (default is /usr/bin/java)
@@ -198,9 +198,9 @@ Set up of ShangriDocs+DUCC+cTAKES is based on [ctakes-scale-out-with-uima-ducc](
 
 ### <a name="heading_ducc_ctakesshang">Setting up DUCC with cTAKES and Shangridocs
 
-Replace the /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties with [default.ducc.properties](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/default.ducc.properties) in this repository
+Configurations are mainly defined in the DUCC properties file  [default.ducc.properties](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/default.ducc.properties) and the job description file [ctakes.job](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/shangridocs/shangridocs-services/src/main/resources/ctakes.job)
 
-Then, run the script /home/ducc/apache-uima-ducc-2.0.1/admin/ducc_post_install again.
+Replace the /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties with this [default.ducc.properties](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/default.ducc.properties) and run [ducc post install](#heading_duccpost) script again.
 
 Set these environment variables
 ```
@@ -211,7 +211,7 @@ export TIKA_HOME=[path to tika]
 
 ```
 
-If following the set up instructions, then the paths would be
+If following the set up instructions above, then the paths would be
 ```
 export DUCC_HOME=“/home/ducc/apache-uima-ducc-2.0.1“
 export CTAKES_HOME=“/home/ducc/apache-ctakes-3.2.2”
