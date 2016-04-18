@@ -10,8 +10,10 @@ This guide includes
 * [Set Up Tika Server](#heading_tika)
 * [Set Up ShangriDocs](#heading_shang)
 * [Putting it all together](#heading_together)
-
-## <a name="heading_ducc"></a>Setting up DUCC
+    * [Configuring cTAKES for DUCC](#heading_ctakes_ducc)
+    * [Setting up DUCC with cTAKES and ShangriDocs](#heading_ducc_ctakesshang)
+    * [Starting ShangriDocs with DUCC+cTAKES](#heading_starting_shang)
+    * [Running DUCC with multiple nodes](#heading_multinodes)
 
 #### Prerequisites
 
@@ -53,7 +55,7 @@ From _.../apache-uima-ducc-2.0.1/admin_
 
 ```$ ./start_ducc```
 
-**Note:** Wait at least a minute, after starting DUCC before submitting any jobs. It takes DUCC a while for all initialization to be completed. If you submit a job before the initialization has been completed, it will return errors, such as _type=system error, text=job driver node unavailable_.
+**Note:** Wait at least a minute, after starting DUCC, before submitting any jobs. It takes DUCC a while for all initialization to be completed. If you submit a job before the initialization has been completed, it will return errors, such as _type=system error, text=job driver node unavailable_.
 
 
 #### Checking status
@@ -68,7 +70,7 @@ The web interface to monitor the system and jobs can be accessed via a browser u
 
 * ```http://[DUCC hostname]:42133/jobs.jsp```
 
-To test your system out, you can submit a simple example job via command line
+Submit a simple example job via command line to test out DUCC
 
 ```$ /home/ducc/apache-uima-ducc-2.0.1/bin/ducc_submit -f /Users/ducc/apache-uima-ducc-2.0.1/examples/simple/1.job```
 
@@ -84,7 +86,7 @@ Modification to DUCC's configuration should be performed in **_default.ducc.prop
 
 Download the binary installation file [apache-ctakes-3.2.2-bin.tar.gz](http://www-us.apache.org/dist/ctakes/ctakes-3.2.2/apache-ctakes-3.2.2-bin.tar.gz) to _/home/ducc/_
 
-If this site doesn’t work, other mirror sites can be found from [cTAKES] (http://ctakes.apache.org/downloads.cgi), go to bottom of page “Current Download Mirror:”
+If this site doesn’t work, other mirror sites can be found from [cTAKES Download Page](http://ctakes.apache.org/downloads.cgi), go to bottom of page “Current Download Mirror:”
 
 Then, from _/home/ducc/_
 
@@ -97,9 +99,9 @@ $ unzip ctakes-resources-3.2.1.1-bin.zip
 ```
 
 You can also follow the instructions in [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser#Installing_cTAKES) for _Installing cTAKES_.
-**Note:** This version of ShangriDocs DO NOT require Tika working with cTAKES as a server, like the finished product of [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser)
+**Note:** This version of ShangriDocs DO NOT require Tika working with cTAKES as a server, like the finished product of [cTAKESParser](https://wiki.apache.org/tika/cTAKESParser).
 
-### Obtain UMLS license
+### <a name="heading_umls"> Obtain UMLS license
 
 The use of the analysis engine in ShangriDocs requires a UMLS license.
 
@@ -113,19 +115,17 @@ Advanced  modification of cTAKES to improve performance and customize the annota
 
 ## <a name="heading_shang"> Setting up ShangriDocs
 
-ShangriDocs’s main site is at https://github.com/chrismattmann/shangridocs
-
+[ShangriDocs’s main site](https://github.com/chrismattmann/shangridocs)
 
 For convenience, the code of the current version of ShangriDocs on AWS is at https://github.com/selinachu/DUCC-cTAKES-AWS.git
 
-For convenience,
 
 From _/home/ducc/_
 
 ```$ git clone https://github.com/selinachu/DUCC-cTAKES-AWS.git```
 
 
-Add UMLS username and password to CTAKESConfig.properties
+Add [UMLS username and password](#heading_umls) to CTAKESConfig.properties
 
 /Users/ducc/shangridocs/shangridocs-services/src/main/resources/CTAKESContentHandler/config/org/apache/tika/sax/CTAKESConfig.properties
 
@@ -137,9 +137,10 @@ export ctakes_umlspw=‘password’
 
 ## <a name="heading_tika">Setting up Tika Server
 
-(If not cloning from https://github.com/selinachu/DUCC-cTAKES-AWS.git)
 
-This is taken from [ShangriDocs Tika Server](https://github.com/chrismattmann/shangridocs#apache-tika-server), but skipping step 3. Note: This version of Shangridocs, do not require the ctakes-tika server.
+This is taken from [ShangriDocs Tika Server](https://github.com/chrismattmann/shangridocs#apache-tika-server), but skipping step 3.
+
+**Note:** This version of Shangridocs, does not require the ctakes-tika server.
 
 ```
 $ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs
@@ -147,34 +148,60 @@ $ git clone https://github.com/apache/tika.git
 ```
 ##### <a name="heading_start_tika"> Starting Tika server
 ```
-$ cd tika
+$ cd /home/ducc/DUCC-cTAKES-AWS/shangridocs/tika
 $ java -jar tika-server/target/tika-server-1.11-SNAPSHOT.jar > ../tika-server.log 2>&1&
 ```
+The Tika server will be on _port 9998_.
 
 Now you are all set up to start **ShangriDocs**
 
 ## <a name="heading_together"> Putting it all together
 
-### Configuring cTAKES for DUCC
-
+### <a name="heading_ctakes_ducc">Configuring cTAKES for DUCC
 
 From _/home/ducc/apache-ctakes-3.2.2/desc/_
 
 Change all descriptor files with ```<multipleDeploymentAllowed>``` tag from _false_ to _true_.  
+
 **Note:** A simple way of accomplishing this is by searching for all descriptor files under _.../apache-ctakes-3.2.2/desc/_ with ```<multipleDeploymentAllowed>false``` and perform replacements to ```<multipleDeploymentAllowed>true```
 
-Replace the FilesInDirectoryCollectionReader.xml in _.../apache-ctakes-3.2.2/desc/ctakes-core/desc/collection_reader/_ with the the [FilesInDirectoryCollectionReader.xml](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/FilesInDirectoryCollectionReader.xml) in this repository
+Add type system information to **FilesInDirectoryCollectionReader.xml** in _.../apache-ctakes-3.2.2/desc/ctakes-core/desc/collection_reader/_
+
+(Or [FilesInDirectoryCollectionReader.xml](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/FilesInDirectoryCollectionReader.xml) from this repository)
+```
+<typeSystemDescription>
+  <imports>
+    <import name="org.apache.ctakes.typesystem.types.TypeSystem"/>
+  </imports>
+</typeSystemDescription>
+<typePriorities/>
+<fsIndexCollection/>
+<capabilities>
+  <capability>
+    <inputs/>
+    <outputs>
+      <type allAnnotatorFeatures="true">org.apache.ctakes.typesystem.types.TypeSystem</type>
+    </outputs>
+```
+
+
+
+Add type system information to **XCasWriterCasConsumer.xml** from _...pache-ctakes-3.2.2/desc/ctakes-core/desc/cas_consumer_
+(Or [XCasWriterCasConsumer.xml](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/XCasWriterCasConsumer.xml) from this repository)
+```
+<import name="org.apache.ctakes.typesystem.types.TypeSystem"/>
+```
+
 
 Set up of ShangriDocs+DUCC+cTAKES is based on [ctakes-scale-out-with-uima-ducc](https://github.com/yiwenliuable/ctakes-scale-out-with-uima-ducc).
 
-### Setting up DUCC with cTAKES and Shangridocs
+### <a name="heading_ducc_ctakesshang">Setting up DUCC with cTAKES and Shangridocs
 
-Replace the /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties with current in this github repository
+Replace the /home/ducc/apache-uima-ducc-2.0.1/resources/default.ducc.properties with [default.ducc.properties](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/default.ducc.properties) in this repository
 
-Then, run the script /home/ducc/apache-uima-ducc-2.0.1/admin/ducc_post_install again
+Then, run the script /home/ducc/apache-uima-ducc-2.0.1/admin/ducc_post_install again.
 
 Set these environment variables
-
 ```
 export DUCC_HOME=[path to ducc]
 export CTAKES_HOME=[path to ctakes]
@@ -183,7 +210,7 @@ export TIKA_HOME=[path to tika]
 
 ```
 
-If following the instructions here, then the paths would be
+If following the set up instructions, then the paths would be
 ```
 export DUCC_HOME=“/home/ducc/apache-uima-ducc-2.0.1“
 export CTAKES_HOME=“/home/ducc/apache-ctakes-3.2.2”
@@ -191,7 +218,7 @@ export SHANGRIDOCS_HOME=“/home/ducc/DUCC-cTAKES-AWS/shangridocs”
 export TIKA_HOME=“/home/ducc/DUCC-cTAKES-AWS/shangridocs/tika”
 ```
 
-### Starting ShangriDocs with DUCC and cTAKES
+### <a name="heading_starting_shang">Starting ShangriDocs with DUCC and cTAKES
 ```
 $ cd /home/ducc/apache-uima-ducc-2.0./admin
 $ ./start_ducc
@@ -203,7 +230,7 @@ $ ./mvn clean tomcat7:run&
 **Note:** [_run.bash_](https://github.com/selinachu/DUCC-cTAKES-AWS/blob/master/run-tika.bash) script starts the Tika server.   This can also be accomplished by [starting Tika server](#heading_start_tika).
 
 
-### Running DUCC with multiple nodes
+### <a name="heading_multinodes">Running DUCC with multiple nodes
 
 The multiple nodes needs to be defined in the following in the files: **ducc.nodes** and **jobdriver.nodes** under _...apache-uima-ducc-2.0.1/resources/_
 
@@ -213,3 +240,14 @@ ducc-2.aws-hostname.com
 ducc-3.aws-hostname.com
 ducc-4.aws-hostname.com
 ```
+
+This sets up DUCC to run on a cluster, or more specifically connecting the head node with the other three work nodes.  This allows the head node to send a job to one of its worker nodes.  
+
+However, DUCC does not automatically break up a large job to be run on multiple machines simultaneously. To accomplish this, it would require preprocessing of the document(s). The idea is to create separate set of CASes for each document and send them into the pipeline. This would be done in the Analysis Engine to include a custom flow controller which would route the CASes. The multiple Cas consumer and Analysis Engine threads can then be run in parallel.
+
+An example related to this topic can be  found from the [DUCC Documentation](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1380009). This explains the process to split a single text file, by using paragraphs as boundaries, to further segment the text into separate documents. Thus, breaking large files into multiple _Work_ items.   
+
+##### Issue with _illegal_ characters
+
+DUCC will canceled a job and related processes if it encounters **illegal** characters. This issue arises from the CollectionReader when the JobDriver is putting those _illegal characters in the work item CAS, which cannot be XML, serialized.
+Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
