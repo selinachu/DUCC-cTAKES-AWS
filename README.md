@@ -126,14 +126,18 @@ From _/home/ducc/_
 ```$ git clone https://github.com/selinachu/DUCC-cTAKES-AWS.git```
 
 
-Add [UMLS username and password](#heading_umls) to CTAKESConfig.properties
+Add [UMLS username and password](#heading_umls) to **CTAKESConfig.properties**, located in
+_/home/ducc/shangridocs/shangridocs-services/src/main/resources/CTAKESContentHandler/config/org/apache/tika/sax/_
 
-/Users/ducc/shangridocs/shangridocs-services/src/main/resources/CTAKESContentHandler/config/org/apache/tika/sax/CTAKESConfig.properties
+```
+UMLSUser=[your_username]
+UMLPass=[your_password]
+```
 
 Also, add UMLS username and password to shell variables
 ```
-export ctakes_umlsuser=‘username’
-export ctakes_umlspw=‘password’
+export ctakes_umlsuser=‘your_username’
+export ctakes_umlspw=‘your_password’
 ```
 
 ## <a name="heading_tika">Setting Up Tika Server
