@@ -9,7 +9,7 @@ This guide includes
 * [Setting Up cTAKES](#heading_ctakes)
 * [Setting Up Tika Server](#heading_tika)
 * [Setting Up ShangriDocs](#heading_shang)
-* [Putting it all together](#heading_together)
+* [Putting It All Together](#heading_together)
     * [Configuring cTAKES for DUCC](#heading_ctakes_ducc)
     * [Setting Up DUCC with cTAKES and ShangriDocs](#heading_ducc_ctakesshang)
     * [Starting ShangriDocs with DUCC+cTAKES](#heading_starting_shang)
