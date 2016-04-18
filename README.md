@@ -257,4 +257,4 @@ This would be done by incorporating a custom _Flow Controller_ to work inside th
 
 An example related to this topic can be  found from the [DUCC Documentation](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1380009). This explains the process to split a single text file, by using paragraphs as boundaries, to further segment the text into separate documents. Thus, breaking large files into multiple _Work_ items.   
 
-Documentation related to DUCC's [Flow Controller](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1340008.5.2) and UIMA's [Flow Controllers with CAS Multipliers](https://uima.apache.org/d/uimaj-2.4.0/tutorials_and_users_guides.html#ugr.tug.fc.using_fc_with_cas_multipliers)
+Documentations related to DUCC's [Flow Controller](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1340008.5.2) and UIMA's [Flow Controllers with CAS Multipliers](https://uima.apache.org/d/uimaj-2.4.0/tutorials_and_users_guides.html#ugr.tug.fc.using_fc_with_cas_multipliers)
