@@ -247,13 +247,13 @@ This sets up DUCC to run on a cluster, or more specifically connecting the head 
 ### <a name="heading_parallel">Parallelism with Flow Controller (Brief explanation)
 
 DUCC does not automatically break up a large job to be run on multiple machines simultaneously. To accomplish this, it would require preprocessing of the document(s). The idea is to create separate set of CASes for each document and send them into the pipeline.
-This would be done by incorporating a custom _Flow Controller_ to work inside the Aggregate Analysis Engine that contains a CAS Multiplier. By routing a CAS to a CAS Multiplier, it permits the creation of new CASes. The Cas Multiplier and Analysis Engine threads can then be run in parallel.
+This would be done by incorporating a custom _Flow Controller_ to work inside the _Aggregate Analysis Engine_ containing a CAS Multiplier. By routing a CAS to a CAS Multiplier, it permits the creation of new CASes. The Cas Multiplier and Analysis Engine threads can then be run in parallel.
 
 An example related to this topic can be  found from the [DUCC Documentation](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1380009). This explains the process to split a single text file, by using paragraphs as boundaries, to further segment the text into separate documents. Thus, breaking large files into multiple _Work_ items.   
 
 Documentation related to DUCC's [Flow Controller](https://uima.apache.org/d/uima-ducc-1.0.0/duccbook.html#x1-1340008.5.2) and UIMA's [Flow Controllers with CAS Multipliers](https://uima.apache.org/d/uimaj-2.4.0/tutorials_and_users_guides.html#ugr.tug.fc.using_fc_with_cas_multipliers)
 
 
-### Known DUCC issue with _illegal_ characters
+### <a name="heading_illegal_char">Known DUCC issue with _illegal_ characters
 
-DUCC will canceled a job and related processes if it encounters **illegal** characters. This issue arises from the CollectionReader when the Job Driver is putting _illegal_ characters in the work item CAS, which cannot be XML serialized. Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
+DUCC will cancel a job and related processes when encountering **illegal** characters. This issue arises from the CollectionReader when the Job Driver is putting _illegal_ characters in the work item CAS, which cannot be XML serialized. Produced error message will include ```Running Ducc Containerjava.lang.RuntimeException: JP Http Client Unable to Communicate with JD```.   
